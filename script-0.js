@@ -9492,7 +9492,7 @@ Url: ${nr(t)}`), !0)
             n === void 0 || n === i || ga(Q())
         }))
     }
-    const bE = "UNABLE TO LOAD. TAP TO TRY AGAIN.",
+    const bE = "NEVAR IELĀDĒT. PIESKARIES, LAI MĒĢINĀTU VĒLREIZ.",
         EE = {
             RETRY: bE
         },
@@ -10451,7 +10451,7 @@ Url: ${nr(t)}`), !0)
         const r = document.getElementById("app");
         r.innerHTML = QE()
     }
-    const pt = new VE("/lv");
+    const pt = new VE("/");
 
     function Xe(t, e) {
         const r = e != null && e.queryString ? `?${e.queryString}` : "";
