@@ -1075,7 +1075,7 @@ var ow = Qo((uw, Fo) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return e.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(e) {
             return e = e.replace("\u2026", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -10451,7 +10451,7 @@ Url: ${nr(t)}`), !0)
         const r = document.getElementById("app");
         r.innerHTML = QE()
     }
-    const pt = new VE("/");
+    const pt = new VE("/jackbox-baltic");
 
     function Xe(t, e) {
         const r = e != null && e.queryString ? `?${e.queryString}` : "";
