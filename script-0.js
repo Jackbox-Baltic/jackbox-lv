@@ -10451,7 +10451,7 @@ Url: ${nr(t)}`), !0)
         const r = document.getElementById("app");
         r.innerHTML = QE()
     }
-    const pt = new VE("/");
+    const pt = new VE("/lv");
 
     function Xe(t, e) {
         const r = e != null && e.queryString ? `?${e.queryString}` : "";
