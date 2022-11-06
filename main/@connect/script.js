@@ -24385,7 +24385,7 @@ ${t}`
             REFRESH_REQUIRED: "Refresh Required",
             PREFERRED: "PREFERRED BRANCH",
             SELECT: "Select a Branch",
-            WAITING: "Waiting for Room"
+            WAITING: "Telpas gaidīšana"
         },
         mee = {
             UNSUPPORTED_BROWSER: "Šajā pārlūkprogrammā šī spēle nav atbalstīta. Skati '?' vai PALĪDZĪBA, lai skatītu saderīgo pārlūkprogrammu sarakstu.",
