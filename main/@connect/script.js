@@ -24381,10 +24381,10 @@ ${t}`
         }
     });
     const gee = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Refresh Required",
-            PREFERRED: "PREFERRED BRANCH",
-            SELECT: "Select a Branch",
+            LABEL: "ZARS",
+            REFRESH_REQUIRED: "Nepieciešams atjaunināt",
+            PREFERRED: "VĒLAMAIS ZARS",
+            SELECT: "Izvēlies zaru",
             WAITING: "Telpas gaidīšana"
         },
         mee = {
@@ -24584,10 +24584,10 @@ de votre liste d'anciennes parties.`,
             WARNING: xee
         },
         Fee = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Ricarica necessaria",
-            PREFERRED: "BRANCH PREFERITA",
-            SELECT: "Scegli una branch",
+            LABEL: "ZARS",
+            REFRESH_REQUIRED: "Nepieciešams atjaunināt",
+            PREFERRED: "VĒLAMAIS ZARS",
+            SELECT: "Izvēlies zaru",
             WAITING: "Telpas gaidīšana"
         },
         Bee = {
