@@ -24388,86 +24388,85 @@ ${t}`
             WAITING: "Waiting for Room"
         },
         mee = {
-            UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-            ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
-            AUDIENCE_IS_FULL: "The audience is full",
-            UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
-            UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-            KICKED: "You cannot join because you have been kicked by a moderator",
-            REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-            ROOM_IS_LOCKED: "Game is locked",
-            INCORRECT_PASSWORD: "Incorrect password",
-            GENERIC: "Error joining this game",
-            FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+            UNSUPPORTED_BROWSER: "Šajā pārlūkprogrammā šī spēle nav atbalstīta. Skati '?' vai PALĪDZĪBA, lai skatītu saderīgo pārlūkprogrammu sarakstu.",
+            ROOM_IS_FULL: "Spēle ir pilna",
+            ROOM_NOT_FOUND: "Telpa nav atrasta",
+            AUDIENCE_IS_FULL: "Auditorija ir pilna",
+            UNABLE_TO_CONNECT: "Nevar izveidot savienojumu ar Jackbox Games serveri. To parasti izraisa reklāmu bloķētāji vai privātuma paplašinājumi.",
+            UNABLE_TO_PRELOAD: "Nevar ielādēt šo spēļu komplektu",
+            KICKED: "Tu nevari pievienoties, jo tevi izmeta moderators.",
+            REQUIRES_TWITCH_LOGIN: "Spēlei nepieciešams Twitch pieteikšanās",
+            ROOM_IS_LOCKED: "Spēle ir aizslēgta",
+            INCORRECT_PASSWORD: "Nepareiza parole",
+            GENERIC: "Kļūdas dēļ nav iespējams pievienoties spēlei",
+            FILTER_NAME: "Šajā spēlē ir ieslēgti lamāšanās filtri. Lūdzu, izvēlies citu vārdu."
         },
         vee = {
-            NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-            PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            NAME: "VĀRDS",
+            NAME_PLACEHOLDER: "IEVADI SAVU VĀRDU",
+            PASSWORD_PLACEHOLDER: "IEVADI 5 CIPARU PAROLI",
+            PASSWORD_REQUIRED_TITLE: "Nepieciešama parole",
+            PASSWORD_REQUIRED_BODY: "Lūdzu, ievadi paroli vai pievienojies kā auditorijas dalībnieks",
+            PASSWORD_JOIN_AS_PLAYER: "Pievienoties kā spēlētājs",
+            PASSWORD_JOIN_AS_AUDIENCE: "Pievienoties auditorijai",
+            ROOM_CODE: "TELPAS KODS",
+            ROOM_CODE_PLACEHOLDER: "IEVADI 4 BURTU KODU"
         },
-        Eee = "Link to Jackbox Games Homepage",
+        Eee = "Saite uz Jackbox Games mājaslapu",
         _ee = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "IZSKATS",
+            DARK: "tumšs",
+            HELP: "PALĪDZĪBA",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
-            MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            LIGHT: "gaišs",
+            LOGOUT: "ATTEIKTIES",
+            MERCH: "TULKOJUMI",
+            PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
+            MAILING_LIST: "DISCORD SERVERIS",
+            MODERATOR: "MODERĀCIJA"
         },
         yee = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "APLŪKOT SPĒLI UN VEIKALU",
+                VIEW: "APLŪKOT ŠO SPĒLI"
             },
-            NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            NEW: "JAUNS",
+            PLAYED_ON: "SPĒLĒTS",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "Vai tu esi pārliecināts?",
+                DESCRIPTION: "Tas neatgriezeniski izdzēsīs šo spēli",
+                MANAGE: "Noņemt spēli?",
+                TITLE: "Vai tu esi pārliecināts?"
             }
         },
         bee = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "Pagājušās spēles vēl nav",
+            MANAGE: "PĀRVALDĪT",
+            TITLE: "TAVAS PAGĀTNESES SPĒLES"
         },
         Tee = {
-            TITLE: "RECENT GAMES",
+            TITLE: "PAGĀJUŠĀS SPĒLES",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "SKATĪT VISUS",
+                LINK: "SKATĪT VISAS PAGĀJUŠĀS SPĒLES"
             }
         },
         See = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "Spēle ir pilna",
+            GAME_STARTED: "Spēle ir sākusies",
+            ROOM_NOT_FOUND: "Telpa nav atrasta"
         },
         Oee = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "SPĒLE IR PILNA",
+            GAME_STARTED: "SPĒLE IR SĀKUSIES",
+            JOIN_AUDIENCE: "PIEVIENOTIES AUDITORIJAI",
+            RECONNECT: "ATJAUNOT",
+            TWITCH_LOGIN: "AUTORIZĒTIES AR TWITCH",
         },
         Aee = {
-            CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            CAMERA: "[b]PIEVĒRS UZMANĪBU:[/b] Mēs neatrodam kameru, taču spēli var spēlēt arī bez fotoattēla. Ja tas šķiet nepareizi, mēģini pievienoties, izmantojot citu pārlūkprogrammu.",
+            STYLE: "[b]PIEVĒRS UZMANĪBU:[/b] Šķiet, ka tava pārlūkprogramma ir nedaudz novecojusi, un tai būs problēmas ar šīs spēles rādīšanu.",
+            TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]"
         },
         Iee = {
             BRANCH: gee,
@@ -24589,89 +24588,88 @@ de votre liste d'anciennes parties.`,
             REFRESH_REQUIRED: "Ricarica necessaria",
             PREFERRED: "BRANCH PREFERITA",
             SELECT: "Scegli una branch",
-            WAITING: "In attesa di una stanza"
+            WAITING: "Telpas gaidīšana"
         },
         Bee = {
-            UNSUPPORTED_BROWSER: "Il gioco non \xE8 supportato dal browser attualmente in uso. Clicca su '?' o AIUTO per visualizzare la lista dei browser compatibili.",
-            ROOM_IS_FULL: "La partita \xE8 al completo",
-            ROOM_NOT_FOUND: "Stanza non trovata",
-            AUDIENCE_IS_FULL: "Il pubblico \xE8 al completo",
-            UNABLE_TO_CONNECT: "Impossibile collegarsi al server Jackbox Games. Solitamente il problema \xE8 causato da adblocker o estensioni per la privacy.",
-            UNABLE_TO_PRELOAD: "Impossibile pre-caricare questo bundle di giochi",
-            KICKED: "Non puoi unirti perch\xE9 un moderatore ti ha cacciato",
-            REQUIRES_TWITCH_LOGIN: "Questo gioco richiede l'accesso a Twitch",
-            ROOM_IS_LOCKED: "La stanza \xE8 bloccata",
-            INCORRECT_PASSWORD: "Password errata",
-            GENERIC: "Impossibile entrare in questa stanza",
-            FILTER_NAME: "Questa partita ha i filtri delle volgarit\xE0 attivi. Scegli un nome diverso."
+            UNSUPPORTED_BROWSER: "Šajā pārlūkprogrammā šī spēle nav atbalstīta. Skati '?' vai PALĪDZĪBA, lai skatītu saderīgo pārlūkprogrammu sarakstu.",
+            ROOM_IS_FULL: "Spēle ir pilna",
+            ROOM_NOT_FOUND: "Telpa nav atrasta",
+            AUDIENCE_IS_FULL: "Auditorija ir pilna",
+            UNABLE_TO_CONNECT: "Nevar izveidot savienojumu ar Jackbox Games serveri. To parasti izraisa reklāmu bloķētāji vai privātuma paplašinājumi.",
+            UNABLE_TO_PRELOAD: "Nevar ielādēt šo spēļu komplektu",
+            KICKED: "Tu nevari pievienoties, jo tevi izmeta moderators.",
+            REQUIRES_TWITCH_LOGIN: "Spēlei nepieciešams Twitch pieteikšanās",
+            ROOM_IS_LOCKED: "Spēle ir aizslēgta",
+            INCORRECT_PASSWORD: "Nepareiza parole",
+            GENERIC: "Kļūdas dēļ nav iespējams pievienoties spēlei",
+            FILTER_NAME: "Šajā spēlē ir ieslēgti lamāšanās filtri. Lūdzu, izvēlies citu vārdu."
         },
         Gee = {
-            NAME: "NOME",
-            NAME_PLACEHOLDER: "INSERISCI IL TUO NOME",
-            PASSWORD_PLACEHOLDER: "INSERISCI LA PASSWORD DI 5 CARATTERI",
-            PASSWORD_REQUIRED_TITLE: "Password necessaria",
-            PASSWORD_REQUIRED_BODY: "Inserisci la password o partecipa come pubblico",
-            PASSWORD_JOIN_AS_PLAYER: "Partecipa come giocatore",
-            PASSWORD_JOIN_AS_AUDIENCE: "Partecipa come pubblico",
-            ROOM_CODE: "CODICE STANZA",
-            ROOM_CODE_PLACEHOLDER: "INSERISCI IL CODICE DI 4 LETTERE"
+            NAME: "VĀRDS",
+            NAME_PLACEHOLDER: "IEVADI SAVU VĀRDU",
+            PASSWORD_PLACEHOLDER: "IEVADI 5 CIPARU PAROLI",
+            PASSWORD_REQUIRED_TITLE: "Nepieciešama parole",
+            PASSWORD_REQUIRED_BODY: "Lūdzu, ievadi paroli vai pievienojies kā auditorijas dalībnieks",
+            PASSWORD_JOIN_AS_PLAYER: "Pievienoties kā spēlētājs",
+            PASSWORD_JOIN_AS_AUDIENCE: "Pievienoties auditorijai",
+            ROOM_CODE: "TELPAS KODS",
+            ROOM_CODE_PLACEHOLDER: "IEVADI 4 BURTU KODU"
         },
-        Wee = "Link alla homepage di Jackbox Games",
+        Wee = "Saite uz Jackbox Games mājaslapu",
         jee = {
-            APPEARANCE: "ASPETTO",
-            DARK: "scuro",
-            HELP: "AIUTO",
+            APPEARANCE: "IZSKATS",
+            DARK: "tumšs",
+            HELP: "PALĪDZĪBA",
             TWITCH: "TWITCH",
-            LIGHT: "chiaro",
-            LOGOUT: "ESCI",
-            MERCH: "NEGOZIO",
-            PAST_GAMES: "PARTITE PRECEDENTI",
-            MAILING_LIST: "NEWSLETTER",
-            MODERATOR: "MODERATORE"
+            LIGHT: "gaišs",
+            LOGOUT: "ATTEIKTIES",
+            MERCH: "TULKOJUMI",
+            PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
+            MAILING_LIST: "DISCORD SERVERIS",
+            MODERATOR: "MODERĀCIJA"
         },
         Hee = {
             CALL_TO_ACTION: {
-                SHOP: "VISUALIZZA GIOCO E NEGOZIO",
-                VIEW: "VISUALIZZA QUESTO GIOCO"
+                SHOP: "APLŪKOT SPĒLI UN VEIKALU",
+                VIEW: "APLŪKOT ŠO SPĒLI"
             },
-            NEW: "NUOVO",
-            PLAYED_ON: "GIOCATO IL",
+            NEW: "JAUNS",
+            PLAYED_ON: "SPĒLĒTS",
             REMOVE: {
-                CONFIRM: "Confermi?",
-                DESCRIPTION: `Quest'azione rimuover\xE0 per sempre questo gioco
-dalla lista dei giochi precedenti.`,
-                MANAGE: "Rimuovere gioco?",
-                TITLE: "Confermi?"
+                CONFIRM: "Vai tu esi pārliecināts?",
+                DESCRIPTION: "Tas neatgriezeniski izdzēsīs šo spēli",
+                MANAGE: "Noņemt spēli?",
+                TITLE: "Vai tu esi pārliecināts?"
             }
         },
         Vee = {
-            EMPTY: "Nessun gioco precedente",
-            MANAGE: "GESTISCI",
-            TITLE: "I TUOI GIOCHI PRECEDENTI"
+            EMPTY: "Pagājušās spēles vēl nav",
+            MANAGE: "PĀRVALDĪT",
+            TITLE: "TAVAS PAGĀTNESES SPĒLES"
         },
         Kee = {
-            TITLE: "GIOCHI RECENTI",
+            TITLE: "PAGĀJUŠĀS SPĒLES",
             VIEW_ALL: {
-                BUTTON: "VISUALIZZA TUTTO",
-                LINK: "VISUALIZZA TUTTI I GIOCHI RECENTI"
+                BUTTON: "SKATĪT VISUS",
+                LINK: "SKATĪT VISAS PAGĀJUŠĀS SPĒLES"
             }
         },
         Yee = {
-            GAME_FULL: "La partita \xE8 al completo",
-            GAME_STARTED: "La partita \xE8 gi\xE0 iniziata",
-            ROOM_NOT_FOUND: "Stanza non trovata"
+            GAME_FULL: "Spēle ir pilna",
+            GAME_STARTED: "Spēle ir sākusies",
+            ROOM_NOT_FOUND: "Telpa nav atrasta"
         },
         qee = {
-            GAME_FULL: "LA PARTITA \xC8 AL COMPLETO",
-            GAME_STARTED: "LA PARTITA \xC8 GI\xC0 INIZIATA",
-            JOIN_AUDIENCE: "PARTECIPA COME PUBBLICO",
-            RECONNECT: "RICOLLEGATI",
-            TWITCH_LOGIN: "ACCEDI CON TWITCH"
+            GAME_FULL: "SPĒLE IR PILNA",
+            GAME_STARTED: "SPĒLE IR SĀKUSIES",
+            JOIN_AUDIENCE: "PIEVIENOTIES AUDITORIJAI",
+            RECONNECT: "ATJAUNOT",
+            TWITCH_LOGIN: "AUTORIZĒTIES AR TWITCH",
         },
         zee = {
-            CAMERA: "[b]AVVISO:[/b] Non rileviamo la telecamera, ma puoi giocare anche senza aggiungere una foto. Se la cosa non ti torna, prova ad accedere usando un altro browser.",
-            STYLE: "[b]AVVISO:[/b] Il tuo browser \xE8 obsoleto e avr\xE0 dei problemi a visualizzare il gioco.",
-            TOS: "Selezionando {submit}, accetti le [tos]Condizioni del servizio[/tos]"
+            CAMERA: "[b]PIEVĒRS UZMANĪBU:[/b] Mēs neatrodam kameru, taču spēli var spēlēt arī bez fotoattēla. Ja tas šķiet nepareizi, mēģini pievienoties, izmantojot citu pārlūkprogrammu.",
+            STYLE: "[b]PIEVĒRS UZMANĪBU:[/b] Šķiet, ka tava pārlūkprogramma ir nedaudz novecojusi, un tai būs problēmas ar šīs spēles rādīšanu.",
+            TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]"
         },
         Xee = {
             BRANCH: Fee,
