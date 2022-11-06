@@ -11153,7 +11153,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "internal/ecast-test-client"
         }, {
-            name: "Quiplash 2 InterLASHional",
+            name: "Smiekcirte 2 StarpCIRTiskais [Nav tulkots]",
             tag: "quiplash2-international",
             wrapper: "marionette",
             isPublic: !0,
@@ -11166,7 +11166,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "standalone/guesspionage-crowdplay"
         }, {
-            name: "Drawful 2",
+            name: "Zīmurgs 2 [Nav tulkots]",
             tag: "drawful2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11174,7 +11174,7 @@ var Jre = rL((Zre, OA) => {
             categoryId: "DrawfulGame",
             shopItems: ["shirts"]
         }, {
-            name: "Drawful 2",
+            name: "Zīmurgs 2 [Nav tulkots]",
             tag: "drawful2international",
             wrapper: "marionette",
             isPublic: !0,
@@ -11187,49 +11187,49 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "standalone/acquisitions-inc"
         }, {
-            name: "You Don't Know Jack 2015",
+            name: "You Don't Know Jack 2015 [Nav tulkots]",
             tag: "ydkj2015",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/ydkj2015"
         }, {
-            name: "Drawful",
+            name: "Zīmurgs [Nav tulkots]",
             tag: "drawful",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/drawful"
         }, {
-            name: "Word Spud",
+            name: "Vārdu klīst [Nav tulkots]",
             tag: "wordspud",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
         }, {
-            name: "Lie Swatter",
+            name: "Meli sitamais [Nav tulkots]",
             tag: "lieswatter",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/lieswatter"
         }, {
-            name: "Fibbage",
+            name: "Ausskust [Nav tulkots]",
             tag: "fibbage",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/fibbage"
         }, {
-            name: "Fibbage 2",
+            name: "Ausskust 2 [Nav tulkots]",
             tag: "fibbage2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/fibbage2"
         }, {
-            name: "Earwax",
+            name: "Pilnausis [Nav tulkots]",
             tag: "earwax",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/earwax"
         }, {
-            name: "Bidiots",
+            name: "Izsolķība [Nav tulkots]",
             tag: "auction",
             wrapper: "marionette",
             isPublic: !0,
@@ -11241,19 +11241,19 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp2/bombintern"
         }, {
-            name: "Quiplash",
+            name: "Smiekcirte [Nav tulkots]",
             tag: "quiplash",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/quiplash"
         }, {
-            name: "Fakin' It",
+            name: "Tēlo lomu [Nav tulkots]",
             tag: "fakinit",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/fakinit"
         }, {
-            name: "Tee K.O.",
+            name: "Kre K.O.",
             tag: "awshirt",
             wrapper: "marionette",
             isPublic: !0,
@@ -11261,54 +11261,54 @@ var Jre = rL((Zre, OA) => {
             categoryId: "TeeKOGame",
             shopItems: ["shirts"]
         }, {
-            name: "Quiplash 2",
+            name: "Smiekcirte 2 [Nav tulkots]",
             tag: "quiplash2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/quiplash2",
             categoryId: "Quiplash2Game"
         }, {
-            name: "Trivia Murder Party",
+            name: "Viktorīna nāvējošā ballītē [Nav tulkots]",
             tag: "triviadeath",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/triviadeath",
             categoryId: "TriviaDeathResults"
         }, {
-            name: "Guesspionage",
+            name: "Mūsspiegošana [Nav tulkots]",
             tag: "pollposition",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/pollposition"
         }, {
-            name: "Fibbage 3",
+            name: "Ausskust 3 [Nav tulkots]",
             tag: "fibbage3",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/fibbage3"
         }, {
-            name: "Survive the Internet",
+            name: "Izdzīvot internetā [Nav tulkots]",
             tag: "survivetheinternet",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/survivetheinternet",
             categoryId: "STIGame"
         }, {
-            name: "Monster Seeking Monster",
+            name: "Briesmonis meklē briesmoni [Nav tulkots]",
             tag: "monstermingle",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/monstermingle",
             categoryId: "MonsterMingleGame"
         }, {
-            name: "Bracketeering",
+            name: "Likmensības [Nav tulkots]",
             tag: "bracketeering",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/bracketeering",
             categoryId: "BRKGame"
         }, {
-            name: "Civic Doodle",
+            name: "Pilsoņu ķeburs [Nav tulkots]",
             tag: "overdrawn",
             wrapper: "marionette",
             isPublic: !0,
@@ -11316,35 +11316,35 @@ var Jre = rL((Zre, OA) => {
             categoryId: "OverdrawnGame",
             shopItems: ["shirts"]
         }, {
-            name: "You Don't Know Jack: Full Stream",
+            name: "You Don't Know Jack: Full Stream [Nav tulkots]",
             tag: "ydkj2018",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/ydkj2018",
             categoryId: "YDKJ2018Game"
         }, {
-            name: "Split the Room",
+            name: "Sadalī istabu [Nav tulkots]",
             tag: "splittheroom",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/splittheroom",
             categoryId: "SplitTheRoomGame"
         }, {
-            name: "Mad Verse City",
+            name: "Trako pantu pilsēta [Nav tulkots]",
             tag: "rapbattle",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/rapbattle",
             categoryId: "RapBattleGame"
         }, {
-            name: "Zeeple Dome",
+            name: "Zīpls kupols [Nav tulkots]",
             tag: "slingshoot",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/slingshoot",
             categoryId: "SlingShootGame"
         }, {
-            name: "Patently Stupid",
+            name: "Muļķīgs patents [Nav tulkots]",
             tag: "patentlystupid",
             wrapper: "marionette",
             isPublic: !0,
@@ -11352,14 +11352,14 @@ var Jre = rL((Zre, OA) => {
             categoryId: "PatentlyStupidGame",
             shopItems: ["mugs"]
         }, {
-            name: "Trivia Murder Party 2",
+            name: "Viktorīna nāvējošā ballītē 2 [Nav tulkots]",
             tag: "triviadeath2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/triviadeath2",
             categoryId: "TriviaDeath2Game"
         }, {
-            name: "Role Models",
+            name: "Lomas analīze [Nav tulkots]",
             tag: "rolemodels",
             wrapper: "marionette",
             isPublic: !0,
@@ -11368,28 +11368,28 @@ var Jre = rL((Zre, OA) => {
             categoryId: "RoleModelsGame",
             shopItems: ["shirts"]
         }, {
-            name: "Joke Boat",
+            name: "Joku kuģis [Nav tulkots]",
             tag: "jokeboat",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/jokeboat",
             categoryId: "JokeboatGame"
         }, {
-            name: "Dictionarium",
+            name: "Vārdakvārijs [Nav tulkots]",
             tag: "ridictionary",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/ridictionary",
             categoryId: "RidictionaryGame"
         }, {
-            name: "Push the Button",
+            name: "Spied šo Pogu [Nav tulkots]",
             tag: "pushthebutton",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/pushthebutton",
             categoryId: "PushTheButtonGame"
         }, {
-            name: "Talking Points",
+            name: "Sarunas punkts [Nav tulkots]",
             tag: "jackbox-talks",
             wrapper: "marionette",
             isPublic: !0,
@@ -11397,7 +11397,7 @@ var Jre = rL((Zre, OA) => {
             features: ["camera", "moderation"],
             categoryId: "JackboxTalksGame"
         }, {
-            name: "Quiplash 3",
+            name: "Smiekcirte 3 [Nav tulkots]",
             tag: "quiplash3",
             wrapper: "marionette",
             isPublic: !0,
@@ -11405,7 +11405,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "The Devils and the Details",
+            name: "Velni slēpjas detaļās [Nav tulkots]",
             tag: "everyday",
             wrapper: "marionette",
             isPublic: !0,
@@ -11413,7 +11413,7 @@ var Jre = rL((Zre, OA) => {
             categoryId: "EverydayGame",
             shopItems: ["mugs"]
         }, {
-            name: "Champ'd Up",
+            name: "Čempion' ART [Nav tulkots]",
             tag: "worldchamps",
             wrapper: "marionette",
             isPublic: !0,
@@ -11422,14 +11422,14 @@ var Jre = rL((Zre, OA) => {
             categoryId: "WorldChampionsGame",
             shopItems: ["cards"]
         }, {
-            name: "Blather 'Round",
+            name: "Gvelža raunds [Nav tulkots]",
             tag: "blanky-blank",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp7/blanky-blank",
             categoryId: "BlankyBlankGame"
         }, {
-            name: "Job Job",
+            name: "Mūža darbs [Nav tulkots]",
             tag: "apply-yourself",
             wrapper: "vue",
             isPublic: !0,
@@ -11437,7 +11437,7 @@ var Jre = rL((Zre, OA) => {
             categoryId: "JobGameGame",
             features: ["moderation", "previews"]
         }, {
-            name: "Drawful Animate",
+            name: "Zīmurgs Animate [Nav tulkots]",
             tag: "drawful-animate",
             wrapper: "vue",
             isPublic: !0,
@@ -11445,21 +11445,21 @@ var Jre = rL((Zre, OA) => {
             categoryId: "DrawfulAnimateGame",
             features: ["moderation"]
         }, {
-            name: "The Wheel of Enormous Proportions",
+            name: "Ritenis ar milzīgo proporciju [Nav tulkots]",
             tag: "the-wheel",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/the-wheel",
             categoryId: "TheWheelGame"
         }, {
-            name: "The Poll Mine",
+            name: "Alu doma [Nav tulkots]",
             tag: "survey-bomb",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/survey-bomb",
             categoryId: "SurveyBombGame"
         }, {
-            name: "Weapons Drawn",
+            name: "Latentā māksla [Nav tulkots]",
             tag: "murder-detectives",
             wrapper: "vue",
             isPublic: !0,
@@ -11467,7 +11467,7 @@ var Jre = rL((Zre, OA) => {
             categoryId: "MurderDetectivesGame",
             features: ["moderation"]
         }, {
-            name: "Quiplash 3",
+            name: "Smiekcirte 3 [Nav tulkots]",
             tag: "quiplash3-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -11475,7 +11475,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "Tee K.O.",
+            name: "Kre K.O.",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -11484,28 +11484,28 @@ var Jre = rL((Zre, OA) => {
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
         }, {
-            name: "Trivia Murder Party 2",
+            name: "Viktorīna nāvējošā ballītē 2 [Nav tulkots]",
             tag: "triviadeath2-tjsp",
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Fibbage 4",
+            name: "Ausskust 4 [Nav tulkots]",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/fourbage",
             features: ["moderation", "kicking"]
         }, {
-            name: "Roomerang",
+            name: "Telparangs [Nav tulkots]",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/htmf",
             features: ["moderation", "kicking"]
         }, {
-            name: "Junktopia",
+            name: "Krāmtopija [Nav tulkots]",
             tag: "antique-freak",
             wrapper: "vue",
             isPublic: !0,
@@ -11513,7 +11513,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "AntiqueGameGame"
         }, {
-            name: "Nonsensory",
+            name: "Blēņsors [Nav tulkots]",
             tag: "range-game",
             wrapper: "vue",
             isPublic: !0,
@@ -11521,7 +11521,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
         }, {
-            name: "Quixort",
+            name: "Šķirošātrs [Nav tulkots]",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
