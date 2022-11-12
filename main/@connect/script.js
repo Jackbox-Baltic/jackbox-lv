@@ -13111,118 +13111,118 @@ ${n.message}`,
         }
     }
     const J3 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Atpakaļ",
+            CANCEL: "Atcelt",
+            CLOSE: "Aizvērt",
+            CONFIRM: "Apstiprināt",
+            CREATE: "Izveidot",
+            DELETE: "Dzēst",
+            DONE: "Gatavs",
+            EDIT: "Rediģēt",
             OK: "OK",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NO: "Nē",
+            PLAY: "Spēlēt",
+            PUBLISH: "Publicēt",
+            REMOVE: "Noņemt",
+            RESET: "Atiestatīt",
+            SUBMIT: "Iesniegt",
+            TRY_AGAIN: "Mēģināt vēlreiz",
+            UNDO: "Atsaukt",
+            YES: "Jā"
         },
         Q3 = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
+                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
+                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
+                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
             }
         },
         Z3 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Tu esi atvienots.",
+            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
+            PLAYER_KICKED: "Moderators ir izsvītrojis tevi no spēles.",
+            ROOM_DESTROYED: "Paldies par spēlēšanu!",
+            ROOM_DISCONNECTED: "Atvienots",
+            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
+            TEXT_NOTHING: "Tu nevari neko ievadīt!",
+            TITLE: "Kļūda"
         },
-        eH = "LOADING",
+        eH = "IELĀDĒ",
         tH = {
-            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} no {maxPlayers} spēlētājiem pievienojās",
+            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
+            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
+            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
+            GAME_STARTING: "Spēle ir sākusies",
+            BUTTON_START: "Nospied, lai sāktu",
+            BUTTON_CANCEL: "Nospied, lai atceltu"
         },
         nH = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Apmeklē galeriju",
+            PLAY_AGAIN: "Spēlēt vēlreiz?",
+            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
+            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
         },
         rH = {
-            AND: "AND",
-            OR: "OR"
+            AND: "UN",
+            OR: "VAI"
         },
         iH = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "Izlaist",
+            BUTTON_NEXT: "Nākamais",
+            BUTTON_DONE: "Uz priekšu!"
         },
         sH = {
-            NAME: "AUDIENCE"
+            NAME: "AUDITORIJA"
         },
         aH = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Ziņot epizode",
+            EPISODE_UNLOAD: "Izkraut epizode",
+            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
+            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
+            EPISODES_MENU: "Epizodes izvēlne",
+            EPISODES_SELECT: "Vai atlasīt epsiode:",
+            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
+                LOAD: "izveidot vai ielādēt?",
+                PUBLISH: "publicēt savu epizodi",
+                TITLE: "nosauc savu epizodi",
+                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
+                WRITE: "uzraksti savas uzvednes"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
+                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
+                TOS_AGREE: "vienoties un kopīgot"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
+            BACK_TO_MENU: "atpakaļ uz izvēlni",
+            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
+            PREVIOUS_EPISODES: "iepriekšējās epizodes",
+            PROMPT_ADD: "pievienot uzvedni",
+            PROMPT_PLACEHOLDER: "ievadi uzvedni",
+            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
+            TITLE_PLACEHOLDER: "ievadi nosaukumu"
         },
         oH = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
+                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "ATJAUNOT",
+                SUBTEXT: "Priecājies!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
+                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
+                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
                 }
             }
         },
@@ -13369,118 +13369,118 @@ ${n.message}`,
             TOAST: _H
         },
         bH = {
-            BACK: "Indietro",
-            CANCEL: "Annulla",
-            CLOSE: "Chiuda",
-            CONFIRM: "Conferma",
-            CREATE: "Crea",
-            DELETE: "Elimina",
-            DONE: "Fine",
-            EDIT: "Modifica",
+            BACK: "Atpakaļ",
+            CANCEL: "Atcelt",
+            CLOSE: "Aizvērt",
+            CONFIRM: "Apstiprināt",
+            CREATE: "Izveidot",
+            DELETE: "Dzēst",
+            DONE: "Gatavs",
+            EDIT: "Rediģēt",
             OK: "OK",
-            NO: "No",
-            PLAY: "Gioca",
-            PUBLISH: "Pubblica",
-            REMOVE: "Rimuovi",
-            RESET: "Reset",
-            SUBMIT: "Invia",
-            TRY_AGAIN: "Riprova",
-            UNDO: "Annulla",
-            YES: "S\xEC"
+            NO: "Nē",
+            PLAY: "Spēlēt",
+            PUBLISH: "Publicēt",
+            REMOVE: "Noņemt",
+            RESET: "Atiestatīt",
+            SUBMIT: "Iesniegt",
+            TRY_AGAIN: "Mēģināt vēlreiz",
+            UNDO: "Atsaukt",
+            YES: "Jā"
         },
         TH = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "definizioni nascoste sui dispositivi dei giocatori",
-                VISIBILITY_CONTROLLER_ON: "definizioni visualizzate sui dispositivi dei giocatori",
-                VISIBILITY_SCREEN_OFF: "definizioni nascoste sullo schermo di gioco",
-                VISIBILITY_SCREEN_ON: "definizioni visualizzate sullo schermo di gioco"
+                VISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
+                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
+                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
+                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
             }
         },
         SH = {
-            DISCONNECTED: "\xC8 stata effettuata la disconnessione.",
-            DRAWING_NOTHING: "Devi disegnare qualcosa!",
-            PLAYER_KICKED: "Un moderatore ti ha cacciato dalla partita.",
-            ROOM_DESTROYED: "Grazie per aver scelto di giocare con noi!",
-            ROOM_DISCONNECTED: "Disconnessione effettuata",
-            TEXT_NAUGHTY: "Purtroppo non puoi scrivere questa cosa. Abbi rispetto per gli altri giocatori.",
-            TEXT_NOTHING: "Devi per forza inserire qualcosa!",
-            TITLE: "Errore"
+            DISCONNECTED: "Tu esi atvienots.",
+            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
+            PLAYER_KICKED: "Moderators ir izsvītrojis tevi no spēles.",
+            ROOM_DESTROYED: "Paldies par spēlēšanu!",
+            ROOM_DISCONNECTED: "Atvienots",
+            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
+            TEXT_NOTHING: "Tu nevari neko ievadīt!",
+            TITLE: "Kļūda"
         },
-        OH = "CARICAMENTO",
+        OH = "IELĀDĒ",
         AH = {
-            JOINED_COUNT: "x | Sta partecipando {count} giocatore su {maxPlayers} | Stanno partecipando {count} giocatori su {maxPlayers}",
-            PLAYERS_NEEDED: "x | Manca {count} giocatore per iniziare | Mancano {count} giocatori per iniziare",
-            WAITING_FOR_VIP: "In attesa di {name} per iniziare la partita",
-            WAITING_FOR_GAMEPAD: "In attesa d'iniziare la partita",
-            GAME_STARTING: "La partita sta per iniziare",
-            BUTTON_START: "Premi per avviare",
-            BUTTON_CANCEL: "Premi per annullare"
+            JOINED_COUNT: "{count} no {maxPlayers} spēlētājiem pievienojās",
+            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
+            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
+            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
+            GAME_STARTING: "Spēle ir sākusies",
+            BUTTON_START: "Nospied, lai sāktu",
+            BUTTON_CANCEL: "Nospied, lai atceltu"
         },
         IH = {
-            GALLERY_LINK: "Visita la galleria",
-            PLAY_AGAIN: "Vuoi giocare di nuovo?",
-            BUTTON_SAME_PLAYERS: "Stessi giocatori",
-            BUTTON_NEW_PLAYERS: "Nuovi giocatori"
+            GALLERY_LINK: "Apmeklē galeriju",
+            PLAY_AGAIN: "Spēlēt vēlreiz?",
+            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
+            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
         },
         wH = {
-            AND: "E",
-            OR: "O"
+            AND: "UN",
+            OR: "VAI"
         },
         CH = {
-            BUTTON_SKIP: "Salta",
-            BUTTON_NEXT: "Avanti",
-            BUTTON_DONE: "Iniziamo!"
+            BUTTON_SKIP: "Izlaist",
+            BUTTON_NEXT: "Nākamais",
+            BUTTON_DONE: "Uz priekšu!"
         },
         RH = {
-            NAME: "PUBBLICO"
+            NAME: "AUDITORIJA"
         },
         NH = {
-            EPISODE_REPORT: "Segnala episodio",
-            EPISODE_UNLOAD: "Rimuovi episodio",
-            EPISODE_VIEW_AUTHOR: "Mostra autore",
-            EPISODES_LOAD: "Carica un episodio in base al suo id:",
-            EPISODES_MENU: "Menu Episodi",
-            EPISODES_SELECT: "Oppure seleziona un episodio:",
-            EPISODES_WARNING: "Attenzione: il contenuto generato dagli utenti non \xE8 classificato",
+            EPISODE_REPORT: "Ziņot epizode",
+            EPISODE_UNLOAD: "Izkraut epizode",
+            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
+            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
+            EPISODES_MENU: "Epizodes izvēlne",
+            EPISODES_SELECT: "Vai atlasīt epsiode:",
+            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
             INSTRUCTION: {
-                CREATE_TITLE: "per prima cosa, inserisci un nome per l\u2019episodio che contenga tutti i tuoi suggerimenti e premi crea.",
-                LOAD: "creare o caricare?",
-                PUBLISH: "pubblica il tuo episodio",
-                TITLE: "dai un nome al tuo episodio",
-                TOGGLE_VISIBILITY: "tocca per mostrare/nascondere suggerimenti",
-                WRITE: "scrivi le tue definizioni"
+                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
+                LOAD: "izveidot vai ielādēt?",
+                PUBLISH: "publicēt savu epizodi",
+                TITLE: "nosauc savu epizodi",
+                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
+                WRITE: "uzraksti savas uzvednes"
             },
             WARNING: {
-                DELETE: "Vuoi davvero eliminare questo episodio?",
-                TOS: "Condividendo i contenuti, accetti le nostre [tos]Condizioni del servizio[/tos]",
-                TOS_AGREE: "accetta e condividi"
+                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
+                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
+                TOS_AGREE: "vienoties un kopīgot"
             },
-            BACK_TO_EPISODES: "torna agli episodi",
-            BACK_TO_MENU: "torna al menu",
-            CREATE_NEW_EPISODE: "crea un nuovo episodio",
-            PREVIOUS_EPISODES: "episodi precedenti",
-            PROMPT_ADD: "aggiungi suggerimento",
-            PROMPT_PLACEHOLDER: "inserisci suggerimento",
-            PROMPTS_COUNT_HIDDEN: "({count} nascosti)",
-            TITLE_PLACEHOLDER: "inserisci un titolo"
+            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
+            BACK_TO_MENU: "atpakaļ uz izvēlni",
+            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
+            PREVIOUS_EPISODES: "iepriekšējās epizodes",
+            PROMPT_ADD: "pievienot uzvedni",
+            PROMPT_PLACEHOLDER: "ievadi uzvedni",
+            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
+            TITLE_PLACEHOLDER: "ievadi nosaukumu"
         },
         LH = {
             BROADCASTER: {
-                SUBTEXT: "Il collegamento del tuo account con l'estensione per Twitch Jackbox Audience Kit \xE8 andato a buon fine.",
-                WARNING: "L'IMPOSTAZIONE DEL PUBBLICO NON \xC8 ATTIVA PER QUESTA STANZA"
+                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
+                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
             },
             RECONNECTED: {
-                TEXT: "RICONNESSO",
-                SUBTEXT: "Buon divertimento!"
+                TEXT: "ATJAUNOT",
+                SUBTEXT: "Priecājies!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNESSIONE INTERROTTA",
-                    SUBTEXT: "Tentativo di riconnessione in corso ({attempt} di 5)"
+                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
+                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
                 },
                 GAME: {
-                    TEXT: "CONNESSIONE AL GIOCO INTERROTTA",
-                    SUBTEXT: "Resta in attesa mentre proviamo a riconnetterci"
+                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
+                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
                 }
             }
         },
@@ -26318,7 +26318,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const n = await (await fetch("https://s3.amazonaws.com/static.jackboxgames.com/banners.json")).json(),
+                        const n = await (await fetch("banners/banners.json")).json(),
                             r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
