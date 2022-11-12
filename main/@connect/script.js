@@ -24423,7 +24423,7 @@ ${t}`
             MERCH: "TULKOJUMI",
             PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
             MAILING_LIST: "DISCORD SERVERIS",
-            MODERATOR: "MODERĀCIJA"
+            MODERATOR: "MODERĒŠANA"
         },
         yee = {
             CALL_TO_ACTION: {
@@ -24626,7 +24626,7 @@ de votre liste d'anciennes parties.`,
             MERCH: "TULKOJUMI",
             PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
             MAILING_LIST: "DISCORD SERVERIS",
-            MODERATOR: "MODERĀCIJA"
+            MODERATOR: "MODERĒŠANA"
         },
         Hee = {
             CALL_TO_ACTION: {
@@ -26591,7 +26591,7 @@ de tu lista de partidas anteriores.`,
             target: "_blank",
             onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
         }, Ie(e.$t("MENU.HELP")), 1)]), Y("li", null, [Y("a", {
-            href: "https://shop.jackboxgames.com",
+            href: "https://discord.com/invite/TNK3wsHHUW",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         }, Ie(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
@@ -26599,25 +26599,7 @@ de tu lista de partidas anteriores.`,
             onClick: t[7] || (t[7] = Bt((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["prevent"]))
         }, [Bn(Ie(e.$t("MENU.PAST_GAMES")) + " ", 1), e.hasUnseenGames ? (z(), Q("div", Ore)) : we("", !0)], 32)]), ft(c), e.shouldShowPreferredBranch ? (z(), nr(u, {
             key: 2
-        })) : we("", !0), Y("li", Are, [Y("a", {
-            class: "facebook",
-            "aria-label": "facebook",
-            target: "_blank",
-            href: "https://www.facebook.com/JackboxGames",
-            onClick: t[8] || (t[8] = f => e.onLinkClick("https://www.facebook.com/JackboxGames"))
-        }), Y("a", {
-            class: "twitter",
-            "aria-label": "twitter",
-            target: "_blank",
-            href: "https://twitter.com/jackboxgames",
-            onClick: t[9] || (t[9] = f => e.onLinkClick("https://twitter.com/jackboxgames"))
-        }), Y("a", {
-            class: "instagram",
-            "aria-label": "instagram",
-            target: "_blank",
-            href: "https://www.instagram.com/playjackboxgames",
-            onClick: t[10] || (t[10] = f => e.onLinkClick("https://www.instagram.com/playjackboxgames"))
-        })]), Y("li", Ire, [Y("a", wre, Ie(e.version), 1)])])])
+        })) : we("", !0), Y("li", Ire, [Y("a", wre, Ie(e.version), 1)])])])
     }
     const Rre = yt(Ere, [
             ["render", Cre],

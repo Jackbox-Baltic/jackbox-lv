@@ -13743,7 +13743,7 @@ ${r.message}`,
             MERCH: "TULKOJUMI",
             PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
             MAILING_LIST: "DISCORD SERVERIS",
-            MODERATOR: "MODERĀCIJA"
+            MODERATOR: "MODERĒŠANA"
         },
         f4 = {
             CALL_TO_ACTION: {
@@ -13946,7 +13946,7 @@ de votre liste d'anciennes parties.`,
             MERCH: "TULKOJUMI",
             PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
             MAILING_LIST: "DISCORD SERVERIS",
-            MODERATOR: "MODERĀCIJA"
+            MODERATOR: "MODERĒŠANA"
         },
         M4 = {
             CALL_TO_ACTION: {
@@ -25108,30 +25108,30 @@ ${t}`
         }
     });
     const rre = {
-            GAME: "Game",
-            PASSWORD: "PASSWORD"
+            GAME: "Spēle",
+            PASSWORD: "PAROLE"
         },
         nre = {
-            KICK: "Kick?",
-            KICK_PLAYERS: "KICK PLAYERS",
-            MODERATE: "Moderate",
-            APPROVE_ALL: "Approve All",
-            REJECT_ALL: "Reject All"
+            KICK: "Izmest?",
+            KICK_PLAYERS: "IZMEST SPĒLĒTĀJUS",
+            MODERATE: "Moderēt",
+            APPROVE_ALL: "Apstiprināt visu",
+            REJECT_ALL: "Noraidīt visu"
         },
         ire = {
-            ROOM_DESTROYED: "Thanks for helping out!"
+            ROOM_DESTROYED: "Paldies par palīdzību!"
         },
         sre = {
-            DISABLED: "Moderation Disabled",
-            KICKED: "KICKED",
-            UNSUPPORTED: "Moderation Unsupported",
-            WAITING_FOR_SUBMISSIONS: "Waiting for submissions"
+            DISABLED: "Moderēšana ir atspējota",
+            KICKED: "IZMESTS",
+            UNSUPPORTED: "Moderēšana nav atbalstīta",
+            WAITING_FOR_SUBMISSIONS: "Gaidām iesniegumus"
         },
         are = {
-            DISABLED: "The moderation setting for this game is turned off. Turn it on and restart the game to moderate content.",
-            UNSUPPORTED: "{gameName} doesn't have anything to moderate, but thanks for wanting to help out!"
+            DISABLED: "Šīs spēles moderēšanas iestatījums ir izslēgts. Ieslēdz to un restartē spēli, lai moderētu saturu.",
+            UNSUPPORTED: "{gameName} nav ko moderēt, bet paldies par vēlmi palīdzēt!"
         },
-        ore = "Submitted by:",
+        ore = "Iesniedzis:",
         cre = {
             FORM: rre,
             ACTION: nre,
@@ -25174,30 +25174,30 @@ ${t}`
             SUBMITTED_BY: pre
         },
         mre = {
-            GAME: "Gioco",
-            PASSWORD: "PASSWORD"
+            GAME: "Spēle",
+            PASSWORD: "PAROLE"
         },
         vre = {
-            KICK: "Cacciare?",
-            KICK_PLAYERS: "CACCIA GIOCATORI",
-            MODERATE: "Modera",
-            APPROVE_ALL: "Approva tutto",
-            REJECT_ALL: "Rifiuta tutto"
+            KICK: "Izmest?",
+            KICK_PLAYERS: "IZMEST SPĒLĒTĀJUS",
+            MODERATE: "Moderēt",
+            APPROVE_ALL: "Apstiprināt visu",
+            REJECT_ALL: "Noraidīt visu"
         },
         Ere = {
-            ROOM_DESTROYED: "Grazie per l'aiuto!"
+            ROOM_DESTROYED: "Paldies par palīdzību!"
         },
         _re = {
-            DISABLED: "Moderazione disabilitata",
-            KICKED: "CACCIATO/A",
-            UNSUPPORTED: "Moderazione non supportata",
-            WAITING_FOR_SUBMISSIONS: "In attesa di invii"
+            DISABLED: "Moderēšana ir atspējota",
+            KICKED: "IZMESTS",
+            UNSUPPORTED: "Moderēšana nav atbalstīta",
+            WAITING_FOR_SUBMISSIONS: "Gaidām iesniegumus"
         },
         yre = {
-            DISABLED: "La moderazione \xE8 disattivata per questo gioco. Per moderare i contenuti, attivala e riavvia il gioco.",
-            UNSUPPORTED: "{gameName} non ha nulla da moderare, ma grazie per l'aiuto!"
+            DISABLED: "Šīs spēles moderēšanas iestatījums ir izslēgts. Ieslēdz to un restartē spēli, lai moderētu saturu.",
+            UNSUPPORTED: "{gameName} nav ko moderēt, bet paldies par vēlmi palīdzēt!"
         },
-        bre = "Inviato da:",
+        bre = "Iesniedzis:",
         Tre = {
             FORM: mre,
             ACTION: vre,
