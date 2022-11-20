@@ -23931,14 +23931,14 @@ ${t}`
         aZ = Po(() => Y("a", {
             class: "logo",
             href: "/",
-            "aria-label": "Jackbox Games Logo"
+            "aria-label": "Jackbox Games logotips"
         }, null, -1)),
         oZ = {
             class: "content"
         },
-        cZ = Po(() => Y("h1", null, "You have encountered an error", -1)),
-        lZ = Po(() => Y("p", null, "Something went wrong! But don't worry, you can try a few things to get going.", -1)),
-        uZ = Po(() => Y("ul", null, [Y("li", null, "Refresh the page"), Y("li", null, "Turn off adblockers or other browser extensions."), Y("li", null, "Check your connection to the Internet."), Y("li", null, "Make sure you're using an up-to-date browser."), Y("li", null, "If that doesn't work, let us know.")], -1)),
+        cZ = Po(() => Y("h1", null, "Tu saskaries ar kļūdu", -1)),
+        lZ = Po(() => Y("p", null, "Kaut kas notika nepareizi! Bet neuztraucies, tu vari izmēģināt dažas lietas, lai sāktu darboties.", -1)),
+        uZ = Po(() => Y("ul", null, [Y("li", null, "Atsvaidzini lapu"), Y("li", null, "Izslēdz reklāmu bloķētājus vai citus pārlūkprogrammas paplašinājumus."), Y("li", null, "Pārbaudi interneta savienojumu."), Y("li", null, "Pārliecinies, ka izmanto atjauninātu pārlūkprogrammu."), Y("li", null, "Ja tas nedarbojas, ziņo mums.")], -1)),
         fZ = Po(() => Y("hr", null, null, -1)),
         dZ = {
             class: "error"
