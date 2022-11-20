@@ -11308,7 +11308,7 @@ var Jre = rL((Zre, OA) => {
             directory: "pp4/bracketeering",
             categoryId: "BRKGame"
         }, {
-            name: "Pilsoņu ķeburs [Nav tulkots]",
+            name: "Pilsoniskā ķeburs [Nav tulkots]",
             tag: "overdrawn",
             wrapper: "marionette",
             isPublic: !0,

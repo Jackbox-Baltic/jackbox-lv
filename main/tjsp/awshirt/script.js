@@ -4676,10 +4676,10 @@ var Jie = pN((Zie, Bw) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
-            return t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            return t.replace(/[^\u0100-\u017F\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -25276,91 +25276,91 @@ ${t}`
                 })
             })
         },
-        Pte = "Suggestion",
+        Pte = "Ieteikums",
         Bte = {
             AVATARS: {
-                BAKU: "baku avatar",
-                BUN: "bunny avatar",
-                BLUE_DEMON: "blue demon avatar",
-                CAT: "cat avatar",
-                CATFISH: "catfish avatar",
-                CROW: "crow avatar",
-                DOG: "dog avatar",
-                FIRE: "fire avatar",
-                FOX: "fox avatar",
-                KAPPA: "kappa avatar",
-                HAIR: "hair avatar",
-                MONKEY: "monkey avatar",
-                RACCOON: "raccoon avatar",
-                RED_DEMON: "red demon avatar",
-                SNAKE: "snake avatar",
-                UMBRELLA: "umbrella avatar"
+                BAKU: "baku avatārs",
+                BUN: "bunny avatārs",
+                BLUE_DEMON: "blue demon avatārs",
+                CAT: "cat avatārs",
+                CATFISH: "catfish avatārs",
+                CROW: "crow avatārs",
+                DOG: "dog avatārs",
+                FIRE: "fire avatārs",
+                FOX: "fox avatārs",
+                KAPPA: "kappa avatārs",
+                HAIR: "hair avatārs",
+                MONKEY: "monkey avatārs",
+                RACCOON: "raccoon avatārs",
+                RED_DEMON: "red demon avatārs",
+                SNAKE: "snake avatārs",
+                UMBRELLA: "umbrella avatārs"
             },
-            LOGO: "the Tee K.O. logo"
+            LOGO: "Tee K.O. logotips"
         },
         xte = {
-            BAKU: "Winning the tournament is my life-long dream!",
-            BUN: "I\u2019ve never made t-shirts before, but I\u2019m usually pretty lucky.",
-            BLUE_DEMON: "My shirt will put my twin\u2019s efforts to shame!",
-            CAT: "My mother is very ill. I must win the tournament to pay for her surgery.",
-            CATFISH: "I\u2019m competing to raise Fin Rot awareness!",
-            CROW: "I did not mean to enter this tournament! It was a clerical error!",
-            DOG: "WOOF! WOOF WOOF!",
-            FIRE: "I\u2019m just happy to get out of the house!",
-            FOX: "After I win the tournament, I can take a year off and finish my sitcom pilot!",
-            KAPPA: "If I win the tournament, I will get my own reality show!",
-            HAIR: "I HUNGER FOR VICTORY!",
-            MONKEY: "If I don\u2019t win the tournament, I guess I\u2019ll go paint houses for my uncle.",
-            RACCOON: "I must win the tournament or the evil banker will repossess the orphanage!",
-            RED_DEMON: "I don\u2019t care about winning, as long as I beat my twin!",
-            SNAKE: "I do not have arms, but my love of t-shirts is strong. I will win the tournament!",
-            UMBRELLA: "My dream is to open a sandal shop. I would also like to win this tournament!"
+            BAKU: "Uzvara turnīrā ir mans mūža sapnis!",
+            BUN: "Nekad agrāk neesmu taisījusi t-kreklus, bet parasti man diezgan labi veicas.",
+            BLUE_DEMON: "Mans krekls liks kaunā mana dvīņa pūles!",
+            CAT: "Mana māte ir ļoti slima. Man ir jāuzvar turnīrā, lai samaksātu par viņas operāciju.",
+            CATFISH: "Es sacenšos, lai veicinātu izpratni par spuras iekaisumu!",
+            CROW: "Es negribēju iekļūt šajā turnīrā! Tā bija pārrakstīšanās kļūda!",
+            DOG: "VAU! VAU VAU!",
+            FIRE: "Es vienkārši priecājos, ka varu tikt ārā no mājas!",
+            FOX: "Pēc uzvaras turnīrā varēšu paņemt gadu atvaļinājumu un pabeigt savu komēdijfilmu!",
+            KAPPA: "Ja es uzvarēšu turnīrā, man būs savs realitātes šovs!",
+            HAIR: "ES ALKSTU PĒC UZVARAS!",
+            MONKEY: "Ja es neuzvarēšu turnīrā, es, šķiet, iešu uzgleznot mājas tēvocim.",
+            RACCOON: "Man ir jāuzvar turnīrā, citādi ļaunais baņķieris atņems bērnu namu!",
+            RED_DEMON: "Man nav svarīgi uzvarēt, tikai uzveikt savu dvīni!",
+            SNAKE: "Man nav rokas, bet mana mīlestība pret t-krekliem ir spēcīga. Es uzvarēšu turnīrā!",
+            UMBRELLA: "Mans sapnis ir atvērt sandāļu veikalu. Es arī gribētu uzvarēt šajā turnīrā!"
         },
         Ute = {
-            BAKU: "All my dreams are coming true!",
-            BUN: "I never lose!",
-            BLUE_DEMON: "Sorry, but my skills are superior!",
-            CAT: "I knew I could do it!",
-            CATFISH: "I win! Please donate to cure Fin Rot today!",
-            CROW: "What is happening? Did I win?",
-            DOG: "BARK! WOOF! BARK BARK!",
-            FIRE: "We\u2019re having so much fun, guys!",
-            FOX: "Hollywood, here I come!",
-            KAPPA: "Now I will be famous!",
-            HAIR: "MY HUNGER HAS BEEN SATISFIED\u2026 FOR NOW\u2026",
-            MONKEY: "I deserve this!",
-            RACCOON: "I put all of my heart into winning!",
-            RED_DEMON: "I was born to be the best!",
-            SNAKE: "I am honored to accept this victory.",
-            UMBRELLA: "What an unexpected surprise!"
+            BAKU: "Visi mani sapņi piepildās!",
+            BUN: "Es nekad nezaudēšu!",
+            BLUE_DEMON: "Piedod, bet manas prasmes ir foršāk!",
+            CAT: "Es zināju, ka varu to izdarīt!",
+            CATFISH: "Es uzvarēju! Lūdzu, ziedojiet, lai šodien izārstētu spuras iekaisumu!",
+            CROW: "Kas notiek? Vai es uzvarēju?",
+            DOG: "GAF! VAU! GAF GAF!",
+            FIRE: "Mums ir tik jautri, puiši!",
+            FOX: "Holivuda, es esmu klāt!",
+            KAPPA: "Tagad es kļūšu slavens!",
+            HAIR: "MANS IZSALKUMS IR APMIERINĀTS... PAGAIDĀM...",
+            MONKEY: "Es to esmu pelnījusi!",
+            RACCOON: "Es ieliku visu savu sirdi, lai uzvarētu!",
+            RED_DEMON: "Es piedzimu, lai būtu labākais!",
+            SNAKE: "Man ir gods pieņemt šo uzvaru.",
+            UMBRELLA: "Negaidīts pārsteigums!"
         },
         Fte = {
-            BUTTON_FIGHT: "Fight",
-            QUOTE_CHANGE: "Change",
-            QUOTE_LABEL: "Victory Quote",
-            QUOTE_SET: "Set"
+            BUTTON_FIGHT: "Cīņā",
+            QUOTE_CHANGE: "Mainīt",
+            QUOTE_LABEL: "Uzvara citāts",
+            QUOTE_SET: "Ok"
         },
         Gte = {
             INSTRUCTION: {
-                DRAWING: "Choose a drawing",
-                SLOGAN: "Choose a slogan"
+                DRAWING: "Izvēlies zīmējumu",
+                SLOGAN: "Izvēlies saukli"
             }
         },
         jte = {
             INSTRUCTION: {
-                DRAWING: "What would you like to see drawn?",
-                WRITING: "What should the players write?"
+                DRAWING: "Ko tu vēlētos redzēt uzzīmētu?",
+                WRITING: "Ko spēlētājiem vajadzētu uzrakstīt?"
             }
         },
         $te = {
-            INSTRUCTION: "Pick your favorite!",
-            THANKS: "Thanks for voting! Your choice:"
+            INSTRUCTION: "Izvēlies savu favorītu!",
+            THANKS: "Paldies par balsojumu! Tava izvēle:"
         },
         Vte = {
-            INSTRUCTION: "Waiting for other players to finish!"
+            INSTRUCTION: "Gaidām, kad pabeigs citi spēlētāji!"
         },
         Wte = {
-            INSTRUCTION: "Write something funny, or clever, or anything at all!"
+            INSTRUCTION: "Uzraksti kaut ko smieklīgu, gudru vai jebko citu!"
         },
         Hte = {
             SUGGESTION: Pte,
@@ -25472,91 +25472,91 @@ ${t}`
             WAITING: ere,
             WRITING: tre
         },
-        nre = "Suggerimento",
+        nre = "Ieteikums",
         ire = {
             AVATARS: {
-                BAKU: "avatar baku",
-                BUN: "avatar coniglietto",
-                BLUE_DEMON: "avatar demone blu",
-                CAT: "avatar gatto",
-                CATFISH: "avatar pesce gatto",
-                CROW: "avatar corvo",
-                DOG: "avatar cane",
-                FIRE: "avatar fuoco",
-                FOX: "avatar volpe",
-                KAPPA: "avatar kappa",
-                HAIR: "avatar capelli",
-                MONKEY: "avatar scimmia",
-                RACCOON: "avatar procione",
-                RED_DEMON: "avatar demone rosso",
-                SNAKE: "avatar serpente",
-                UMBRELLA: "avatar ombrello"
+                BAKU: "baku avatārs",
+                BUN: "bunny avatārs",
+                BLUE_DEMON: "blue demon avatārs",
+                CAT: "cat avatārs",
+                CATFISH: "catfish avatārs",
+                CROW: "crow avatārs",
+                DOG: "dog avatārs",
+                FIRE: "fire avatārs",
+                FOX: "fox avatārs",
+                KAPPA: "kappa avatārs",
+                HAIR: "hair avatārs",
+                MONKEY: "monkey avatārs",
+                RACCOON: "raccoon avatārs",
+                RED_DEMON: "red demon avatārs",
+                SNAKE: "snake avatārs",
+                UMBRELLA: "umbrella avatārs"
             },
-            LOGO: "Il logo di Tee K.O."
+            LOGO: "Tee K.O. logotips"
         },
         sre = {
-            BAKU: "Vincere il torneo \xE8 il sogno della mia vita!",
-            BUN: "Non ho mai creato magliette, ma di solito ho fortuna.",
-            BLUE_DEMON: "Il mio gemello andr\xE0 a nascondersi per la vergogna!",
-            CAT: "Mia mamma \xE8 tanto malata. Devo vincere il torneo per pagarle l'operazione.",
-            CATFISH: "Gareggio per sensibilizzare il pubblico sul problema delle corrosione delle pinne!",
-            CROW: "Non volevo partecipare a questo torneo! \xC8 stato un errore burocratico!",
-            DOG: "BAU! BAU! BAU!",
-            FIRE: "A me basta essere fuori casa e sono felice!",
-            FOX: "Dopo aver vinto il torneo, potr\xF2 prendermi un anno sabbatico per finire di scrivere la puntata pilota della mia sitcom!",
-            KAPPA: "Se vinco il torneo, avr\xF2 un mio reality in TV!",
-            HAIR: "HO FAME DI VITTORIA!",
-            MONKEY: "Se non vinco il torneo, mi toccher\xE0 andare a verniciare case con mio zio.",
-            RACCOON: "Devo vincere il torneo o il banchiere cattivo si rimpossesser\xE0 dell'orfanotrofio!",
-            RED_DEMON: "Non m'interessa vincere, voglio solo battere il mio gemello!",
-            SNAKE: "Anche se non ho le braccia, amo molto le magliette. Vincer\xF2 il torneo!",
-            UMBRELLA: "Il mio sogno \xE8 aprire un negozio di sandali. Ah... e poi mi piacerebbe tanto vincere."
+            BAKU: "Uzvara turnīrā ir mans mūža sapnis!",
+            BUN: "Nekad agrāk neesmu taisījusi t-kreklus, bet parasti man diezgan labi veicas.",
+            BLUE_DEMON: "Mans krekls liks kaunā mana dvīņa pūles!",
+            CAT: "Mana māte ir ļoti slima. Man ir jāuzvar turnīrā, lai samaksātu par viņas operāciju.",
+            CATFISH: "Es sacenšos, lai veicinātu izpratni par spuras iekaisumu!",
+            CROW: "Es negribēju iekļūt šajā turnīrā! Tā bija pārrakstīšanās kļūda!",
+            DOG: "VAU! VAU VAU!",
+            FIRE: "Es vienkārši priecājos, ka varu tikt ārā no mājas!",
+            FOX: "Pēc uzvaras turnīrā varēšu paņemt gadu atvaļinājumu un pabeigt savu komēdijfilmu!",
+            KAPPA: "Ja es uzvarēšu turnīrā, man būs savs realitātes šovs!",
+            HAIR: "ES ALKSTU PĒC UZVARAS!",
+            MONKEY: "Ja es neuzvarēšu turnīrā, es, šķiet, iešu uzgleznot mājas tēvocim.",
+            RACCOON: "Man ir jāuzvar turnīrā, citādi ļaunais baņķieris atņems bērnu namu!",
+            RED_DEMON: "Man nav svarīgi uzvarēt, tikai uzveikt savu dvīni!",
+            SNAKE: "Man nav rokas, bet mana mīlestība pret t-krekliem ir spēcīga. Es uzvarēšu turnīrā!",
+            UMBRELLA: "Mans sapnis ir atvērt sandāļu veikalu. Es arī gribētu uzvarēt šajā turnīrā!"
         },
         are = {
-            BAKU: "Tutti i miei sogni si stanno realizzando!",
-            BUN: "Non perdo mai!",
-            BLUE_DEMON: "Spiacente, la mia abilit\xE0 \xE8 superiore!",
-            CAT: "Lo sapevo che ce l'avrei fatta!",
-            CATFISH: "Ho vinto! Per favore, effettuate subito una donazione per combattere la corrosione delle pinne!",
-            CROW: "Che succede? Ho vinto io?",
-            DOG: "ARF! UOFF! BAU BAU!",
-            FIRE: "Ci stiamo proprio divertendo!",
-            FOX: "Hollywood, arrivo!",
-            KAPPA: "Diventer\xF2 una star!",
-            HAIR: "LA MIA FAME \xC8 STATA PLACATA... PER ORA...",
-            MONKEY: "Me lo merito!",
-            RACCOON: "Ce l'ho messa tutta per vincere!",
-            RED_DEMON: "Campioni si nasce!",
-            SNAKE: "\xC8 un onore accettare questa vittoria.",
-            UMBRELLA: "Che sorpresa inaspettata!"
+            BAKU: "Visi mani sapņi piepildās!",
+            BUN: "Es nekad nezaudēšu!",
+            BLUE_DEMON: "Piedod, bet manas prasmes ir foršāk!",
+            CAT: "Es zināju, ka varu to izdarīt!",
+            CATFISH: "Es uzvarēju! Lūdzu, ziedojiet, lai šodien izārstētu spuras iekaisumu!",
+            CROW: "Kas notiek? Vai es uzvarēju?",
+            DOG: "GAF! VAU! GAF GAF!",
+            FIRE: "Mums ir tik jautri, puiši!",
+            FOX: "Holivuda, es esmu klāt!",
+            KAPPA: "Tagad es kļūšu slavens!",
+            HAIR: "MANS IZSALKUMS IR APMIERINĀTS... PAGAIDĀM...",
+            MONKEY: "Es to esmu pelnījusi!",
+            RACCOON: "Es ieliku visu savu sirdi, lai uzvarētu!",
+            RED_DEMON: "Es piedzimu, lai būtu labākais!",
+            SNAKE: "Man ir gods pieņemt šo uzvaru.",
+            UMBRELLA: "Negaidīts pārsteigums!"
         },
         ore = {
-            BUTTON_FIGHT: "Combatti",
-            QUOTE_CHANGE: "Cambia",
-            QUOTE_LABEL: "Frase della vittoria",
-            QUOTE_SET: "Imposta"
+            BUTTON_FIGHT: "Cīņā",
+            QUOTE_CHANGE: "Mainīt",
+            QUOTE_LABEL: "Uzvara citāts",
+            QUOTE_SET: "Ok"
         },
         lre = {
             INSTRUCTION: {
-                DRAWING: "Scegli un disegno",
-                SLOGAN: "Scegli uno slogan"
+                DRAWING: "Izvēlies zīmējumu",
+                SLOGAN: "Izvēlies saukli"
             }
         },
         cre = {
             INSTRUCTION: {
-                DRAWING: "Che cosa vorresti vedere disegnato?",
-                WRITING: "Che cosa vorresti che scrivano i giocatori?"
+                DRAWING: "Ko tu vēlētos redzēt uzzīmētu?",
+                WRITING: "Ko spēlētājiem vajadzētu uzrakstīt?"
             }
         },
         ure = {
-            INSTRUCTION: "Fai la tua scelta!",
-            THANKS: "Grazie per aver votato! La tua scelta:"
+            INSTRUCTION: "Izvēlies savu favorītu!",
+            THANKS: "Paldies par balsojumu! Tava izvēle:"
         },
         fre = {
-            INSTRUCTION: "Attendi che gli altri giocatori finiscano!"
+            INSTRUCTION: "Gaidām, kad pabeigs citi spēlētāji!"
         },
         dre = {
-            INSTRUCTION: "Scrivi qualcosa di divertente, intelligente o quello che vuoi!"
+            INSTRUCTION: "Uzraksti kaut ko smieklīgu, gudru vai jebko citu!"
         },
         hre = {
             SUGGESTION: nre,
