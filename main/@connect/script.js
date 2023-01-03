@@ -13005,7 +13005,7 @@ ${n.message}`,
         }
         static html(t) {
             if (String(t).match(/<fart>/g)) {
-                const r = new Audio(new URL("main/@connect/assets/4af6cbea.wav", self.location).href);
+                const r = new Audio(new URL("main/@connect/assets/fart.wav", self.location).href);
                 r.volume = .1, r.play()
             }
             const n = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
@@ -21229,11 +21229,11 @@ function print() { __p += __j.call(arguments, '') }
                 }
             }
         }),
-        VO = "main/@connect/assets/ad9172fc.png",
-        KO = "main/@connect/assets/dc131b16.png",
-        rX = "main/@connect/assets/38715b18.png",
-        iX = "main/@connect/assets/b0d7c822.png",
-        sX = "main/@connect/assets/06150f24.png",
+        VO = "main/@connect/assets/quips/star.png",
+        KO = "main/@connect/assets/quips/kitten.png",
+        rX = "main/@connect/assets/happy.png",
+        iX = "main/@connect/assets/neutral.png",
+        sX = "main/@connect/assets/sad.png",
         rr = e => (ha("data-v-c4b66a33"), e = e(), pa(), e),
         aX = {
             class: "jbg"
@@ -24060,26 +24060,26 @@ ${t}`
                 dismissText: String
             }
         }),
-        YZ = "main/@connect/assets/928ef0da.png",
-        qZ = "main/@connect/assets/0bb76a2d.png",
-        zZ = "main/@connect/assets/ed4469b3.png",
+        YZ = "main/@connect/assets/quips/tear.png",
+        qZ = "main/@connect/assets/quips/moon.png",
+        zZ = "main/@connect/assets/quips/poop.png",
         XZ = {
             key: 0,
             class: "image",
             src: YZ,
-            alt: "Kicked"
+            alt: "Izmests"
         },
         JZ = {
             key: 1,
             class: "image",
             src: qZ,
-            alt: "Thank You"
+            alt: "Paldies"
         },
         QZ = {
             key: 2,
             class: "image",
             src: zZ,
-            alt: "Error"
+            alt: "Kļūda"
         },
         ZZ = {
             class: "text"
@@ -25026,7 +25026,7 @@ de tu lista de partidas anteriores.`,
                 }
             }
         }),
-        kte = "main/@connect/assets/a96a9236.png",
+        kte = "main/@connect/assets/quips/red.png",
         TA = e => (ha("data-v-f058cb4c"), e = e(), pa(), e),
         Mte = {
             class: "jbg password"

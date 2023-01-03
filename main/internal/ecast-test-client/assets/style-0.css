@@ -2018,8 +2018,8 @@ th {
 
 @font-face {
     font-family: Glyphicons Halflings;
-    src: url(13634da8.eot);
-    src: url(13634da8.eot) format("embedded-opentype"), url(fe185d11.woff2) format("woff2"), url(a26394f7.woff) format("woff"), url(e3950440.ttf) format("truetype"), url(42f60659.svg) format("svg")
+    src: url(Glyphicons.eot);
+    src: url(Glyphicons.eot) format("embedded-opentype"), url(Glyphicons.woff2) format("woff2"), url(Glyphicons.woff) format("woff"), url(Glyphicons.ttf) format("truetype"), url(Glyphicons.svg) format("svg")
 }
 
 .glyphicon {
@@ -18403,8 +18403,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(e4299464.eot);
-    src: url(e4299464.eot) format("embedded-opentype"), url(8ea87917.woff2) format("woff2"), url(f9217f66.woff) format("woff"), url(cda59d6e.ttf) format("truetype"), url(a3b98177.svg) format("svg")
+    src: url(FA5Brands.eot);
+    src: url(FA5Brands.eot) format("embedded-opentype"), url(FA5Brands.woff2) format("woff2"), url(FA5Brands.woff) format("woff"), url(FA5Brands.ttf) format("truetype"), url(FA5Brands.svg) format("svg")
 }
 
 .fab {
@@ -18417,8 +18417,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(79d08806.eot);
-    src: url(79d08806.eot) format("embedded-opentype"), url(e42a8844.woff2) format("woff2"), url(cb9e9e69.woff) format("woff"), url(e8711bbb.ttf) format("truetype"), url(be0a0849.svg) format("svg")
+    src: url(FA5Free400.eot);
+    src: url(79d08806.eot) format("embedded-opentype"), url(FA5Free400.woff2) format("woff2"), url(FA5Free400.woff) format("woff"), url(FA5Free400.ttf) format("truetype"), url(FA5Free400.svg) format("svg")
 }
 
 .far {
@@ -18431,8 +18431,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(373c04fd.eot);
-    src: url(373c04fd.eot) format("embedded-opentype"), url(9834b82a.woff2) format("woff2"), url(3f6d3488.woff) format("woff"), url(af639750.ttf) format("truetype"), url(9674eb1b.svg) format("svg")
+    src: url(FA5Free900.eot);
+    src: url(FA5Free900.eot) format("embedded-opentype"), url(FA5Free900.woff2) format("woff2"), url(FA5Free900.woff) format("woff"), url(FA5Free900.ttf) format("truetype"), url(FA5Free900.svg) format("svg")
 }
 
 .fa,
@@ -22276,7 +22276,7 @@ th {
 }
 
 .image-hand {
-    background: url(ebdad51c.png);
+    background: url(hand.png);
     cursor: pointer;
     border: none;
     width: 126px;
@@ -22306,14 +22306,14 @@ canvas {
 
 @font-face {
     font-family: Rubik;
-    src: url(b83ed688.ttf);
+    src: url(Rubik400.ttf);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Rubik;
-    src: url(f599e755.ttf);
+    src: url(Rubik500.ttf);
     font-weight: 500;
     font-style: normal
 }

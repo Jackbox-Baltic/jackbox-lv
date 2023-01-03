@@ -12902,7 +12902,7 @@ ${r.message}`,
         }
         static html(t) {
             if (String(t).match(/<fart>/g)) {
-                const n = new Audio(new URL("main/@moderator/assets/4af6cbea.wav", self.location).href);
+                const n = new Audio(new URL("main/@moderator/assets/fart.wav", self.location).href);
                 n.volume = .1, n.play()
             }
             const r = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
@@ -12912,7 +12912,7 @@ ${r.message}`,
             return t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
         static username(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static emoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -21653,11 +21653,11 @@ function print() { __p += __j.call(arguments, '') }
                 }
             }
         }),
-        GO = "main/@moderator/assets/ad9172fc.png",
-        WO = "main/@moderator/assets/dc131b16.png",
-        fJ = "main/@moderator/assets/38715b18.png",
-        dJ = "main/@moderator/assets/b0d7c822.png",
-        hJ = "main/@moderator/assets/06150f24.png",
+        GO = "main/@moderator/assets/star.png",
+        WO = "main/@moderator/assets/kitten.png",
+        fJ = "main/@moderator/assets/happy.png",
+        dJ = "main/@moderator/assets/neutral.png",
+        hJ = "main/@moderator/assets/sad.png",
         Zr = e => (ta("data-v-c4b66a33"), e = e(), ra(), e),
         pJ = {
             class: "jbg"
@@ -24785,9 +24785,9 @@ ${t}`
                 dismissText: String
             }
         }),
-        Dte = "main/@moderator/assets/928ef0da.png",
-        Mte = "main/@moderator/assets/0bb76a2d.png",
-        kte = "main/@moderator/assets/ed4469b3.png",
+        Dte = "main/@moderator/assets/tear.png",
+        Mte = "main/@moderator/assets/moon.png",
+        kte = "main/@moderator/assets/poop.png",
         xte = {
             key: 0,
             class: "image",
