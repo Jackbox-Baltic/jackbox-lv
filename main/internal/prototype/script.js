@@ -4647,7 +4647,7 @@ var Pte = XR((kte, vw) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(e) {
             return e = e.replace("\u2026", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -10288,7 +10288,7 @@ ${r.message}`,
         }
         static html(e) {
             if (String(e).match(/<fart>/g)) {
-                const n = new Audio(new URL("main/internal/prototype/assets/fart.wav", self.location).href);
+                const n = new Audio(new URL("main/internal/prototype/assets/4af6cbea.wav", self.location).href);
                 n.volume = .1, n.play()
             }
             const r = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
@@ -18520,11 +18520,11 @@ function print() { __p += __j.call(arguments, '') }
                 }
             }
         }),
-        bO = "main/internal/prototype/assets/star.png",
-        TO = "main/internal/prototype/assets/kitten.png",
-        FX = "main/internal/prototype/assets/happy.png",
-        UX = "main/internal/prototype/assets/neutral.png",
-        BX = "main/internal/prototype/assets/sad.png",
+        bO = "main/internal/prototype/assets/ad9172fc.png",
+        TO = "main/internal/prototype/assets/dc131b16.png",
+        FX = "main/internal/prototype/assets/38715b18.png",
+        UX = "main/internal/prototype/assets/b0d7c822.png",
+        BX = "main/internal/prototype/assets/06150f24.png",
         zr = t => (vh("data-v-2c53389f"), t = t(), yh(), t),
         jX = {
             class: "jbg"
@@ -21679,9 +21679,9 @@ ${e}`
                 dismissText: String
             }
         }),
-        uQ = "main/internal/prototype/assets/tear.png",
-        fQ = "main/internal/prototype/assets/moon.png",
-        dQ = "main/internal/prototype/assets/poop.png",
+        uQ = "main/internal/prototype/assets/928ef0da.png",
+        fQ = "main/internal/prototype/assets/0bb76a2d.png",
+        dQ = "main/internal/prototype/assets/ed4469b3.png",
         hQ = {
             key: 0,
             class: "image",
@@ -24793,7 +24793,7 @@ ${e}`
                 }
             }
         }),
-        mte = "main/internal/prototype/assets/cross.svg",
+        mte = "main/internal/prototype/assets/c8afd972.svg",
         vte = {
             class: "constrain"
         },
