@@ -9966,7 +9966,7 @@ var tae = M$((nae, nI) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
             return t = t.replace("\u2026", "..."), t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -13531,7 +13531,7 @@ var tae = M$((nae, nI) => {
             isPublic: !0,
             directory: "internal/ecast-test-client"
         }, {
-            name: "Quiplash 2 InterLASHional",
+            name: "Smiekcirte 2 StarpCIRTiskais [Nav tulkots]",
             tag: "quiplash2-international",
             wrapper: "marionette",
             isPublic: !0,
@@ -13544,7 +13544,7 @@ var tae = M$((nae, nI) => {
             isPublic: !0,
             directory: "standalone/guesspionage-crowdplay"
         }, {
-            name: "Drawful 2",
+            name: "Zīmurgs 2 [Nav tulkots]",
             tag: "drawful2",
             wrapper: "marionette",
             isPublic: !0,
@@ -13552,7 +13552,7 @@ var tae = M$((nae, nI) => {
             categoryId: "DrawfulGame",
             shopItems: ["shirts"]
         }, {
-            name: "Drawful 2",
+            name: "Zīmurgs 2 [Nav tulkots]",
             tag: "drawful2international",
             wrapper: "marionette",
             isPublic: !0,
@@ -13565,49 +13565,49 @@ var tae = M$((nae, nI) => {
             isPublic: !0,
             directory: "standalone/acquisitions-inc"
         }, {
-            name: "You Don't Know Jack 2015",
+            name: "You Don't Know Jack 2015 [Nav tulkots]",
             tag: "ydkj2015",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/ydkj2015"
         }, {
-            name: "Drawful",
+            name: "Zīmurgs [Nav tulkots]",
             tag: "drawful",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/drawful"
         }, {
-            name: "Word Spud",
+            name: "Vārdu klīst [Nav tulkots]",
             tag: "wordspud",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
         }, {
-            name: "Lie Swatter",
+            name: "Meli sitamais [Nav tulkots]",
             tag: "lieswatter",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/lieswatter"
         }, {
-            name: "Fibbage",
+            name: "Ausskust [Nav tulkots]",
             tag: "fibbage",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/fibbage"
         }, {
-            name: "Fibbage 2",
+            name: "Ausskust 2 [Nav tulkots]",
             tag: "fibbage2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/fibbage2"
         }, {
-            name: "Earwax",
+            name: "Pilnausis [Nav tulkots]",
             tag: "earwax",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/earwax"
         }, {
-            name: "Bidiots",
+            name: "Izsolķība [Nav tulkots]",
             tag: "auction",
             wrapper: "marionette",
             isPublic: !0,
@@ -13619,19 +13619,19 @@ var tae = M$((nae, nI) => {
             isPublic: !0,
             directory: "pp2/bombintern"
         }, {
-            name: "Quiplash",
+            name: "Smiekcirte [Nav tulkots]",
             tag: "quiplash",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/quiplash"
         }, {
-            name: "Fakin' It",
+            name: "Tēlo lomu [Nav tulkots]",
             tag: "fakinit",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/fakinit"
         }, {
-            name: "Tee K.O.",
+            name: "Kre K.O.",
             tag: "awshirt",
             wrapper: "marionette",
             isPublic: !0,
@@ -13639,54 +13639,54 @@ var tae = M$((nae, nI) => {
             categoryId: "TeeKOGame",
             shopItems: ["shirts"]
         }, {
-            name: "Quiplash 2",
+            name: "Smiekcirte 2 [Nav tulkots]",
             tag: "quiplash2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/quiplash2",
             categoryId: "Quiplash2Game"
         }, {
-            name: "Trivia Murder Party",
+            name: "Viktorīna nāvējošā ballītē [Nav tulkots]",
             tag: "triviadeath",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/triviadeath",
             categoryId: "TriviaDeathResults"
         }, {
-            name: "Guesspionage",
+            name: "Mūsspiegošana [Nav tulkots]",
             tag: "pollposition",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/pollposition"
         }, {
-            name: "Fibbage 3",
+            name: "Ausskust 3 [Nav tulkots]",
             tag: "fibbage3",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/fibbage3"
         }, {
-            name: "Survive the Internet",
+            name: "Izdzīvot internetā [Nav tulkots]",
             tag: "survivetheinternet",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/survivetheinternet",
             categoryId: "STIGame"
         }, {
-            name: "Monster Seeking Monster",
+            name: "Briesmonis meklē briesmoni [Nav tulkots]",
             tag: "monstermingle",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/monstermingle",
             categoryId: "MonsterMingleGame"
         }, {
-            name: "Bracketeering",
+            name: "Likmensības [Nav tulkots]",
             tag: "bracketeering",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/bracketeering",
             categoryId: "BRKGame"
         }, {
-            name: "Civic Doodle",
+            name: "Pilsoniskā ķeburs [Nav tulkots]",
             tag: "overdrawn",
             wrapper: "marionette",
             isPublic: !0,
@@ -13694,35 +13694,35 @@ var tae = M$((nae, nI) => {
             categoryId: "OverdrawnGame",
             shopItems: ["shirts"]
         }, {
-            name: "You Don't Know Jack: Full Stream",
+            name: "You Don't Know Jack: Full Stream [Nav tulkots]",
             tag: "ydkj2018",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/ydkj2018",
             categoryId: "YDKJ2018Game"
         }, {
-            name: "Split the Room",
+            name: "Sadalī istabu [Nav tulkots]",
             tag: "splittheroom",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/splittheroom",
             categoryId: "SplitTheRoomGame"
         }, {
-            name: "Mad Verse City",
+            name: "Trako pantu pilsēta [Nav tulkots]",
             tag: "rapbattle",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/rapbattle",
             categoryId: "RapBattleGame"
         }, {
-            name: "Zeeple Dome",
+            name: "Zīpls kupols [Nav tulkots]",
             tag: "slingshoot",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/slingshoot",
             categoryId: "SlingShootGame"
         }, {
-            name: "Patently Stupid",
+            name: "Muļķīgs patents [Nav tulkots]",
             tag: "patentlystupid",
             wrapper: "marionette",
             isPublic: !0,
@@ -13730,14 +13730,14 @@ var tae = M$((nae, nI) => {
             categoryId: "PatentlyStupidGame",
             shopItems: ["mugs"]
         }, {
-            name: "Trivia Murder Party 2",
+            name: "Viktorīna nāvējošā ballītē 2 [Nav tulkots]",
             tag: "triviadeath2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/triviadeath2",
             categoryId: "TriviaDeath2Game"
         }, {
-            name: "Role Models",
+            name: "Lomas analīze [Nav tulkots]",
             tag: "rolemodels",
             wrapper: "marionette",
             isPublic: !0,
@@ -13746,28 +13746,28 @@ var tae = M$((nae, nI) => {
             categoryId: "RoleModelsGame",
             shopItems: ["shirts"]
         }, {
-            name: "Joke Boat",
+            name: "Joku kuģis [Nav tulkots]",
             tag: "jokeboat",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/jokeboat",
             categoryId: "JokeboatGame"
         }, {
-            name: "Dictionarium",
+            name: "Vārdakvārijs [Nav tulkots]",
             tag: "ridictionary",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/ridictionary",
             categoryId: "RidictionaryGame"
         }, {
-            name: "Push the Button",
+            name: "Spied šo Pogu [Nav tulkots]",
             tag: "pushthebutton",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/pushthebutton",
             categoryId: "PushTheButtonGame"
         }, {
-            name: "Talking Points",
+            name: "Sarunas punkts [Nav tulkots]",
             tag: "jackbox-talks",
             wrapper: "marionette",
             isPublic: !0,
@@ -13775,7 +13775,7 @@ var tae = M$((nae, nI) => {
             features: ["camera", "moderation"],
             categoryId: "JackboxTalksGame"
         }, {
-            name: "Quiplash 3",
+            name: "Smiekcirte 3 [Nav tulkots]",
             tag: "quiplash3",
             wrapper: "marionette",
             isPublic: !0,
@@ -13783,7 +13783,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "The Devils and the Details",
+            name: "Velni slēpjas detaļās [Nav tulkots]",
             tag: "everyday",
             wrapper: "marionette",
             isPublic: !0,
@@ -13791,7 +13791,7 @@ var tae = M$((nae, nI) => {
             categoryId: "EverydayGame",
             shopItems: ["mugs"]
         }, {
-            name: "Champ'd Up",
+            name: "Čempion' ART [Nav tulkots]",
             tag: "worldchamps",
             wrapper: "marionette",
             isPublic: !0,
@@ -13800,14 +13800,14 @@ var tae = M$((nae, nI) => {
             categoryId: "WorldChampionsGame",
             shopItems: ["cards"]
         }, {
-            name: "Blather 'Round",
+            name: "Gvelža raunds [Nav tulkots]",
             tag: "blanky-blank",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp7/blanky-blank",
             categoryId: "BlankyBlankGame"
         }, {
-            name: "Job Job",
+            name: "Mūža darbs [Nav tulkots]",
             tag: "apply-yourself",
             wrapper: "vue",
             isPublic: !0,
@@ -13815,7 +13815,7 @@ var tae = M$((nae, nI) => {
             categoryId: "JobGameGame",
             features: ["moderation", "previews"]
         }, {
-            name: "Drawful Animate",
+            name: "Zīmurgs Animate [Nav tulkots]",
             tag: "drawful-animate",
             wrapper: "vue",
             isPublic: !0,
@@ -13823,21 +13823,21 @@ var tae = M$((nae, nI) => {
             categoryId: "DrawfulAnimateGame",
             features: ["moderation"]
         }, {
-            name: "The Wheel of Enormous Proportions",
+            name: "Ritenis ar milzīgo proporciju [Nav tulkots]",
             tag: "the-wheel",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/the-wheel",
             categoryId: "TheWheelGame"
         }, {
-            name: "The Poll Mine",
+            name: "Alu doma [Nav tulkots]",
             tag: "survey-bomb",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/survey-bomb",
             categoryId: "SurveyBombGame"
         }, {
-            name: "Weapons Drawn",
+            name: "Latentā māksla [Nav tulkots]",
             tag: "murder-detectives",
             wrapper: "vue",
             isPublic: !0,
@@ -13845,7 +13845,7 @@ var tae = M$((nae, nI) => {
             categoryId: "MurderDetectivesGame",
             features: ["moderation"]
         }, {
-            name: "Quiplash 3",
+            name: "Smiekcirte 3 [Nav tulkots]",
             tag: "quiplash3-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -13853,7 +13853,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "Tee K.O.",
+            name: "Kre K.O.",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -13862,14 +13862,14 @@ var tae = M$((nae, nI) => {
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
         }, {
-            name: "Trivia Murder Party 2",
+            name: "Viktorīna nāvējošā ballītē 2 [Nav tulkots]",
             tag: "triviadeath2-tjsp",
             wrapper: "vue",
             isPublic: !0,
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Fibbage 4",
+            name: "Ausskust 4 [Nav tulkots]",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
@@ -13877,7 +13877,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation", "kicking"],
             categoryId: "Fibbage4Game"
         }, {
-            name: "Roomerang",
+            name: "Telparangs [Nav tulkots]",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
@@ -13885,7 +13885,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
         }, {
-            name: "Junktopia",
+            name: "Krāmtopija [Nav tulkots]",
             tag: "antique-freak",
             wrapper: "vue",
             isPublic: !0,
@@ -13893,7 +13893,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation", "kicking"],
             categoryId: "AntiqueGameGame"
         }, {
-            name: "Nonsensory",
+            name: "Blēņsors [Nav tulkots]",
             tag: "range-game",
             wrapper: "vue",
             isPublic: !0,
@@ -13901,7 +13901,7 @@ var tae = M$((nae, nI) => {
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
         }, {
-            name: "Quixort",
+            name: "Šķirošātrs [Nav tulkots]",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
@@ -15384,7 +15384,7 @@ ${r.message}`,
         }
         static html(t) {
             if (String(t).match(/<fart>/g)) {
-                const n = new Audio(new URL("main/@connect/assets/4af6cbea.wav", self.location).href);
+                const n = new Audio(new URL("main/@connect/assets/fart.wav", self.location).href);
                 n.volume = .1, n.play()
             }
             const r = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
@@ -15492,118 +15492,118 @@ ${r.message}`,
         }
     }
     const eq = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Atpakaļ",
+            CANCEL: "Atcelt",
+            CLOSE: "Aizvērt",
+            CONFIRM: "Apstiprināt",
+            CREATE: "Izveidot",
+            DELETE: "Dzēst",
+            DONE: "Gatavs",
+            EDIT: "Rediģēt",
             OK: "OK",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NO: "Nē",
+            PLAY: "Spēlēt",
+            PUBLISH: "Publicēt",
+            REMOVE: "Noņemt",
+            RESET: "Atiestatīt",
+            SUBMIT: "Iesniegt",
+            TRY_AGAIN: "Mēģināt vēlreiz",
+            UNDO: "Atsaukt",
+            YES: "Jā"
         },
         tq = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
+                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
+                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
+                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
             }
         },
         rq = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Tu esi atvienots.",
+            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
+            PLAYER_KICKED: "Moderators ir izsvītrojis tevi no spēles.",
+            ROOM_DESTROYED: "Paldies par spēlēšanu!",
+            ROOM_DISCONNECTED: "Atvienots",
+            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
+            TEXT_NOTHING: "Tu nevari neko ievadīt!",
+            TITLE: "Kļūda"
         },
-        nq = "LOADING",
+        nq = "IELĀDĒ",
         iq = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} no {maxPlayers} spēlētājiem pievienojās",
+            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
+            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
+            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
+            GAME_STARTING: "Spēle ir sākusies",
+            BUTTON_START: "Nospied, lai sāktu",
+            BUTTON_CANCEL: "Nospied, lai atceltu"
         },
         sq = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Apmeklē galeriju",
+            PLAY_AGAIN: "Spēlēt vēlreiz?",
+            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
+            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
         },
         aq = {
-            AND: "AND",
-            OR: "OR"
+            AND: "UN",
+            OR: "VAI"
         },
         oq = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "Izlaist",
+            BUTTON_NEXT: "Nākamais",
+            BUTTON_DONE: "Uz priekšu!"
         },
         cq = {
-            NAME: "AUDIENCE"
+            NAME: "AUDITORIJA"
         },
         uq = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Ziņot epizode",
+            EPISODE_UNLOAD: "Izkraut epizode",
+            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
+            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
+            EPISODES_MENU: "Epizodes izvēlne",
+            EPISODES_SELECT: "Vai atlasīt epsiode:",
+            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
+                LOAD: "izveidot vai ielādēt?",
+                PUBLISH: "publicēt savu epizodi",
+                TITLE: "nosauc savu epizodi",
+                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
+                WRITE: "uzraksti savas uzvednes"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
+                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
+                TOS_AGREE: "vienoties un kopīgot"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
+            BACK_TO_MENU: "atpakaļ uz izvēlni",
+            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
+            PREVIOUS_EPISODES: "iepriekšējās epizodes",
+            PROMPT_ADD: "pievienot uzvedni",
+            PROMPT_PLACEHOLDER: "ievadi uzvedni",
+            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
+            TITLE_PLACEHOLDER: "ievadi nosaukumu"
         },
         lq = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
+                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "ATJAUNOT",
+                SUBTEXT: "Izklaidējies!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
+                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
+                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
                 }
             }
         },
@@ -15750,118 +15750,118 @@ ${r.message}`,
             TOAST: Tq
         },
         Oq = {
-            BACK: "Indietro",
-            CANCEL: "Annulla",
-            CLOSE: "Chiuda",
-            CONFIRM: "Conferma",
-            CREATE: "Crea",
-            DELETE: "Elimina",
-            DONE: "Fine",
-            EDIT: "Modifica",
+            BACK: "Atpakaļ",
+            CANCEL: "Atcelt",
+            CLOSE: "Aizvērt",
+            CONFIRM: "Apstiprināt",
+            CREATE: "Izveidot",
+            DELETE: "Dzēst",
+            DONE: "Gatavs",
+            EDIT: "Rediģēt",
             OK: "OK",
-            NO: "No",
-            PLAY: "Gioca",
-            PUBLISH: "Pubblica",
-            REMOVE: "Rimuovi",
-            RESET: "Reset",
-            SUBMIT: "Invia",
-            TRY_AGAIN: "Riprova",
-            UNDO: "Annulla",
-            YES: "S\xEC"
+            NO: "Nē",
+            PLAY: "Spēlēt",
+            PUBLISH: "Publicēt",
+            REMOVE: "Noņemt",
+            RESET: "Atiestatīt",
+            SUBMIT: "Iesniegt",
+            TRY_AGAIN: "Mēģināt vēlreiz",
+            UNDO: "Atsaukt",
+            YES: "Jā"
         },
         Aq = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "definizioni nascoste sui dispositivi dei giocatori",
-                VISIBILITY_CONTROLLER_ON: "definizioni visualizzate sui dispositivi dei giocatori",
-                VISIBILITY_SCREEN_OFF: "definizioni nascoste sullo schermo di gioco",
-                VISIBILITY_SCREEN_ON: "definizioni visualizzate sullo schermo di gioco"
+                VISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
+                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
+                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
+                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
             }
         },
         wq = {
-            DISCONNECTED: "\xC8 stata effettuata la disconnessione.",
-            DRAWING_NOTHING: "Devi disegnare qualcosa!",
-            PLAYER_KICKED: "Un moderatore ti ha cacciato dalla partita.",
-            ROOM_DESTROYED: "Grazie per aver scelto di giocare con noi!",
-            ROOM_DISCONNECTED: "Disconnessione effettuata",
-            TEXT_NAUGHTY: "Purtroppo non puoi scrivere questa cosa. Abbi rispetto per gli altri giocatori.",
-            TEXT_NOTHING: "Devi per forza inserire qualcosa!",
-            TITLE: "Errore"
+            DISCONNECTED: "Tu esi atvienots.",
+            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
+            PLAYER_KICKED: "Moderators ir izsvītrojis tevi no spēles.",
+            ROOM_DESTROYED: "Paldies par spēlēšanu!",
+            ROOM_DISCONNECTED: "Atvienots",
+            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
+            TEXT_NOTHING: "Tu nevari neko ievadīt!",
+            TITLE: "Kļūda"
         },
-        Iq = "CARICAMENTO",
+        Iq = "IELĀDĒ",
         Cq = {
-            JOINED_COUNT: "Sta partecipando 1 giocatore su {maxPlayers} | Stanno partecipando {count} giocatori su {maxPlayers}",
-            PLAYERS_NEEDED: "Manca 1 giocatore per iniziare | Mancano {count} giocatori per iniziare",
-            WAITING_FOR_VIP: "In attesa di {name} per iniziare la partita",
-            WAITING_FOR_GAMEPAD: "In attesa d'iniziare la partita",
-            GAME_STARTING: "La partita sta per iniziare",
-            BUTTON_START: "Premi per avviare",
-            BUTTON_CANCEL: "Premi per annullare"
+            JOINED_COUNT: "{count} no {maxPlayers} spēlētājiem pievienojās",
+            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
+            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
+            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
+            GAME_STARTING: "Spēle ir sākusies",
+            BUTTON_START: "Nospied, lai sāktu",
+            BUTTON_CANCEL: "Nospied, lai atceltu"
         },
         Rq = {
-            GALLERY_LINK: "Visita la galleria",
-            PLAY_AGAIN: "Vuoi giocare di nuovo?",
-            BUTTON_SAME_PLAYERS: "Stessi giocatori",
-            BUTTON_NEW_PLAYERS: "Nuovi giocatori"
+            GALLERY_LINK: "Apmeklē galeriju",
+            PLAY_AGAIN: "Spēlēt vēlreiz?",
+            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
+            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
         },
         Nq = {
-            AND: "E",
-            OR: "O"
+            AND: "UN",
+            OR: "VAI"
         },
         Lq = {
-            BUTTON_SKIP: "Salta",
-            BUTTON_NEXT: "Avanti",
-            BUTTON_DONE: "Iniziamo!"
+            BUTTON_SKIP: "Izlaist",
+            BUTTON_NEXT: "Nākamais",
+            BUTTON_DONE: "Uz priekšu!"
         },
         $q = {
-            NAME: "PUBBLICO"
+            NAME: "AUDITORIJA"
         },
         Pq = {
-            EPISODE_REPORT: "Segnala episodio",
-            EPISODE_UNLOAD: "Rimuovi episodio",
-            EPISODE_VIEW_AUTHOR: "Mostra autore",
-            EPISODES_LOAD: "Carica un episodio in base al suo id:",
-            EPISODES_MENU: "Menu Episodi",
-            EPISODES_SELECT: "Oppure seleziona un episodio:",
-            EPISODES_WARNING: "Attenzione: il contenuto generato dagli utenti non \xE8 classificato",
+            EPISODE_REPORT: "Ziņot epizode",
+            EPISODE_UNLOAD: "Izkraut epizode",
+            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
+            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
+            EPISODES_MENU: "Epizodes izvēlne",
+            EPISODES_SELECT: "Vai atlasīt epsiode:",
+            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
             INSTRUCTION: {
-                CREATE_TITLE: "per prima cosa, inserisci un nome per l\u2019episodio che contenga tutti i tuoi suggerimenti e premi crea.",
-                LOAD: "creare o caricare?",
-                PUBLISH: "pubblica il tuo episodio",
-                TITLE: "dai un nome al tuo episodio",
-                TOGGLE_VISIBILITY: "tocca per mostrare/nascondere suggerimenti",
-                WRITE: "scrivi le tue definizioni"
+                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
+                LOAD: "izveidot vai ielādēt?",
+                PUBLISH: "publicēt savu epizodi",
+                TITLE: "nosauc savu epizodi",
+                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
+                WRITE: "uzraksti savas uzvednes"
             },
             WARNING: {
-                DELETE: "Vuoi davvero eliminare questo episodio?",
-                TOS: "Condividendo i contenuti, accetti le nostre [tos]Condizioni del servizio[/tos]",
-                TOS_AGREE: "accetta e condividi"
+                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
+                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
+                TOS_AGREE: "vienoties un kopīgot"
             },
-            BACK_TO_EPISODES: "torna agli episodi",
-            BACK_TO_MENU: "torna al menu",
-            CREATE_NEW_EPISODE: "crea un nuovo episodio",
-            PREVIOUS_EPISODES: "episodi precedenti",
-            PROMPT_ADD: "aggiungi suggerimento",
-            PROMPT_PLACEHOLDER: "inserisci suggerimento",
-            PROMPTS_COUNT_HIDDEN: "({count} nascosti)",
-            TITLE_PLACEHOLDER: "inserisci un titolo"
+            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
+            BACK_TO_MENU: "atpakaļ uz izvēlni",
+            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
+            PREVIOUS_EPISODES: "iepriekšējās epizodes",
+            PROMPT_ADD: "pievienot uzvedni",
+            PROMPT_PLACEHOLDER: "ievadi uzvedni",
+            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
+            TITLE_PLACEHOLDER: "ievadi nosaukumu"
         },
         kq = {
             BROADCASTER: {
-                SUBTEXT: "Il collegamento del tuo account con l'estensione per Twitch Jackbox Audience Kit \xE8 andato a buon fine.",
-                WARNING: "L'IMPOSTAZIONE DEL PUBBLICO NON \xC8 ATTIVA PER QUESTA STANZA"
+                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
+                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
             },
             RECONNECTED: {
-                TEXT: "RICONNESSO",
-                SUBTEXT: "Buon divertimento!"
+                TEXT: "ATJAUNOT",
+                SUBTEXT: "Izklaidējies!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNESSIONE INTERROTTA",
-                    SUBTEXT: "Tentativo di riconnessione in corso ({attempt} di 5)"
+                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
+                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
                 },
                 GAME: {
-                    TEXT: "CONNESSIONE AL GIOCO INTERROTTA",
-                    SUBTEXT: "Resta in attesa mentre proviamo a riconnetterci"
+                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
+                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
                 }
             }
         },
@@ -23654,11 +23654,11 @@ function print() { __p += __j.call(arguments, '') }
                 }
             }
         }),
-        Ow = "main/@connect/assets/ad9172fc.png",
-        Aw = "main/@connect/assets/dc131b16.png",
-        oQ = "main/@connect/assets/38715b18.png",
-        cQ = "main/@connect/assets/b0d7c822.png",
-        uQ = "main/@connect/assets/06150f24.png",
+        Ow = "main/@connect/assets/quips/star.png",
+        Aw = "main/@connect/assets/quips/kitten.png",
+        oQ = "main/@connect/assets/happy.png",
+        cQ = "main/@connect/assets/neutral.png",
+        uQ = "main/@connect/assets/sad.png",
         pn = e => (Wa("data-v-c4b66a33"), e = e(), ja(), e),
         lQ = {
             class: "jbg"
@@ -26356,14 +26356,14 @@ ${t}`
         lte = gc(() => z("a", {
             class: "logo",
             href: "/",
-            "aria-label": "Jackbox Games Logo"
+            "aria-label": "Jackbox Games logotips"
         }, null, -1)),
         fte = {
             class: "content"
         },
-        dte = gc(() => z("h1", null, "You have encountered an error", -1)),
-        hte = gc(() => z("p", null, "Something went wrong! But don't worry, you can try a few things to get going.", -1)),
-        pte = gc(() => z("ul", null, [z("li", null, "Refresh the page"), z("li", null, "Turn off adblockers or other browser extensions."), z("li", null, "Check your connection to the Internet."), z("li", null, "Make sure you're using an up-to-date browser."), z("li", null, "If that doesn't work, let us know.")], -1)),
+        dte = gc(() => z("h1", null, "Tu saskaries ar kļūdu", -1)),
+        hte = gc(() => z("p", null, "Kaut kas notika nepareizi! Bet neuztraucies, tu vari izmēģināt dažas lietas, lai sāktu darboties.", -1)),
+        pte = gc(() => z("ul", null, [z("li", null, "Atsvaidzini lapu"), z("li", null, "Izslēdz reklāmu bloķētājus vai citus pārlūkprogrammas paplašinājumus."), z("li", null, "Pārbaudi interneta savienojumu."), z("li", null, "Pārliecinies, ka izmanto atjauninātu pārlūkprogrammu."), z("li", null, "Ja tas nedarbojas, ziņo mums.")], -1)),
         gte = gc(() => z("hr", null, null, -1)),
         mte = {
             class: "error"
@@ -26372,7 +26372,7 @@ ${t}`
     function _te(e, t, r, n, s, a) {
         return X(), ee("div", cte, [z("div", ute, [lte, z("div", fte, [dte, hte, pte, z("button", {
             onClick: t[0] || (t[0] = (...c) => e.onFeedbackClick && e.onFeedbackClick(...c))
-        }, "Tell us what happened"), gte, z("pre", mte, Ce(e.message), 1)])])])
+        }, "Pastāsti, kas noticis"), gte, z("pre", mte, Ce(e.message), 1)])])])
     }
     const vte = bt(ote, [
             ["render", _te],
@@ -26485,26 +26485,26 @@ ${t}`
                 dismissText: String
             }
         }),
-        Jte = "main/@connect/assets/928ef0da.png",
-        Qte = "main/@connect/assets/0bb76a2d.png",
-        Zte = "main/@connect/assets/ed4469b3.png",
+        Jte = "main/@connect/assets/quips/tear.png",
+        Qte = "main/@connect/assets/quips/moon.png",
+        Zte = "main/@connect/assets/quips/poop.png",
         ere = {
             key: 0,
             class: "image",
             src: Jte,
-            alt: "Kicked"
+            alt: "Izmests"
         },
         tre = {
             key: 1,
             class: "image",
             src: Qte,
-            alt: "Thank You"
+            alt: "Paldies"
         },
         rre = {
             key: 2,
             class: "image",
             src: Zte,
-            alt: "Error"
+            alt: "Kļūda"
         },
         nre = {
             class: "text"
@@ -26809,93 +26809,92 @@ ${t}`
         }
     });
     const yre = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Refresh Required",
-            PREFERRED: "PREFERRED BRANCH",
-            SELECT: "Select a Branch",
-            WAITING: "Waiting for Room"
+            LABEL: "ZARS",
+            REFRESH_REQUIRED: "Nepieciešams atjaunināt",
+            PREFERRED: "VĒLAMAIS ZARS",
+            SELECT: "Izvēlies zaru",
+            WAITING: "Telpas gaidīšana"
         },
         Ere = {
-            UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-            ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
-            AUDIENCE_IS_FULL: "The audience is full",
-            UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
-            UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-            KICKED: "You cannot join because you have been kicked by a moderator",
-            REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-            ROOM_IS_LOCKED: "Game is locked",
-            INCORRECT_PASSWORD: "Incorrect password",
-            GENERIC: "Error joining this game",
-            FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+            UNSUPPORTED_BROWSER: "Šajā pārlūkprogrammā šī spēle nav atbalstīta. Skati '?' vai PALĪDZĪBA, lai skatītu saderīgo pārlūkprogrammu sarakstu.",
+            ROOM_IS_FULL: "Spēle ir pilna",
+            ROOM_NOT_FOUND: "Telpa nav atrasta",
+            AUDIENCE_IS_FULL: "Auditorija ir pilna",
+            UNABLE_TO_CONNECT: "Nevar izveidot savienojumu ar Jackbox Games serveri. To parasti izraisa reklāmu bloķētāji vai privātuma paplašinājumi.",
+            UNABLE_TO_PRELOAD: "Nevar ielādēt šo spēļu komplektu",
+            KICKED: "Tu nevari pievienoties, jo tevi izmeta moderators.",
+            REQUIRES_TWITCH_LOGIN: "Spēlei nepieciešams Twitch pieteikšanās",
+            ROOM_IS_LOCKED: "Spēle ir aizslēgta",
+            INCORRECT_PASSWORD: "Nepareiza parole",
+            GENERIC: "Kļūdas dēļ nav iespējams pievienoties spēlei",
+            FILTER_NAME: "Šajā spēlē ir ieslēgti lamāšanās filtri. Lūdzu, izvēlies citu vārdu."
         },
         bre = {
-            NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-            PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            NAME: "VĀRDS",
+            NAME_PLACEHOLDER: "IEVADI SAVU VĀRDU",
+            PASSWORD_PLACEHOLDER: "IEVADI 5 CIPARU PAROLI",
+            PASSWORD_REQUIRED_TITLE: "Nepieciešama parole",
+            PASSWORD_REQUIRED_BODY: "Lūdzu, ievadi paroli vai pievienojies kā auditorijas dalībnieks",
+            PASSWORD_JOIN_AS_PLAYER: "Pievienoties kā spēlētājs",
+            PASSWORD_JOIN_AS_AUDIENCE: "Pievienoties auditorijai",
+            ROOM_CODE: "TELPAS KODS",
+            ROOM_CODE_PLACEHOLDER: "IEVADI 4 BURTU KODU"
         },
-        Tre = "Link to Jackbox Games Homepage",
+        Tre = "Saite uz Jackbox Games mājaslapu",
         Sre = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "IZSKATS",
+            DARK: "tumšs",
+            HELP: "PALĪDZĪBA",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
-            MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            LIGHT: "gaišs",
+            LOGOUT: "ATTEIKTIES",
+            MERCH: "TULKOJUMI",
+            PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
+            MAILING_LIST: "DISCORD SERVERIS",
+            MODERATOR: "MODERĒŠANA"
         },
         Ore = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "APLŪKOT SPĒLI UN VEIKALU",
+                VIEW: "APLŪKOT ŠO SPĒLI"
             },
-            NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            NEW: "JAUNS",
+            PLAYED_ON: "SPĒLĒTS",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "Vai tu esi pārliecināts?",
+                DESCRIPTION: "Tas neatgriezeniski izdzēsīs šo spēli",
+                MANAGE: "Noņemt spēli?",
+                TITLE: "Vai tu esi pārliecināts?"
             }
         },
         Are = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "Pagājušās spēles vēl nav",
+            MANAGE: "PĀRVALDĪT",
+            TITLE: "TAVAS PAGĀTNESES SPĒLES"
         },
         wre = {
-            TITLE: "RECENT GAMES",
+            TITLE: "PAGĀJUŠĀS SPĒLES",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "SKATĪT VISUS",
+                LINK: "SKATĪT VISAS PAGĀJUŠĀS SPĒLES"
             }
         },
         Ire = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "Spēle ir pilna",
+            GAME_STARTED: "Spēle ir sākusies",
+            ROOM_NOT_FOUND: "Telpa nav atrasta"
         },
         Cre = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "SPĒLE IR PILNA",
+            GAME_STARTED: "SPĒLE IR SĀKUSIES",
+            JOIN_AUDIENCE: "PIEVIENOTIES AUDITORIJAI",
+            RECONNECT: "ATJAUNOT",
+            TWITCH_LOGIN: "AUTORIZĒTIES AR TWITCH",
         },
         Rre = {
-            CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            CAMERA: "[b]PIEVĒRS UZMANĪBU:[/b] Mēs neatrodam kameru, taču spēli var spēlēt arī bez fotoattēla. Ja tas šķiet nepareizi, mēģini pievienoties, izmantojot citu pārlūkprogrammu.",
+            STYLE: "[b]PIEVĒRS UZMANĪBU:[/b] Šķiet, ka tava pārlūkprogramma ir nedaudz novecojusi, un tai būs problēmas ar šīs spēles rādīšanu.",
+            TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]"
         },
         Nre = {
             BRANCH: yre,
@@ -27013,93 +27012,92 @@ de votre liste d'anciennes parties.`,
             WARNING: Gre
         },
         jre = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Ricarica necessaria",
-            PREFERRED: "BRANCH PREFERITA",
-            SELECT: "Scegli una branch",
-            WAITING: "In attesa di una stanza"
+            LABEL: "ZARS",
+            REFRESH_REQUIRED: "Nepieciešams atjaunināt",
+            PREFERRED: "VĒLAMAIS ZARS",
+            SELECT: "Izvēlies zaru",
+            WAITING: "Telpas gaidīšana"
         },
         Hre = {
-            UNSUPPORTED_BROWSER: "Il gioco non \xE8 supportato dal browser attualmente in uso. Clicca su '?' o AIUTO per visualizzare la lista dei browser compatibili.",
-            ROOM_IS_FULL: "La partita \xE8 al completo",
-            ROOM_NOT_FOUND: "Stanza non trovata",
-            AUDIENCE_IS_FULL: "Il pubblico \xE8 al completo",
-            UNABLE_TO_CONNECT: "Impossibile collegarsi al server Jackbox Games. Solitamente il problema \xE8 causato da adblocker o estensioni per la privacy.",
-            UNABLE_TO_PRELOAD: "Impossibile pre-caricare questo bundle di giochi",
-            KICKED: "Non puoi unirti perch\xE9 un moderatore ti ha cacciato",
-            REQUIRES_TWITCH_LOGIN: "Questo gioco richiede l'accesso a Twitch",
-            ROOM_IS_LOCKED: "La stanza \xE8 bloccata",
-            INCORRECT_PASSWORD: "Password errata",
-            GENERIC: "Impossibile entrare in questa stanza",
-            FILTER_NAME: "Questa partita ha i filtri delle volgarit\xE0 attivi. Scegli un nome diverso."
+            UNSUPPORTED_BROWSER: "Šajā pārlūkprogrammā šī spēle nav atbalstīta. Skati '?' vai PALĪDZĪBA, lai skatītu saderīgo pārlūkprogrammu sarakstu.",
+            ROOM_IS_FULL: "Spēle ir pilna",
+            ROOM_NOT_FOUND: "Telpa nav atrasta",
+            AUDIENCE_IS_FULL: "Auditorija ir pilna",
+            UNABLE_TO_CONNECT: "Nevar izveidot savienojumu ar Jackbox Games serveri. To parasti izraisa reklāmu bloķētāji vai privātuma paplašinājumi.",
+            UNABLE_TO_PRELOAD: "Nevar ielādēt šo spēļu komplektu",
+            KICKED: "Tu nevari pievienoties, jo tevi izmeta moderators.",
+            REQUIRES_TWITCH_LOGIN: "Spēlei nepieciešams Twitch pieteikšanās",
+            ROOM_IS_LOCKED: "Spēle ir aizslēgta",
+            INCORRECT_PASSWORD: "Nepareiza parole",
+            GENERIC: "Kļūdas dēļ nav iespējams pievienoties spēlei",
+            FILTER_NAME: "Šajā spēlē ir ieslēgti lamāšanās filtri. Lūdzu, izvēlies citu vārdu."
         },
         qre = {
-            NAME: "NOME",
-            NAME_PLACEHOLDER: "INSERISCI IL TUO NOME",
-            PASSWORD_PLACEHOLDER: "INSERISCI LA PASSWORD DI 5 CARATTERI",
-            PASSWORD_REQUIRED_TITLE: "Password necessaria",
-            PASSWORD_REQUIRED_BODY: "Inserisci la password o partecipa come pubblico",
-            PASSWORD_JOIN_AS_PLAYER: "Partecipa come giocatore",
-            PASSWORD_JOIN_AS_AUDIENCE: "Partecipa come pubblico",
-            ROOM_CODE: "CODICE STANZA",
-            ROOM_CODE_PLACEHOLDER: "INSERISCI IL CODICE DI 4 LETTERE"
+            NAME: "VĀRDS",
+            NAME_PLACEHOLDER: "IEVADI SAVU VĀRDU",
+            PASSWORD_PLACEHOLDER: "IEVADI 5 CIPARU PAROLI",
+            PASSWORD_REQUIRED_TITLE: "Nepieciešama parole",
+            PASSWORD_REQUIRED_BODY: "Lūdzu, ievadi paroli vai pievienojies kā auditorijas dalībnieks",
+            PASSWORD_JOIN_AS_PLAYER: "Pievienoties kā spēlētājs",
+            PASSWORD_JOIN_AS_AUDIENCE: "Pievienoties auditorijai",
+            ROOM_CODE: "TELPAS KODS",
+            ROOM_CODE_PLACEHOLDER: "IEVADI 4 BURTU KODU"
         },
-        Kre = "Link alla homepage di Jackbox Games",
+        Kre = "Saite uz Jackbox Games mājaslapu",
         Vre = {
-            APPEARANCE: "ASPETTO",
-            DARK: "scuro",
-            HELP: "AIUTO",
+            APPEARANCE: "IZSKATS",
+            DARK: "tumšs",
+            HELP: "PALĪDZĪBA",
             TWITCH: "TWITCH",
-            LIGHT: "chiaro",
-            LOGOUT: "ESCI",
-            MERCH: "NEGOZIO",
-            PAST_GAMES: "PARTITE PRECEDENTI",
-            MAILING_LIST: "NEWSLETTER",
-            MODERATOR: "MODERATORE"
+            LIGHT: "gaišs",
+            LOGOUT: "ATTEIKTIES",
+            MERCH: "TULKOJUMI",
+            PAST_GAMES: "PAGĀJUŠĀS SPĒLES",
+            MAILING_LIST: "DISCORD SERVERIS",
+            MODERATOR: "MODERĒŠANA"
         },
         Yre = {
             CALL_TO_ACTION: {
-                SHOP: "VISUALIZZA GIOCO E NEGOZIO",
-                VIEW: "VISUALIZZA QUESTO GIOCO"
+                SHOP: "APLŪKOT SPĒLI UN VEIKALU",
+                VIEW: "APLŪKOT ŠO SPĒLI"
             },
-            NEW: "NUOVO",
-            PLAYED_ON: "GIOCATO IL",
+            NEW: "JAUNS",
+            PLAYED_ON: "SPĒLĒTS",
             REMOVE: {
-                CONFIRM: "Confermi?",
-                DESCRIPTION: `Quest'azione rimuover\xE0 per sempre questo gioco
-dalla lista dei giochi precedenti.`,
-                MANAGE: "Rimuovere gioco?",
-                TITLE: "Confermi?"
+                CONFIRM: "Vai tu esi pārliecināts?",
+                DESCRIPTION: "Tas neatgriezeniski izdzēsīs šo spēli",
+                MANAGE: "Noņemt spēli?",
+                TITLE: "Vai tu esi pārliecināts?"
             }
         },
         zre = {
-            EMPTY: "Nessun gioco precedente",
-            MANAGE: "GESTISCI",
-            TITLE: "I TUOI GIOCHI PRECEDENTI"
+            EMPTY: "Pagājušās spēles vēl nav",
+            MANAGE: "PĀRVALDĪT",
+            TITLE: "TAVAS PAGĀTNESES SPĒLES"
         },
         Xre = {
-            TITLE: "GIOCHI RECENTI",
+            TITLE: "PAGĀJUŠĀS SPĒLES",
             VIEW_ALL: {
-                BUTTON: "VISUALIZZA TUTTO",
-                LINK: "VISUALIZZA TUTTI I GIOCHI RECENTI"
+                BUTTON: "SKATĪT VISUS",
+                LINK: "SKATĪT VISAS PAGĀJUŠĀS SPĒLES"
             }
         },
         Jre = {
-            GAME_FULL: "La partita \xE8 al completo",
-            GAME_STARTED: "La partita \xE8 gi\xE0 iniziata",
-            ROOM_NOT_FOUND: "Stanza non trovata"
+            GAME_FULL: "Spēle ir pilna",
+            GAME_STARTED: "Spēle ir sākusies",
+            ROOM_NOT_FOUND: "Telpa nav atrasta"
         },
         Qre = {
-            GAME_FULL: "LA PARTITA \xC8 AL COMPLETO",
-            GAME_STARTED: "LA PARTITA \xC8 GI\xC0 INIZIATA",
-            JOIN_AUDIENCE: "PARTECIPA COME PUBBLICO",
-            RECONNECT: "RICOLLEGATI",
-            TWITCH_LOGIN: "ACCEDI CON TWITCH"
+            GAME_FULL: "SPĒLE IR PILNA",
+            GAME_STARTED: "SPĒLE IR SĀKUSIES",
+            JOIN_AUDIENCE: "PIEVIENOTIES AUDITORIJAI",
+            RECONNECT: "ATJAUNOT",
+            TWITCH_LOGIN: "AUTORIZĒTIES AR TWITCH",
         },
         Zre = {
-            CAMERA: "[b]AVVISO:[/b] Non rileviamo la telecamera, ma puoi giocare anche senza aggiungere una foto. Se la cosa non ti torna, prova ad accedere usando un altro browser.",
-            STYLE: "[b]AVVISO:[/b] Il tuo browser \xE8 obsoleto e avr\xE0 dei problemi a visualizzare il gioco.",
-            TOS: "Selezionando {submit}, accetti le [tos]Condizioni del servizio[/tos]"
+            CAMERA: "[b]PIEVĒRS UZMANĪBU:[/b] Mēs neatrodam kameru, taču spēli var spēlēt arī bez fotoattēla. Ja tas šķiet nepareizi, mēģini pievienoties, izmantojot citu pārlūkprogrammu.",
+            STYLE: "[b]PIEVĒRS UZMANĪBU:[/b] Šķiet, ka tava pārlūkprogramma ir nedaudz novecojusi, un tai būs problēmas ar šīs spēles rādīšanu.",
+            TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]"
         },
         ene = {
             BRANCH: jre,
@@ -27454,7 +27452,7 @@ de tu lista de partidas anteriores.`,
                 }
             }
         }),
-        Fne = "main/@connect/assets/a96a9236.png",
+        Fne = "main/@connect/assets/quips/red.png",
         tI = e => (Wa("data-v-f058cb4c"), e = e(), ja(), e),
         Bne = {
             class: "jbg password"
@@ -27462,7 +27460,7 @@ de tu lista de partidas anteriores.`,
         Gne = tI(() => z("img", {
             class: "image",
             src: Fne,
-            alt: "Enter Password"
+            alt: "Ievadi paroli"
         }, null, -1)),
         Wne = {
             class: "text"
@@ -28754,7 +28752,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const r = await (await fetch("https://s3.amazonaws.com/static.jackboxgames.com/banners.json")).json(),
+                        const r = await (await fetch("/banners/banners.json")).json(),
                             n = (e = r == null ? void 0 : r.bannerAds) != null ? e : [];
                         this.banners = n.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,

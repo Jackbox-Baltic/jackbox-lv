@@ -1341,7 +1341,7 @@
     display: block;
     width: 100%;
     padding-top: 37.7778%;
-    background-image: url(7f09428e.png);
+    background-image: url(logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center
@@ -2553,7 +2553,7 @@ button.twitch[data-v-f5303469] {
     line-height: 50px;
     margin: 30px 0 17px;
     padding-left: 50px;
-    background: url(7d18ac0c.svg) no-repeat center left/40px
+    background: url(broadcaster.svg) no-repeat center left/40px
 }
 
 .toast.broadcaster .subtext[data-v-a1d75592] {
@@ -2564,7 +2564,7 @@ button.twitch[data-v-f5303469] {
     border-top: 1px solid #CDCDCD;
     line-height: normal;
     padding: 20px 0 20px 50px;
-    background: url(92bb55df.png) no-repeat center left/40px
+    background: url(warning.png) no-repeat center left/40px
 }
 
 .spinner[data-v-a1d75592] {
@@ -4976,20 +4976,20 @@ header .logo[data-v-fd5cfd89] {
     width: 90%;
     height: 28px;
     margin: 0 auto;
-    background-image: url(60878393.svg);
+    background-image: url(logoen.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat
 }
 
 .locale-fr header .logo[data-v-fd5cfd89] {
-    background-image: url(002efcb8.svg)
+    background-image: url(logofr.svg)
 }
 
 .locale-it header .logo[data-v-fd5cfd89] {
-    background-image: url(4160f030.svg)
+    background-image: url(logoit.svg)
 }
 
 .locale-es header .logo[data-v-fd5cfd89] {
-    background-image: url(fb662fbd.svg)
+    background-image: url(logoes.svg)
 }

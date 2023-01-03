@@ -11872,7 +11872,7 @@ Url: ${Wr(t)}`), !0)
             n === void 0 || n === i || Us(de())
         }))
     }
-    const wS = "UNABLE TO LOAD. TAP TO TRY AGAIN.",
+    const wS = "NEVAR IELĀDĒT. PIESKARIES, LAI MĒĢINĀTU VĒLREIZ.",
         SS = {
             RETRY: wS
         },

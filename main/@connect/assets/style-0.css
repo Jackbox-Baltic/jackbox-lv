@@ -1341,7 +1341,7 @@
     display: block;
     width: 100%;
     padding-top: 37.7778%;
-    background-image: url(7f09428e.png);
+    background-image: url(logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center
@@ -2566,7 +2566,7 @@ button.twitch[data-v-db592987] {
     line-height: 50px;
     margin: 30px 0 17px;
     padding-left: 50px;
-    background: url(7d18ac0c.svg) no-repeat center left/40px
+    background: url(broadcaster.svg) no-repeat center left/40px
 }
 
 .toast.broadcaster .subtext[data-v-ab390562] {
@@ -2577,7 +2577,7 @@ button.twitch[data-v-db592987] {
     border-top: 1px solid #CDCDCD;
     line-height: normal;
     padding: 20px 0 20px 50px;
-    background: url(92bb55df.png) no-repeat center left/40px
+    background: url(warning.png) no-repeat center left/40px
 }
 
 .spinner[data-v-ab390562] {
@@ -3200,7 +3200,7 @@ button.audience:before {
     width: 40px;
     height: 23px;
     vertical-align: -6px;
-    background-image: url(96fc9006.svg);
+    background-image: url(audience.svg);
     background-position: center left;
     background-repeat: no-repeat;
     opacity: .6
@@ -3504,139 +3504,139 @@ button.audience.connecting:before {
 }
 
 .image.quiplash2-internationalGame[data-v-0d31969f] {
-    background-image: url(9eaa6748.jpg)
+    background-image: url(fallback/quip2int.jpg)
 }
 
 .image.DrawfulGame[data-v-0d31969f] {
-    background-image: url(541db9ba.jpg)
+    background-image: url(fallback/draw2.jpg)
 }
 
 .image.TeeKOGame[data-v-0d31969f] {
-    background-image: url(3bae2cc0.jpg)
+    background-image: url(fallback/kreko.jpg)
 }
 
 .image.Quiplash2Game[data-v-0d31969f] {
-    background-image: url(eb69738a.jpg)
+    background-image: url(fallback/quip2.jpg)
 }
 
 .image.TriviaDeathResults[data-v-0d31969f] {
-    background-image: url(9911eb72.jpg)
+    background-image: url(fallback/tmp.jpg)
 }
 
 .image.STIGame[data-v-0d31969f] {
-    background-image: url(1987581d.png)
+    background-image: url(fallback/sti.png)
 }
 
 .image.MonsterMingleGame[data-v-0d31969f] {
-    background-image: url(27ef6223.png)
+    background-image: url(fallback/msm.png)
 }
 
 .image.BRKGame[data-v-0d31969f] {
-    background-image: url(bb452a55.png)
+    background-image: url(fallback/brk.png)
 }
 
 .image.OverdrawnGame[data-v-0d31969f] {
-    background-image: url(322c82ae.png)
+    background-image: url(fallback/doodle.png)
 }
 
 .image.YDKJ2018Game[data-v-0d31969f] {
-    background-image: url(44cd0ac2.png)
+    background-image: url(fallback/ydkj2018.png)
 }
 
 .image.SplitTheRoomGame[data-v-0d31969f] {
-    background-image: url(af8e3c6b.png)
+    background-image: url(fallback/str.png)
 }
 
 .image.RapBattleGame[data-v-0d31969f] {
-    background-image: url(42f9d439.png)
+    background-image: url(fallback/rap.png)
 }
 
 .image.SlingShootGame[data-v-0d31969f] {
-    background-image: url(c1d18a19.png)
+    background-image: url(fallback/zeepledome.png)
 }
 
 .image.PatentlyStupidGame[data-v-0d31969f] {
-    background-image: url(78533ea7.png)
+    background-image: url(fallback/stupid.png)
 }
 
 .image.TriviaDeath2Game[data-v-0d31969f] {
-    background-image: url(c89229f2.png)
+    background-image: url(fallback/tmp2.png)
 }
 
 .image.RoleModelsGame[data-v-0d31969f] {
-    background-image: url(e919bf5b.png)
+    background-image: url(fallback/rolemodels.png)
 }
 
 .image.JokeboatGame[data-v-0d31969f] {
-    background-image: url(716abe50.png)
+    background-image: url(fallback/jokeboat.png)
 }
 
 .image.RidictionaryGame[data-v-0d31969f] {
-    background-image: url(408023b7.png)
+    background-image: url(fallback/dictionarium.png)
 }
 
 .image.PushTheButtonGame[data-v-0d31969f] {
-    background-image: url(16682b82.png)
+    background-image: url(fallback/ptb.png)
 }
 
 .image.JackboxTalksGame[data-v-0d31969f] {
-    background-image: url(198566d8.png)
+    background-image: url(fallback/talkingpoints.png)
 }
 
 .image.quiplash3Game[data-v-0d31969f] {
-    background-image: url(b48e15c1.jpg)
+    background-image: url(fallback/quip3.jpg)
 }
 
 .image.EverydayGame[data-v-0d31969f] {
-    background-image: url(19dfbf04.jpg)
+    background-image: url(fallback/devils.jpg)
 }
 
 .image.WorldChampionsGame[data-v-0d31969f] {
-    background-image: url(61a95637.jpg)
+    background-image: url(fallback/champdup.jpg)
 }
 
 .image.BlankyBlankGame[data-v-0d31969f] {
-    background-image: url(028cb815.jpg)
+    background-image: url(fallback/blatherround.jpg)
 }
 
 .image.DrawfulAnimateGame[data-v-0d31969f] {
-    background-image: url(9d886310.png)
+    background-image: url(fallback/drawanimate.png)
 }
 
 .image.TheWheelGame[data-v-0d31969f] {
-    background-image: url(01d9c2ec.png)
+    background-image: url(fallback/wheel.png)
 }
 
 .image.JobGameGame[data-v-0d31969f] {
-    background-image: url(6b89ee2e.png)
+    background-image: url(fallback/jobjob.png)
 }
 
 .image.SurveyBombGame[data-v-0d31969f] {
-    background-image: url(e2c49430.jpg)
+    background-image: url(fallback/pollmine.jpg)
 }
 
 .image.MurderDetectivesGame[data-v-0d31969f] {
-    background-image: url(a2a7a291.png)
+    background-image: url(fallback/weaponsdrawn.png)
 }
 
 .image.AntiqueGameGame[data-v-0d31969f] {
-    background-image: url(116c49cb.png)
+    background-image: url(fallback/junktopia.png)
 }
 
 .image.Fibbage4Game[data-v-0d31969f] {
-    background-image: url(6612b6e5.jpg)
+    background-image: url(fallback/fibbage4.jpg)
 }
 
 .image.MakeFriendsGame[data-v-0d31969f] {
-    background-image: url(a2f05915.png)
+    background-image: url(fallback/roomerang.png)
 }
 
 .image.RangeGameGame[data-v-0d31969f] {
-    background-image: url(8b94f010.jpg)
+    background-image: url(fallback/nonsens.jpg)
 }
 
 .image.LineupGame[data-v-0d31969f] {
-    background-image: url(c196efa4.jpg)
+    background-image: url(fallback/quixort.jpg)
 }
 
 .content[data-v-0d31969f] {
@@ -5470,7 +5470,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     padding-left: 25px;
     border: 5px solid #fff;
     background-color: #64449b;
-    background-image: url(ddafab7c.svg);
+    background-image: url(twitch.svg);
     background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: 45px 13px;
@@ -5505,15 +5505,15 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .nav li.social a.facebook[data-v-1e5a97d3] {
-    background-image: url(db071eb1.svg)
+    background-image: url(facebook.svg)
 }
 
 .nav li.social a.twitter[data-v-1e5a97d3] {
-    background-image: url(e2bf4745.svg)
+    background-image: url(twitter.svg)
 }
 
 .nav li.social a.instagram[data-v-1e5a97d3] {
-    background-image: url(eeb0ea33.svg)
+    background-image: url(instagram.svg)
 }
 
 .nav li a .indicator[data-v-1e5a97d3] {
@@ -6099,7 +6099,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 .header .logo[data-v-58d13316] {
     width: 100%;
     height: 28px;
-    background-image: url(01da13ff.svg);
+    background-image: url(jackboxtv.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat
@@ -6111,7 +6111,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     top: 5px;
     width: 24px;
     height: 20px;
-    background-image: url(04d200fb.png);
+    background-image: url(hamburger.png);
     background-size: 576px 20px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -6138,7 +6138,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     left: -4px;
     width: 35px;
     height: 40px;
-    background-image: url(5f0cfe12.png);
+    background-image: url(avatartwitch.png);
     background-size: cover
 }
 
@@ -6481,7 +6481,7 @@ a.bottom-logo[data-v-9263413f] {
     max-width: 320px;
     margin: 20px auto;
     color: transparent;
-    background-image: url(b536a8d6.svg);
+    background-image: url(jackboxgames.svg);
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat
