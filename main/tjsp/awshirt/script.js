@@ -4676,10 +4676,10 @@ var Jie = pN((Zie, Bw) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
-            return t.replace(/[^\u0100-\u017F\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            return t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -10609,118 +10609,118 @@ ${r.message}`,
     let jl = Za;
     ce(jl, "isPolyfilled", !1);
     const Nj = {
-            BACK: "Atpakaļ",
-            CANCEL: "Atcelt",
-            CLOSE: "Aizvērt",
-            CONFIRM: "Apstiprināt",
-            CREATE: "Izveidot",
-            DELETE: "Dzēst",
-            DONE: "Gatavs",
-            EDIT: "Rediģēt",
+            BACK: "Back",
+            CANCEL: "Cancel",
+            CLOSE: "Close",
+            CONFIRM: "Confirm",
+            CREATE: "Create",
+            DELETE: "Delete",
+            DONE: "Done",
+            EDIT: "Edit",
             OK: "OK",
-            NO: "Nē",
-            PLAY: "Spēlēt",
-            PUBLISH: "Publicēt",
-            REMOVE: "Noņemt",
-            RESET: "Atiestatīt",
-            SUBMIT: "Iesniegt",
-            TRY_AGAIN: "Mēģināt vēlreiz",
-            UNDO: "Atsaukt",
-            YES: "Jā"
+            NO: "No",
+            PLAY: "Play",
+            PUBLISH: "Publish",
+            REMOVE: "Remove",
+            RESET: "Reset",
+            SUBMIT: "Submit",
+            TRY_AGAIN: "Try Again",
+            UNDO: "Undo",
+            YES: "Yes"
         },
         Mj = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
-                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
-                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
-                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
+                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
+                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
+                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
+                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
             }
         },
         Dj = {
-            DISCONNECTED: "Tu esi atvienots.",
-            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
-            PLAYER_KICKED: "Moderators ir izsvītrojis tevi no spēles.",
-            ROOM_DESTROYED: "Paldies par spēlēšanu!",
-            ROOM_DISCONNECTED: "Atvienots",
-            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
-            TEXT_NOTHING: "Tu nevari neko ievadīt!",
-            TITLE: "Kļūda"
+            DISCONNECTED: "You have been disconnected.",
+            DRAWING_NOTHING: "You have to draw something!",
+            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
+            ROOM_DESTROYED: "Thanks for playing!",
+            ROOM_DISCONNECTED: "Disconnected",
+            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
+            TEXT_NOTHING: "You can\u2019t enter nothing!",
+            TITLE: "Error"
         },
-        kj = "IELĀDĒ",
+        kj = "LOADING",
         Pj = {
-            JOINED_COUNT: "{count} no {maxPlayers} spēlētājiem pievienojās",
-            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
-            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
-            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
-            GAME_STARTING: "Spēle ir sākusies",
-            BUTTON_START: "Nospied, lai sāktu",
-            BUTTON_CANCEL: "Nospied, lai atceltu"
+            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
+            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
+            WAITING_FOR_VIP: "Waiting for {name} to start the game",
+            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
+            GAME_STARTING: "Game is starting",
+            BUTTON_START: "Press to Start",
+            BUTTON_CANCEL: "Press to Cancel"
         },
         Bj = {
-            GALLERY_LINK: "Apmeklē galeriju",
-            PLAY_AGAIN: "Spēlēt vēlreiz?",
-            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
-            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
+            GALLERY_LINK: "Visit the Gallery",
+            PLAY_AGAIN: "Play again?",
+            BUTTON_SAME_PLAYERS: "Same Players",
+            BUTTON_NEW_PLAYERS: "New Players"
         },
         xj = {
-            AND: "UN",
-            OR: "VAI"
+            AND: "AND",
+            OR: "OR"
         },
         Uj = {
-            BUTTON_SKIP: "Izlaist",
-            BUTTON_NEXT: "Nākamais",
-            BUTTON_DONE: "Uz priekšu!"
+            BUTTON_SKIP: "Skip",
+            BUTTON_NEXT: "Next",
+            BUTTON_DONE: "Let\u2019s Go!"
         },
         Fj = {
-            NAME: "AUDITORIJA"
+            NAME: "AUDIENCE"
         },
         Gj = {
-            EPISODE_REPORT: "Ziņot epizode",
-            EPISODE_UNLOAD: "Izkraut epizode",
-            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
-            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
-            EPISODES_MENU: "Epizodes izvēlne",
-            EPISODES_SELECT: "Vai atlasīt epsiode:",
-            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
+            EPISODE_REPORT: "Report Episode",
+            EPISODE_UNLOAD: "Unload Episode",
+            EPISODE_VIEW_AUTHOR: "View Author",
+            EPISODES_LOAD: "Load an episode by id:",
+            EPISODES_MENU: "Episodes Menu",
+            EPISODES_SELECT: "Or select an epsiode:",
+            EPISODES_WARNING: "Warning: user generated content is not rated",
             INSTRUCTION: {
-                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
-                LOAD: "izveidot vai ielādēt?",
-                PUBLISH: "publicēt savu epizodi",
-                TITLE: "nosauc savu epizodi",
-                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
-                WRITE: "uzraksti savas uzvednes"
+                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
+                LOAD: "create or load?",
+                PUBLISH: "publish your episode",
+                TITLE: "name your episode",
+                TOGGLE_VISIBILITY: "tap to show/hide prompts",
+                WRITE: "write your prompts"
             },
             WARNING: {
-                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
-                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
-                TOS_AGREE: "vienoties un kopīgot"
+                DELETE: "Are you sure you want to delete this episode?",
+                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
+                TOS_AGREE: "agree and share"
             },
-            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
-            BACK_TO_MENU: "atpakaļ uz izvēlni",
-            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
-            PREVIOUS_EPISODES: "iepriekšējās epizodes",
-            PROMPT_ADD: "pievienot uzvedni",
-            PROMPT_PLACEHOLDER: "ievadi uzvedni",
-            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
-            TITLE_PLACEHOLDER: "ievadi nosaukumu"
+            BACK_TO_EPISODES: "back to episodes",
+            BACK_TO_MENU: "back to menu",
+            CREATE_NEW_EPISODE: "create a new episode",
+            PREVIOUS_EPISODES: "previous episodes",
+            PROMPT_ADD: "add prompt",
+            PROMPT_PLACEHOLDER: "enter a prompt",
+            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
+            TITLE_PLACEHOLDER: "enter a title"
         },
         jj = {
             BROADCASTER: {
-                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
-                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
+                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
+                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
             },
             RECONNECTED: {
-                TEXT: "ATJAUNOT",
-                SUBTEXT: "Priecājies!"
+                TEXT: "RECONNECTED",
+                SUBTEXT: "Have fun!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
-                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
+                    TEXT: "CONNECTION INTERRUPTED",
+                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
                 },
                 GAME: {
-                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
-                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
+                    TEXT: "GAME CONNECTION INTERRUPTED",
+                    SUBTEXT: "Please wait while we attempt to reconnect"
                 }
             }
         },
@@ -10861,113 +10861,113 @@ ${r.message}`,
             TOAST: Zj
         },
         e$ = {
-            BACK: "Atpakaļ",
-            CANCEL: "Atcelt",
-            CLOSE: "Aizvērt",
-            CREATE: "Izveidot",
-            DELETE: "Dzēst",
-            DONE: "Gatavs",
-            EDIT: "Rediģēt",
+            BACK: "Indietro",
+            CANCEL: "Annulla",
+            CLOSE: "Chiuda",
+            CREATE: "Crea",
+            DELETE: "Elimina",
+            DONE: "Fine",
+            EDIT: "Modifica",
             OK: "OK",
-            NO: "Nē",
-            PLAY: "Spēlēt",
-            PUBLISH: "Publicēt",
-            RESET: "Atiestatīt",
-            SUBMIT: "Iesniegt",
-            TRY_AGAIN: "Mēģināt vēlreiz",
-            YES: "Jā"
+            NO: "No",
+            PLAY: "Gioca",
+            PUBLISH: "Pubblica",
+            RESET: "Reset",
+            SUBMIT: "Invia",
+            TRY_AGAIN: "Riprova",
+            YES: "S\xEC"
         },
         t$ = {
             UGC: {
-                VVISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
-                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
-                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
-                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
+                VISIBILITY_CONTROLLER_OFF: "definizioni nascoste sui dispositivi dei giocatori",
+                VISIBILITY_CONTROLLER_ON: "definizioni visualizzate sui dispositivi dei giocatori",
+                VISIBILITY_SCREEN_OFF: "definizioni nascoste sullo schermo di gioco",
+                VISIBILITY_SCREEN_ON: "definizioni visualizzate sullo schermo di gioco"
             }
         },
         r$ = {
-            DISCONNECTED: "Tu esi atvienots.",
-            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
-            ROOM_DESTROYED: "Paldies par spēlēšanu!",
-            ROOM_DISCONNECTED: "Atvienots",
-            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
-            TEXT_NOTHING: "Tu nevari neko ievadīt!",
-            TITLE: "Kļūda"
+            DISCONNECTED: "\xC8 stata effettuata la disconnessione.",
+            DRAWING_NOTHING: "Devi disegnare qualcosa!",
+            ROOM_DESTROYED: "Grazie per aver scelto di giocare con noi!",
+            ROOM_DISCONNECTED: "Disconnessione effettuata",
+            TEXT_NAUGHTY: "Purtroppo non puoi scrivere questa cosa. Abbi rispetto per gli altri giocatori.",
+            TEXT_NOTHING: "Devi per forza inserire qualcosa!",
+            TITLE: "Errore"
         },
         n$ = {
-            JOINED_COUNT: "x | {count} no {maxPlayers} spēlētājiem pievienojās",
-            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
-            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
-            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
-            GAME_STARTING: "Spēle ir sākusies",
-            BUTTON_START: "Nospied, lai sāktu",
-            BUTTON_CANCEL: "Nospied, lai atceltu"
+            JOINED_COUNT: "x | Sta partecipando {count} giocatore su {maxPlayers} | Stanno partecipando {count} giocatori su {maxPlayers}",
+            PLAYERS_NEEDED: "x | Manca {count} giocatore per iniziare | Mancano {count} giocatori per iniziare",
+            WAITING_FOR_VIP: "In attesa di {name} per iniziare la partita",
+            WAITING_FOR_GAMEPAD: "In attesa d'iniziare la partita",
+            GAME_STARTING: "La partita sta per iniziare",
+            BUTTON_START: "Premi per avviare",
+            BUTTON_CANCEL: "Premi per annullare"
         },
         i$ = {
-            GALLERY_LINK: "Apmeklē galeriju",
-            PLAY_AGAIN: "Spēlēt vēlreiz?",
-            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
-            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
+            GALLERY_LINK: "Visita la galleria",
+            PLAY_AGAIN: "Vuoi giocare di nuovo?",
+            BUTTON_SAME_PLAYERS: "Stessi giocatori",
+            BUTTON_NEW_PLAYERS: "Nuovi giocatori"
         },
         s$ = {
-            AND: "UN",
-            OR: "VAI"
+            AND: "E",
+            OR: "O"
         },
         a$ = {
-            BUTTON_SKIP: "Izlaist",
-            BUTTON_NEXT: "Nākamais",
-            BUTTON_DONE: "Uz priekšu!"
+            BUTTON_SKIP: "Salta",
+            BUTTON_NEXT: "Avanti",
+            BUTTON_DONE: "Iniziamo!"
         },
         o$ = {
-            NAME: "AUDITORIJA"
+            NAME: "PUBBLICO"
         },
         l$ = {
-            EPISODE_REPORT: "Ziņot epizode",
-            EPISODE_UNLOAD: "Izkraut epizode",
-            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
-            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
-            EPISODES_MENU: "Epizodes izvēlne",
-            EPISODES_SELECT: "Vai atlasīt epsiode:",
-            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
+            EPISODE_REPORT: "Segnala episodio",
+            EPISODE_UNLOAD: "Rimuovi episodio",
+            EPISODE_VIEW_AUTHOR: "Mostra autore",
+            EPISODES_LOAD: "Carica un episodio in base al suo id:",
+            EPISODES_MENU: "Menu Episodi",
+            EPISODES_SELECT: "Oppure seleziona un episodio:",
+            EPISODES_WARNING: "Attenzione: il contenuto generato dagli utenti non \xE8 classificato",
             INSTRUCTION: {
-                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
-                LOAD: "izveidot vai ielādēt?",
-                PUBLISH: "publicēt savu epizodi",
-                TITLE: "nosauc savu epizodi",
-                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
-                WRITE: "uzraksti savas uzvednes"
+                CREATE_TITLE: "per prima cosa, inserisci un nome per l\u2019episodio che contenga tutti i tuoi suggerimenti e premi crea.",
+                LOAD: "creare o caricare?",
+                PUBLISH: "pubblica il tuo episodio",
+                TITLE: "dai un nome al tuo episodio",
+                TOGGLE_VISIBILITY: "tocca per mostrare/nascondere suggerimenti",
+                WRITE: "scrivi le tue definizioni"
             },
             WARNING: {
-                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
-                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
-                TOS_AGREE: "vienoties un kopīgot"
+                DELETE: "Vuoi davvero eliminare questo episodio?",
+                TOS: "Condividendo i contenuti, accetti i nostri [tos]Condizioni del servizio[/tos]",
+                TOS_AGREE: "accetta e condividi"
             },
-            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
-            BACK_TO_MENU: "atpakaļ uz izvēlni",
-            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
-            PREVIOUS_EPISODES: "iepriekšējās epizodes",
-            PROMPT_ADD: "pievienot uzvedni",
-            PROMPT_PLACEHOLDER: "ievadi uzvedni",
-            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
-            TITLE_PLACEHOLDER: "ievadi nosaukumu"
+            BACK_TO_EPISODES: "torna agli episodi",
+            BACK_TO_MENU: "torna al menu",
+            CREATE_NEW_EPISODE: "crea un nuovo episodio",
+            PREVIOUS_EPISODES: "episodi precedenti",
+            PROMPT_ADD: "aggiungi suggerimento",
+            PROMPT_PLACEHOLDER: "inserisci suggerimento",
+            PROMPTS_COUNT_HIDDEN: "({count} nascosti)",
+            TITLE_PLACEHOLDER: "inserisci un titolo"
         },
         c$ = {
             BROADCASTER: {
-                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
-                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
+                SUBTEXT: "Il collegamento del tuo account con l'estensione per Twitch Jackbox Audience Kit \xE8 andato a buon fine.",
+                WARNING: "L'IMPOSTAZIONE DEL PUBBLICO NON \xC8 ATTIVA PER QUESTA STANZA"
             },
             RECONNECTED: {
-                TEXT: "ATJAUNOT",
-                SUBTEXT: "Priecājies!"
+                TEXT: "RICONNESSO",
+                SUBTEXT: "Buon divertimento!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
-                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
+                    TEXT: "CONNESSIONE INTERROTTA",
+                    SUBTEXT: "Tentativo di ricollegamento in corso ({attempt} di 5)"
                 },
                 GAME: {
-                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
-                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
+                    TEXT: "CONNESSIONE AL GIOCO INTERROTTA",
+                    SUBTEXT: "Resta in attesa mentre proviamo a ricollegarci"
                 }
             }
         },
@@ -25276,91 +25276,91 @@ ${t}`
                 })
             })
         },
-        Pte = "Ieteikums",
+        Pte = "Suggestion",
         Bte = {
             AVATARS: {
-                BAKU: "baku avatārs",
-                BUN: "bunny avatārs",
-                BLUE_DEMON: "blue demon avatārs",
-                CAT: "cat avatārs",
-                CATFISH: "catfish avatārs",
-                CROW: "crow avatārs",
-                DOG: "dog avatārs",
-                FIRE: "fire avatārs",
-                FOX: "fox avatārs",
-                KAPPA: "kappa avatārs",
-                HAIR: "hair avatārs",
-                MONKEY: "monkey avatārs",
-                RACCOON: "raccoon avatārs",
-                RED_DEMON: "red demon avatārs",
-                SNAKE: "snake avatārs",
-                UMBRELLA: "umbrella avatārs"
+                BAKU: "baku avatar",
+                BUN: "bunny avatar",
+                BLUE_DEMON: "blue demon avatar",
+                CAT: "cat avatar",
+                CATFISH: "catfish avatar",
+                CROW: "crow avatar",
+                DOG: "dog avatar",
+                FIRE: "fire avatar",
+                FOX: "fox avatar",
+                KAPPA: "kappa avatar",
+                HAIR: "hair avatar",
+                MONKEY: "monkey avatar",
+                RACCOON: "raccoon avatar",
+                RED_DEMON: "red demon avatar",
+                SNAKE: "snake avatar",
+                UMBRELLA: "umbrella avatar"
             },
-            LOGO: "Tee K.O. logotips"
+            LOGO: "the Tee K.O. logo"
         },
         xte = {
-            BAKU: "Uzvara turnīrā ir mans mūža sapnis!",
-            BUN: "Nekad agrāk neesmu taisījusi t-kreklus, bet parasti man diezgan labi veicas.",
-            BLUE_DEMON: "Mans krekls liks kaunā mana dvīņa pūles!",
-            CAT: "Mana māte ir ļoti slima. Man ir jāuzvar turnīrā, lai samaksātu par viņas operāciju.",
-            CATFISH: "Es sacenšos, lai veicinātu izpratni par spuras iekaisumu!",
-            CROW: "Es negribēju iekļūt šajā turnīrā! Tā bija pārrakstīšanās kļūda!",
-            DOG: "VAU! VAU VAU!",
-            FIRE: "Es vienkārši priecājos, ka varu tikt ārā no mājas!",
-            FOX: "Pēc uzvaras turnīrā varēšu paņemt gadu atvaļinājumu un pabeigt savu komēdijfilmu!",
-            KAPPA: "Ja es uzvarēšu turnīrā, man būs savs realitātes šovs!",
-            HAIR: "ES ALKSTU PĒC UZVARAS!",
-            MONKEY: "Ja es neuzvarēšu turnīrā, es, šķiet, iešu uzgleznot mājas tēvocim.",
-            RACCOON: "Man ir jāuzvar turnīrā, citādi ļaunais baņķieris atņems bērnu namu!",
-            RED_DEMON: "Man nav svarīgi uzvarēt, tikai uzveikt savu dvīni!",
-            SNAKE: "Man nav rokas, bet mana mīlestība pret t-krekliem ir spēcīga. Es uzvarēšu turnīrā!",
-            UMBRELLA: "Mans sapnis ir atvērt sandāļu veikalu. Es arī gribētu uzvarēt šajā turnīrā!"
+            BAKU: "Winning the tournament is my life-long dream!",
+            BUN: "I\u2019ve never made t-shirts before, but I\u2019m usually pretty lucky.",
+            BLUE_DEMON: "My shirt will put my twin\u2019s efforts to shame!",
+            CAT: "My mother is very ill. I must win the tournament to pay for her surgery.",
+            CATFISH: "I\u2019m competing to raise Fin Rot awareness!",
+            CROW: "I did not mean to enter this tournament! It was a clerical error!",
+            DOG: "WOOF! WOOF WOOF!",
+            FIRE: "I\u2019m just happy to get out of the house!",
+            FOX: "After I win the tournament, I can take a year off and finish my sitcom pilot!",
+            KAPPA: "If I win the tournament, I will get my own reality show!",
+            HAIR: "I HUNGER FOR VICTORY!",
+            MONKEY: "If I don\u2019t win the tournament, I guess I\u2019ll go paint houses for my uncle.",
+            RACCOON: "I must win the tournament or the evil banker will repossess the orphanage!",
+            RED_DEMON: "I don\u2019t care about winning, as long as I beat my twin!",
+            SNAKE: "I do not have arms, but my love of t-shirts is strong. I will win the tournament!",
+            UMBRELLA: "My dream is to open a sandal shop. I would also like to win this tournament!"
         },
         Ute = {
-            BAKU: "Visi mani sapņi piepildās!",
-            BUN: "Es nekad nezaudēšu!",
-            BLUE_DEMON: "Piedod, bet manas prasmes ir foršāk!",
-            CAT: "Es zināju, ka varu to izdarīt!",
-            CATFISH: "Es uzvarēju! Lūdzu, ziedojiet, lai šodien izārstētu spuras iekaisumu!",
-            CROW: "Kas notiek? Vai es uzvarēju?",
-            DOG: "GAF! VAU! GAF GAF!",
-            FIRE: "Mums ir tik jautri, puiši!",
-            FOX: "Holivuda, es esmu klāt!",
-            KAPPA: "Tagad es kļūšu slavens!",
-            HAIR: "MANS IZSALKUMS IR APMIERINĀTS... PAGAIDĀM...",
-            MONKEY: "Es to esmu pelnījusi!",
-            RACCOON: "Es ieliku visu savu sirdi, lai uzvarētu!",
-            RED_DEMON: "Es piedzimu, lai būtu labākais!",
-            SNAKE: "Man ir gods pieņemt šo uzvaru.",
-            UMBRELLA: "Negaidīts pārsteigums!"
+            BAKU: "All my dreams are coming true!",
+            BUN: "I never lose!",
+            BLUE_DEMON: "Sorry, but my skills are superior!",
+            CAT: "I knew I could do it!",
+            CATFISH: "I win! Please donate to cure Fin Rot today!",
+            CROW: "What is happening? Did I win?",
+            DOG: "BARK! WOOF! BARK BARK!",
+            FIRE: "We\u2019re having so much fun, guys!",
+            FOX: "Hollywood, here I come!",
+            KAPPA: "Now I will be famous!",
+            HAIR: "MY HUNGER HAS BEEN SATISFIED\u2026 FOR NOW\u2026",
+            MONKEY: "I deserve this!",
+            RACCOON: "I put all of my heart into winning!",
+            RED_DEMON: "I was born to be the best!",
+            SNAKE: "I am honored to accept this victory.",
+            UMBRELLA: "What an unexpected surprise!"
         },
         Fte = {
-            BUTTON_FIGHT: "Cīņā",
-            QUOTE_CHANGE: "Mainīt",
-            QUOTE_LABEL: "Uzvara citāts",
-            QUOTE_SET: "Ok"
+            BUTTON_FIGHT: "Fight",
+            QUOTE_CHANGE: "Change",
+            QUOTE_LABEL: "Victory Quote",
+            QUOTE_SET: "Set"
         },
         Gte = {
             INSTRUCTION: {
-                DRAWING: "Izvēlies zīmējumu",
-                SLOGAN: "Izvēlies saukli"
+                DRAWING: "Choose a drawing",
+                SLOGAN: "Choose a slogan"
             }
         },
         jte = {
             INSTRUCTION: {
-                DRAWING: "Ko tu vēlētos redzēt uzzīmētu?",
-                WRITING: "Ko spēlētājiem vajadzētu uzrakstīt?"
+                DRAWING: "What would you like to see drawn?",
+                WRITING: "What should the players write?"
             }
         },
         $te = {
-            INSTRUCTION: "Izvēlies savu favorītu!",
-            THANKS: "Paldies par balsojumu! Tava izvēle:"
+            INSTRUCTION: "Pick your favorite!",
+            THANKS: "Thanks for voting! Your choice:"
         },
         Vte = {
-            INSTRUCTION: "Gaidām, kad pabeigs citi spēlētāji!"
+            INSTRUCTION: "Waiting for other players to finish!"
         },
         Wte = {
-            INSTRUCTION: "Uzraksti kaut ko smieklīgu, gudru vai jebko citu!"
+            INSTRUCTION: "Write something funny, or clever, or anything at all!"
         },
         Hte = {
             SUGGESTION: Pte,
@@ -25472,91 +25472,91 @@ ${t}`
             WAITING: ere,
             WRITING: tre
         },
-        nre = "Ieteikums",
+        nre = "Suggerimento",
         ire = {
             AVATARS: {
-                BAKU: "baku avatārs",
-                BUN: "bunny avatārs",
-                BLUE_DEMON: "blue demon avatārs",
-                CAT: "cat avatārs",
-                CATFISH: "catfish avatārs",
-                CROW: "crow avatārs",
-                DOG: "dog avatārs",
-                FIRE: "fire avatārs",
-                FOX: "fox avatārs",
-                KAPPA: "kappa avatārs",
-                HAIR: "hair avatārs",
-                MONKEY: "monkey avatārs",
-                RACCOON: "raccoon avatārs",
-                RED_DEMON: "red demon avatārs",
-                SNAKE: "snake avatārs",
-                UMBRELLA: "umbrella avatārs"
+                BAKU: "avatar baku",
+                BUN: "avatar coniglietto",
+                BLUE_DEMON: "avatar demone blu",
+                CAT: "avatar gatto",
+                CATFISH: "avatar pesce gatto",
+                CROW: "avatar corvo",
+                DOG: "avatar cane",
+                FIRE: "avatar fuoco",
+                FOX: "avatar volpe",
+                KAPPA: "avatar kappa",
+                HAIR: "avatar capelli",
+                MONKEY: "avatar scimmia",
+                RACCOON: "avatar procione",
+                RED_DEMON: "avatar demone rosso",
+                SNAKE: "avatar serpente",
+                UMBRELLA: "avatar ombrello"
             },
-            LOGO: "Tee K.O. logotips"
+            LOGO: "Il logo di Tee K.O."
         },
         sre = {
-            BAKU: "Uzvara turnīrā ir mans mūža sapnis!",
-            BUN: "Nekad agrāk neesmu taisījusi t-kreklus, bet parasti man diezgan labi veicas.",
-            BLUE_DEMON: "Mans krekls liks kaunā mana dvīņa pūles!",
-            CAT: "Mana māte ir ļoti slima. Man ir jāuzvar turnīrā, lai samaksātu par viņas operāciju.",
-            CATFISH: "Es sacenšos, lai veicinātu izpratni par spuras iekaisumu!",
-            CROW: "Es negribēju iekļūt šajā turnīrā! Tā bija pārrakstīšanās kļūda!",
-            DOG: "VAU! VAU VAU!",
-            FIRE: "Es vienkārši priecājos, ka varu tikt ārā no mājas!",
-            FOX: "Pēc uzvaras turnīrā varēšu paņemt gadu atvaļinājumu un pabeigt savu komēdijfilmu!",
-            KAPPA: "Ja es uzvarēšu turnīrā, man būs savs realitātes šovs!",
-            HAIR: "ES ALKSTU PĒC UZVARAS!",
-            MONKEY: "Ja es neuzvarēšu turnīrā, es, šķiet, iešu uzgleznot mājas tēvocim.",
-            RACCOON: "Man ir jāuzvar turnīrā, citādi ļaunais baņķieris atņems bērnu namu!",
-            RED_DEMON: "Man nav svarīgi uzvarēt, tikai uzveikt savu dvīni!",
-            SNAKE: "Man nav rokas, bet mana mīlestība pret t-krekliem ir spēcīga. Es uzvarēšu turnīrā!",
-            UMBRELLA: "Mans sapnis ir atvērt sandāļu veikalu. Es arī gribētu uzvarēt šajā turnīrā!"
+            BAKU: "Vincere il torneo \xE8 il sogno della mia vita!",
+            BUN: "Non ho mai creato magliette, ma di solito ho fortuna.",
+            BLUE_DEMON: "Il mio gemello andr\xE0 a nascondersi per la vergogna!",
+            CAT: "Mia mamma \xE8 tanto malata. Devo vincere il torneo per pagarle l'operazione.",
+            CATFISH: "Gareggio per sensibilizzare il pubblico sul problema delle corrosione delle pinne!",
+            CROW: "Non volevo partecipare a questo torneo! \xC8 stato un errore burocratico!",
+            DOG: "BAU! BAU! BAU!",
+            FIRE: "A me basta essere fuori casa e sono felice!",
+            FOX: "Dopo aver vinto il torneo, potr\xF2 prendermi un anno sabbatico per finire di scrivere la puntata pilota della mia sitcom!",
+            KAPPA: "Se vinco il torneo, avr\xF2 un mio reality in TV!",
+            HAIR: "HO FAME DI VITTORIA!",
+            MONKEY: "Se non vinco il torneo, mi toccher\xE0 andare a verniciare case con mio zio.",
+            RACCOON: "Devo vincere il torneo o il banchiere cattivo si rimpossesser\xE0 dell'orfanotrofio!",
+            RED_DEMON: "Non m'interessa vincere, voglio solo battere il mio gemello!",
+            SNAKE: "Anche se non ho le braccia, amo molto le magliette. Vincer\xF2 il torneo!",
+            UMBRELLA: "Il mio sogno \xE8 aprire un negozio di sandali. Ah... e poi mi piacerebbe tanto vincere."
         },
         are = {
-            BAKU: "Visi mani sapņi piepildās!",
-            BUN: "Es nekad nezaudēšu!",
-            BLUE_DEMON: "Piedod, bet manas prasmes ir foršāk!",
-            CAT: "Es zināju, ka varu to izdarīt!",
-            CATFISH: "Es uzvarēju! Lūdzu, ziedojiet, lai šodien izārstētu spuras iekaisumu!",
-            CROW: "Kas notiek? Vai es uzvarēju?",
-            DOG: "GAF! VAU! GAF GAF!",
-            FIRE: "Mums ir tik jautri, puiši!",
-            FOX: "Holivuda, es esmu klāt!",
-            KAPPA: "Tagad es kļūšu slavens!",
-            HAIR: "MANS IZSALKUMS IR APMIERINĀTS... PAGAIDĀM...",
-            MONKEY: "Es to esmu pelnījusi!",
-            RACCOON: "Es ieliku visu savu sirdi, lai uzvarētu!",
-            RED_DEMON: "Es piedzimu, lai būtu labākais!",
-            SNAKE: "Man ir gods pieņemt šo uzvaru.",
-            UMBRELLA: "Negaidīts pārsteigums!"
+            BAKU: "Tutti i miei sogni si stanno realizzando!",
+            BUN: "Non perdo mai!",
+            BLUE_DEMON: "Spiacente, la mia abilit\xE0 \xE8 superiore!",
+            CAT: "Lo sapevo che ce l'avrei fatta!",
+            CATFISH: "Ho vinto! Per favore, effettuate subito una donazione per combattere la corrosione delle pinne!",
+            CROW: "Che succede? Ho vinto io?",
+            DOG: "ARF! UOFF! BAU BAU!",
+            FIRE: "Ci stiamo proprio divertendo!",
+            FOX: "Hollywood, arrivo!",
+            KAPPA: "Diventer\xF2 una star!",
+            HAIR: "LA MIA FAME \xC8 STATA PLACATA... PER ORA...",
+            MONKEY: "Me lo merito!",
+            RACCOON: "Ce l'ho messa tutta per vincere!",
+            RED_DEMON: "Campioni si nasce!",
+            SNAKE: "\xC8 un onore accettare questa vittoria.",
+            UMBRELLA: "Che sorpresa inaspettata!"
         },
         ore = {
-            BUTTON_FIGHT: "Cīņā",
-            QUOTE_CHANGE: "Mainīt",
-            QUOTE_LABEL: "Uzvara citāts",
-            QUOTE_SET: "Ok"
+            BUTTON_FIGHT: "Combatti",
+            QUOTE_CHANGE: "Cambia",
+            QUOTE_LABEL: "Frase della vittoria",
+            QUOTE_SET: "Imposta"
         },
         lre = {
             INSTRUCTION: {
-                DRAWING: "Izvēlies zīmējumu",
-                SLOGAN: "Izvēlies saukli"
+                DRAWING: "Scegli un disegno",
+                SLOGAN: "Scegli uno slogan"
             }
         },
         cre = {
             INSTRUCTION: {
-                DRAWING: "Ko tu vēlētos redzēt uzzīmētu?",
-                WRITING: "Ko spēlētājiem vajadzētu uzrakstīt?"
+                DRAWING: "Che cosa vorresti vedere disegnato?",
+                WRITING: "Che cosa vorresti che scrivano i giocatori?"
             }
         },
         ure = {
-            INSTRUCTION: "Izvēlies savu favorītu!",
-            THANKS: "Paldies par balsojumu! Tava izvēle:"
+            INSTRUCTION: "Fai la tua scelta!",
+            THANKS: "Grazie per aver votato! La tua scelta:"
         },
         fre = {
-            INSTRUCTION: "Gaidām, kad pabeigs citi spēlētāji!"
+            INSTRUCTION: "Attendi che gli altri giocatori finiscano!"
         },
         dre = {
-            INSTRUCTION: "Uzraksti kaut ko smieklīgu, gudru vai jebko citu!"
+            INSTRUCTION: "Scrivi qualcosa di divertente, intelligente o quello che vuoi!"
         },
         hre = {
             SUGGESTION: nre,

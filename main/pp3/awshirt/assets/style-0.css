@@ -2018,8 +2018,8 @@ th {
 
 @font-face {
     font-family: Glyphicons Halflings;
-    src: url(GlyphiconsHalflings.eot);
-    src: url(GlyphiconsHalflings.eot) format("embedded-opentype"), url(GlyphiconsHalflings.woff2) format("woff2"), url(GlyphiconsHalflings.woff) format("woff"), url(GlyphiconsHalflings.ttf) format("truetype"), url(GlyphiconsHalflings.svg) format("svg")
+    src: url(13634da8.eot);
+    src: url(13634da8.eot) format("embedded-opentype"), url(fe185d11.woff2) format("woff2"), url(a26394f7.woff) format("woff"), url(e3950440.ttf) format("truetype"), url(42f60659.svg) format("svg")
 }
 
 .glyphicon {
@@ -18403,8 +18403,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(FontAwesome5Brands.eot);
-    src: url(FontAwesome5Brands.eot) format("embedded-opentype"), url(FontAwesome5Brands.woff2) format("woff2"), url(FontAwesome5Brands.woff) format("woff"), url(FontAwesome5Brands.ttf) format("truetype"), url(FontAwesome5Brands.svg) format("svg")
+    src: url(e4299464.eot);
+    src: url(e4299464.eot) format("embedded-opentype"), url(8ea87917.woff2) format("woff2"), url(f9217f66.woff) format("woff"), url(cda59d6e.ttf) format("truetype"), url(a3b98177.svg) format("svg")
 }
 
 .fab {
@@ -18417,8 +18417,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(FontAwesome5Free.eot);
-    src: url(FontAwesome5Free.eot) format("embedded-opentype"), url(FontAwesome5Free.woff2) format("woff2"), url(FontAwesome5Free.woff) format("woff"), url(FontAwesome5Free.ttf) format("truetype"), url(FontAwesome5Free.svg) format("svg")
+    src: url(79d08806.eot);
+    src: url(79d08806.eot) format("embedded-opentype"), url(e42a8844.woff2) format("woff2"), url(cb9e9e69.woff) format("woff"), url(e8711bbb.ttf) format("truetype"), url(be0a0849.svg) format("svg")
 }
 
 .far {
@@ -18431,8 +18431,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(FontAwesome5FreeSolid.eot);
-    src: url(FontAwesome5FreeSolid.eot) format("embedded-opentype"), url(FontAwesome5FreeSolid.woff2) format("woff2"), url(FontAwesome5FreeSolid.woff) format("woff"), url(FontAwesome5FreeSolid.ttf) format("truetype"), url(FontAwesome5FreeSolid.svg) format("svg")
+    src: url(373c04fd.eot);
+    src: url(373c04fd.eot) format("embedded-opentype"), url(9834b82a.woff2) format("woff2"), url(3f6d3488.woff) format("woff"), url(af639750.ttf) format("truetype"), url(9674eb1b.svg) format("svg")
 }
 
 .fa,
@@ -22147,14 +22147,14 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 
 @font-face {
     font-family: Rubik;
-    src: url(Rubik.ttf);
+    src: url(b83ed688.ttf);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Rubik;
-    src: url(RubikMedium.ttf);
+    src: url(f599e755.ttf);
     font-weight: 500;
     font-style: normal
 }
@@ -22377,14 +22377,14 @@ canvas {
 
 @font-face {
     font-family: Rubik;
-    src: url(Rubik.ttf);
+    src: url(b83ed688.ttf);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Rubik;
-    src: url(RubikMedium.ttf);
+    src: url(f599e755.ttf);
     font-weight: 500;
     font-style: normal
 }
@@ -23123,8 +23123,8 @@ li>a.button-color.active[data-color="#000000"] {
 
 @font-face {
     font-family: Chinese Rocks;
-    src: url(ChineseRocksRg.eot);
-    src: url(ChineseRocksRg.eot) format("embedded-opentype"), url(ChineseRocksRg.woff) format("woff"), url(ChineseRocksRg.ttf) format("truetype"), url(ChineseRocksRg.svg) format("svg")
+    src: url(1ad8daf7.eot);
+    src: url(1ad8daf7.eot) format("embedded-opentype"), url(8285d2bf.woff) format("woff"), url(9975f3e9.ttf) format("truetype"), url(4ced29eb.svg) format("svg")
 }
 
 html {
@@ -23446,7 +23446,7 @@ th,
 }
 
 .logo-image {
-    background: url(teekologo.png) no-repeat center;
+    background: url(8619333b.png) no-repeat center;
     background-size: contain;
     height: 80%;
     width: 90%;

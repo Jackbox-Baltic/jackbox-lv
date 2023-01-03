@@ -8047,10 +8047,10 @@ const gl = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
-        return e.replace(/[^\u0100-\u017F\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -13163,7 +13163,7 @@ const fC = `<form>\r
         <div class="inputGroup">\r
             <textarea id="input-text-textarea" rows="1" class="form-control jbg-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>\r
             <span class="inlineSubmit">\r
-                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Sūtīt</span></button>\r
+                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Send</span></button>\r
             </span>\r
             <span id="helpBlock2" class="help-block errorText"></span>\r
             <div class="charCountDisplay"><span class="charRemaining">70</span></div>\r
@@ -16285,7 +16285,7 @@ const MC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         <div id="buttons" class="buttons"></div>\r
         <div id="post-sketchpad" class="post-sketchpad">\r
             <div id="submit">\r
-                <button id='submitdrawing' class="button submitDrawing">Iesniegt</button><br/>\r
+                <button id='submitdrawing' class="button submitDrawing">Submit</button><br/>\r
             </div>\r
             <button id='censorOptions' class='button'>Censor Options</button>\r
             <div class="footer"></div>\r
@@ -16365,7 +16365,7 @@ const MC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
                 visible: !0,
                 updateView: !0,
                 onGet(t) {
-                    return t[0] || t[1] ? !1 : t[2] === void 0 ? "" : t[2].submit || "Iesniegt"
+                    return t[0] || t[1] ? !1 : t[2] === void 0 ? "" : t[2].submit || "Submit"
                 }
             }
         },
@@ -16525,7 +16525,7 @@ const MC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         defaults: {
             state: "EnterSingleText",
             actions: [{
-                text: "iesniegt",
+                text: "submit",
                 action: "submit"
             }],
             allowEmpty: !1,
@@ -16616,7 +16616,7 @@ const MC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             }), this.inputComponent = this.inputComponent || new io({
                 model: new Ze.Model({})
             }), this.buttonsCollection = this.buttonsCollection || new Ze.Collection([{
-                text: "iesniegt"
+                text: "submit"
             }]), this.buttonsComponent = this.buttonsComponent || new fi({
                 block: !0,
                 collection: this.buttonsCollection
@@ -16629,7 +16629,7 @@ const MC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             })), this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.inputComponent.model.set(this.model.attributes), this.buttonsComponent.options.block = this.model.get("block"), this.buttonsCollection.set(this.model.get("actions") || [{
-                text: "iesniegt",
+                text: "submit",
                 action: "submit"
             }]), this.model.get("entryId") && this.model.get("entryId") !== this.currentEntry && (this.inputComponent.clearInput(), this.currentEntry = this.model.get("entryId")), this.$el.find(".enterSingleTextFieldset").prop("disabled", !1), this.$el.find("textarea").focus(), this.stickit(), this.model.get("autoSubmit") && this.shouldSubmit && this.onChildviewInputSubmit()
         },
@@ -16890,28 +16890,28 @@ const jC = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait:"Apsēdies un atslābinies!",
-                vip_waiting: "Gaidām, kad pievienosies visi spēlētāji",
-                vip_canStart: "Nospied šo pogu, kad visi ir pievienojušies",
-                vip_cancel: "Nospied šo pogu, lai atceltu spēles sākšanu",
-                vip_postgame: "Ko tu gribi darīt tagad?",
-                vip_episodes_menu: "Epizodes izvēlne",
-                vip_episodes_unload: "Izkraut epizode",
-                vip_episodes_report: "Ziņot epizode",
-                vip_episodes_warning: "Brīdinājums: lietotāja radītais saturs nav novērtēts",
-                vip_episodes_load: "Ielādēt epizodi pēc id:",
-                vip_episodes_select: "Vai atlasīt epizodi:",
-                vip_episodes_back: "Atpakaļ",
-                vip_episodes_submit: "IESNIEGT",
-                vip_episodes_view_author: "Skatīt autoru",
-                button_start: "Visi ir šeit",
-                button_cancel: "Atcelt",
-                button_changename: "Mainīt vārdu",
-                button_sameplayers: "Tie paši spēlētāji",
-                button_newplayers: "Jauni spēlētāji",
-                prompt_entername: "Ievadi savu vārdu",
-                prompt_choosecharacter: "Izvēlies savu tēlu",
-                button_censorOptions: "Cenzūras opcijas",
+                wait: "Sit back and relax!",
+                vip_waiting: "Waiting for all players to join",
+                vip_canStart: "Press this button when everybody has joined",
+                vip_cancel: "Press this button to cancel game start",
+                vip_postgame: "What would you like to do now?",
+                vip_episodes_menu: "Episodes Menu",
+                vip_episodes_unload: "Unload Episode",
+                vip_episodes_report: "Report Episode",
+                vip_episodes_warning: "Warning: user generated content is not rated",
+                vip_episodes_load: "Load an episode by id:",
+                vip_episodes_select: "Or select an episode:",
+                vip_episodes_back: "Back",
+                vip_episodes_submit: "SUBMIT",
+                vip_episodes_view_author: "View Author",
+                button_start: "Everybody's In",
+                button_cancel: "Cancel",
+                button_changename: "Change Name",
+                button_sameplayers: "Same Players",
+                button_newplayers: "New Players",
+                prompt_entername: "Enter your name",
+                prompt_choosecharacter: "Select your character",
+                button_censorOptions: "Censor Options",
                 censor_prompt: ""
             }
         }
@@ -17193,27 +17193,27 @@ const jC = `<div id="controller" class="state-controller controller-content">
                         collection: new Ze.Collection([])
                     });
                     a.collection.add({
-                        html: this.model.get("strings").vip_episodes_back || "Atpakaļ",
+                        html: this.model.get("strings").vip_episodes_back || "Back",
                         action: "back",
                         className: "backButton"
                     }), a.collection.add({
                         type: "text",
-                        html: this.model.get("strings").vip_episodes_load || "Ielādēt epizodi pēc id:",
+                        html: this.model.get("strings").vip_episodes_load || "Load an episode by id:",
                         className: "header"
                     }), a.collection.add({
                         type: "input",
                         preventAutosize: !0,
                         placeholder: "???-????",
                         inlineSubmit: !0,
-                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "IESNIEGT",
+                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "SUBMIT",
                         className: "lobbyUgcInput"
                     }), a.collection.add({
                         type: "text",
-                        html: this.model.get("strings").vip_episodes_warning || "Brīdinājums: lietotāja radītais saturs nav novērtēts",
+                        html: this.model.get("strings").vip_episodes_warning || "Warning: user generated content is not rated",
                         className: "danger"
                     }), e.model.get("history").length && (a.collection.add({
                         type: "text",
-                        html: this.model.get("strings").vip_episodes_select || "Vai atlasīt epizodi:",
+                        html: this.model.get("strings").vip_episodes_select || "Or select an episode:",
                         className: "episodesListHeader"
                     }), a.collection.add(e.model.get("history").map(f => ({
                         action: "activateContentId",
@@ -17350,8 +17350,8 @@ const jC = `<div id="controller" class="state-controller controller-content">
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Atvienots",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Paldies par spēlēšanu!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -17368,8 +17368,8 @@ const jC = `<div id="controller" class="state-controller controller-content">
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Lingua",
             LOGIN: "Accesso",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Atvienots",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Paldies par spēlēšanu!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnesso",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Disconnesso"
         },
         de: {
             LANGUAGE_NAME: "Deutsche",
@@ -17471,10 +17471,10 @@ const jC = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Paldies. Tava izvēle: ",
-                censor_prompt: "Cenzēt to?",
-                censor_confirm: "Jā, cenzēt!",
-                censor_cancel: "Nē!"
+                your_choice: "Thank you. Your choice: ",
+                censor_prompt: "Censor this?",
+                censor_confirm: "Yes, Censor!",
+                censor_cancel: "No!"
             }
         }
     }),
@@ -17560,7 +17560,7 @@ const jC = `<div id="controller" class="state-controller controller-content">
             this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.choicesList.options.block = this.model.get("block"), this.choicesList.collection.set(this.model.get("choices")), this.model.get("type") === "multiple" && at.all(this.model.get("choices"), t => !t.disabled) && this.choicesList.collection.push({
-                text: "Iesniegt",
+                text: "Submit",
                 action: "submit",
                 block: !1
             }), this.model.get("isAudience") && ((this.model.get("choiceId") === void 0 || this.model.get("choiceId") !== this.getOption("choiceId")) && (this.selected = [], this.audienceChoice = void 0, this.votesLeft = void 0), this.selected.length > 0 && (this.model.get("type") === "multiple" ? this.choicesList.children.forEach(t => {
@@ -21030,7 +21030,7 @@ const Fx = bt.View.extend({
 		<button id="secondaryColor" class="button block"></button>\r
 	</li>\r
 	<li class="pull-right button-pad"> \r
-		<button aria-label="submit" id="submitdrawing" class="submitdrawing pull-right">iesniegt</button>\r
+		<button aria-label="submit" id="submitdrawing" class="submitdrawing pull-right">submit</button>\r
 	</li>   \r
 </ul>`,
     Ux = bt.View.extend({
@@ -21125,9 +21125,9 @@ const Fx = bt.View.extend({
             allPlayersHavePortraits: !1,
             strings: {
                 ...hs.prototype.model.defaults.strings,
-                vip_are_you_sure: "vai tu esi pārliecināts?",
-                vip_are_you_sure_yes: "jā",
-                vip_are_you_sure_no: "nē"
+                vip_are_you_sure: "are you sure?",
+                vip_are_you_sure_yes: "yes",
+                vip_are_you_sure_no: "no"
             }
         }
     }),
