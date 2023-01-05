@@ -8039,7 +8039,7 @@ const fl = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
         return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -16803,8 +16803,8 @@ const lc = Et.View.extend({
         },
         onRoomWasDestroyed() {
             Zt.remove("roomCode"), Zt.remove("reconnect"), Ot.show("error", {
-                titleText: "Disconnected",
-                text: "Thanks for playing!",
+                titleText: "Atvienots",
+                text: "Paldies par spēlēšanu!",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16812,8 +16812,8 @@ const lc = Et.View.extend({
         },
         onDisconnected() {
             Ot.show("error", {
-                titleText: "Disconnected",
-                text: "You have been disconnected.",
+                titleText: "Atvienots",
+                text: "Tu esi atvienots.",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -17342,8 +17342,8 @@ const lc = Et.View.extend({
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Atvienots",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Paldies par spēlēšanu!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
@@ -17360,8 +17360,8 @@ const lc = Et.View.extend({
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Lingua",
             LOGIN: "Accesso",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnesso",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Disconnesso"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Atvienots",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Paldies par spēlēšanu!"
         },
         de: {
             LANGUAGE_NAME: "Deutsche",
@@ -21064,7 +21064,7 @@ const $x = Et.View.extend({
 				</div>
 
 				<div class="container pure-g" style="margin-top: 10px;" >
-					<button type="button" id="button-ydkj-startgame" data-button="SCREW" class="button-ydkj button-xlarge pure-button pure-u-1">EVERYBODY'S IN</button>
+					<button type="button" id="button-ydkj-startgame" data-button="SCREW" class="button-ydkj button-xlarge pure-button pure-u-1">VISI IR ŠEIT</button>
 					<button type="button" id="button-ydkj-default-screw" data-button="SCREW" class="button-screw" ></button>
 				</div>
 			</div>
@@ -21080,13 +21080,13 @@ const $x = Et.View.extend({
 
 		<div id="ydkj-game-in-progress" class="pt-page-off state-locked ydkj-page">
 			<div class="ydkj-gameplay gameplay-centered">
-				<h2 style="text-align:center;">Game already in progess, cannot join.</h2>
+				<h2 style="text-align:center;">Spēle jau notiek, nevar pievienoties.</h2>
 			</div>
 		</div>
 
 		<div id="ydkj-game-full" class="pt-page-off state-full ydkj-page">
 			<div class="ydkj-gameplay gameplay-centered">
-				<h2 style="text-align:center;">Game already full, cannot join.</h2>
+				<h2 style="text-align:center;">Spēle jau ir pilna, nevar pievienoties.</h2>
 			</div>
 		</div>
 	</div>

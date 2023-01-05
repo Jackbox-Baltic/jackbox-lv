@@ -2018,8 +2018,8 @@ th {
 
 @font-face {
     font-family: Glyphicons Halflings;
-    src: url(13634da8.eot);
-    src: url(13634da8.eot) format("embedded-opentype"), url(fe185d11.woff2) format("woff2"), url(a26394f7.woff) format("woff"), url(e3950440.ttf) format("truetype"), url(42f60659.svg) format("svg")
+    src: url(fonts/GlyphiconsHalflings.eot);
+    src: url(fonts/GlyphiconsHalflings.eot) format("embedded-opentype"), url(fonts/GlyphiconsHalflings.woff2) format("woff2"), url(fonts/GlyphiconsHalflings.woff) format("woff"), url(fonts/GlyphiconsHalflings.ttf) format("truetype"), url(fonts/GlyphiconsHalflings.svg) format("svg")
 }
 
 .glyphicon {
@@ -18403,8 +18403,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(e4299464.eot);
-    src: url(e4299464.eot) format("embedded-opentype"), url(8ea87917.woff2) format("woff2"), url(f9217f66.woff) format("woff"), url(cda59d6e.ttf) format("truetype"), url(a3b98177.svg) format("svg")
+    src: url(fonts/FA5Brands.eot);
+    src: url(fonts/FA5Brands.eot) format("embedded-opentype"), url(fonts/FA5Brands.woff2) format("woff2"), url(fonts/FA5Brands.woff) format("woff"), url(fonts/FA5Brands.ttf) format("truetype"), url(fonts/FA5Brands.svg) format("svg")
 }
 
 .fab {
@@ -18417,8 +18417,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(79d08806.eot);
-    src: url(79d08806.eot) format("embedded-opentype"), url(e42a8844.woff2) format("woff2"), url(cb9e9e69.woff) format("woff"), url(e8711bbb.ttf) format("truetype"), url(be0a0849.svg) format("svg")
+    src: url(fonts/FA5Free400.eot);
+    src: url(fonts/FA5Free400.eot) format("embedded-opentype"), url(fonts/FA5Free400.woff2) format("woff2"), url(fonts/FA5Free400.woff) format("woff"), url(fonts/FA5Free400.ttf) format("truetype"), url(fonts/FA5Free400.svg) format("svg")
 }
 
 .far {
@@ -18431,8 +18431,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(373c04fd.eot);
-    src: url(373c04fd.eot) format("embedded-opentype"), url(9834b82a.woff2) format("woff2"), url(3f6d3488.woff) format("woff"), url(af639750.ttf) format("truetype"), url(9674eb1b.svg) format("svg")
+    src: url(fonts/FA5Free900.eot);
+    src: url(fonts/FA5Free900.eot) format("embedded-opentype"), url(fonts/FA5Free900.woff2) format("woff2"), url(fonts/FA5Free900.woff) format("woff"), url(fonts/FA5Free900.ttf) format("truetype"), url(fonts/FA5Free900.svg) format("svg")
 }
 
 .fa,
@@ -22147,14 +22147,14 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 
 @font-face {
     font-family: Rubik;
-    src: url(b83ed688.ttf);
+    src: url(fonts/Rubik400.ttf);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Rubik;
-    src: url(f599e755.ttf);
+    src: url(fonts/Rubik500.ttf);
     font-weight: 500;
     font-style: normal
 }
@@ -22283,7 +22283,7 @@ th {
 }
 
 .image-hand {
-    background: url(ebdad51c.png);
+    background: url(hand.png);
     cursor: pointer;
     border: none;
     width: 126px;
@@ -23123,8 +23123,8 @@ li>a.button-color.active[data-color="#000000"] {
 
 @font-face {
     font-family: Chinese Rocks;
-    src: url(1ad8daf7.eot);
-    src: url(1ad8daf7.eot) format("embedded-opentype"), url(8285d2bf.woff) format("woff"), url(9975f3e9.ttf) format("truetype"), url(4ced29eb.svg) format("svg")
+    src: url(fonts/ChineseRocks.eot);
+    src: url(fonts/ChineseRocks.eot) format("embedded-opentype"), url(fonts/ChineseRocks.woff) format("woff"), url(fonts/ChineseRocks.ttf) format("truetype"), url(fonts/ChineseRocks.svg) format("svg")
 }
 
 html {
@@ -23155,7 +23155,7 @@ fieldset {
 .page {
     height: 100%;
     overflow: hidden;
-    background-image: url(cdb49bba.png), url(f3a1a5fa.png);
+    background-image: url(pagem.png), url(pagel.png);
     background-repeat: repeat-x, repeat;
     background-position: 0px 0px, 0px 14px;
     background-size: auto, auto
@@ -23168,67 +23168,67 @@ fieldset {
 }
 
 .awshirt-player-avatar-large.baku {
-    background-image: url(818805b7.png)
+    background-image: url(avatars/baku.png)
 }
 
 .awshirt-player-avatar-large.blueDemon {
-    background-image: url(4221fbdf.png)
+    background-image: url(avatars/blueDemon.png)
 }
 
 .awshirt-player-avatar-large.bun {
-    background-image: url(8f81b8e9.png)
+    background-image: url(avatars/bun.png)
 }
 
 .awshirt-player-avatar-large.cat {
-    background-image: url(6129dba1.png)
+    background-image: url(avatars/cat.png)
 }
 
 .awshirt-player-avatar-large.catfish {
-    background-image: url(483f154c.png)
+    background-image: url(avatars/catfish.png)
 }
 
 .awshirt-player-avatar-large.crow {
-    background-image: url(572de775.png)
+    background-image: url(avatars/crow.png)
 }
 
 .awshirt-player-avatar-large.dog {
-    background-image: url(887d7c1c.png)
+    background-image: url(avatars/dog.png)
 }
 
 .awshirt-player-avatar-large.fire {
-    background-image: url(296ca7f5.png)
+    background-image: url(avatars/fire.png)
 }
 
 .awshirt-player-avatar-large.fox {
-    background-image: url(4c19f6ce.png)
+    background-image: url(avatars/fox.png)
 }
 
 .awshirt-player-avatar-large.hair {
-    background-image: url(d347c190.png)
+    background-image: url(avatars/hair.png)
 }
 
 .awshirt-player-avatar-large.kappa {
-    background-image: url(b169cbf0.png)
+    background-image: url(avatars/kappa.png)
 }
 
 .awshirt-player-avatar-large.monkey {
-    background-image: url(d6a2f461.png)
+    background-image: url(avatars/monkey.png)
 }
 
 .awshirt-player-avatar-large.raccoon {
-    background-image: url(8d449c09.png)
+    background-image: url(avatars/raccoon.png)
 }
 
 .awshirt-player-avatar-large.redDemon {
-    background-image: url(f4c2dbe3.png)
+    background-image: url(avatars/redDemon.png)
 }
 
 .awshirt-player-avatar-large.snake {
-    background-image: url(8eb067eb.png)
+    background-image: url(avatars/snake.png)
 }
 
 .awshirt-player-avatar-large.umbrella {
-    background-image: url(0ded72a7.png)
+    background-image: url(avatars/umbrella.png)
 }
 
 p,
@@ -23336,12 +23336,12 @@ th,
 
 #state-shirt .awshirt-slider-controls .awshirt-slider-right {
     right: 20%;
-    background-image: url(0852eb56.png)
+    background-image: url(wrarrow.png)
 }
 
 #state-shirt .awshirt-slider-controls .awshirt-slider-left {
     left: 18%;
-    background-image: url(c7d51bdc.png)
+    background-image: url(wlarrow.png)
 }
 
 #state-shirt .glide__bullets {
@@ -23446,7 +23446,7 @@ th,
 }
 
 .logo-image {
-    background: url(8619333b.png) no-repeat center;
+    background: url(logo.png) no-repeat center;
     background-size: contain;
     height: 80%;
     width: 90%;
@@ -23529,7 +23529,7 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 .awshirt-avatars button {
-    background-image: url(99419fb7.png);
+    background-image: url(awshirt-avatars-button.png);
     background-repeat: no-repeat;
     background-color: #f4d69c;
     background-origin: border-box;
@@ -23543,7 +23543,7 @@ li>a.button-color.active[data-color="#000000"] {
 
 .awshirt-avatars button.used {
     background-color: #0f0903;
-    background-image: url(c5f27800.png);
+    background-image: url(awshirt-player-button-used.png);
     border-color: #000
 }
 
@@ -23621,7 +23621,7 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 .awshirt-player-avatar {
-    background-image: url(3060712e.png);
+    background-image: url(awshirt-player-avatar.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: 50px;
@@ -23936,7 +23936,7 @@ ul.nav-tabs {
 }
 
 .awshirt-button-loading {
-    background: url(dad68c7c.gif) no-repeat center;
+    background: url(loading.gif) no-repeat center;
     background-size: contain;
     color: #0000;
     width: 32px;

@@ -29025,33 +29025,19 @@ de tu lista de partidas anteriores.`,
             target: "_blank",
             onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
         }, Ce(e.$t("MENU.HELP")), 1)]), z("li", null, [z("a", {
-            href: "https://shop.jackboxgames.com",
+            href: "https://jackbox.uno/games/",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         }, Ce(e.$t("MENU.MERCH")), 1)]), z("li", null, [z("a", {
             onKeyup: t[6] || (t[6] = Ns((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["enter"])),
             onClick: t[7] || (t[7] = zt((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["prevent"]))
+        }, Ce(e.$t("MENU.MAILING_LIST")), 1)]), z("li", null, [z("a", {
+            href: "https://discord.com/invite/TNK3wsHHUW",
+            target: "_blank",
+            onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         }, [Xr(Ce(e.$t("MENU.PAST_GAMES")) + " ", 1), e.hasUnseenGames ? (X(), ee("div", Cse)) : Re("", !0)], 32)]), gt(c), e.shouldShowPreferredBranch ? (X(), Br(u, {
             key: 2
-        })) : Re("", !0), z("li", Rse, [z("a", {
-            class: "facebook",
-            "aria-label": "facebook",
-            target: "_blank",
-            href: "https://www.facebook.com/JackboxGames",
-            onClick: t[8] || (t[8] = f => e.onLinkClick("https://www.facebook.com/JackboxGames"))
-        }), z("a", {
-            class: "twitter",
-            "aria-label": "twitter",
-            target: "_blank",
-            href: "https://twitter.com/jackboxgames",
-            onClick: t[9] || (t[9] = f => e.onLinkClick("https://twitter.com/jackboxgames"))
-        }), z("a", {
-            class: "instagram",
-            "aria-label": "instagram",
-            target: "_blank",
-            href: "https://www.instagram.com/playjackboxgames",
-            onClick: t[10] || (t[10] = f => e.onLinkClick("https://www.instagram.com/playjackboxgames"))
-        })]), z("li", Nse, [z("a", Lse, Ce(e.version), 1)])])])
+        })) : Re("", !0), z("li", Nse, [z("a", Lse, Ce(e.version), 1)])])])
     }
     const Pse = bt(Tse, [
             ["render", $se],
