@@ -1,42 +1,6 @@
 {
     "bannerAds": [
         {
-            "tags": [
-                "locale-fr"
-            ],
-            "start": "2020-04-08",
-            "text": "Acheter maintenant!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/Quip2Int.png",
-            "href": "https://www.jackboxgames.com/quiplash-two-interlashional-french/?utm_source=jackboxtv&utm_campaign=jbgtvquipint&utm_content=jbgtvquipint"
-        },
-        {
-            "tags": [
-                "locale-it"
-            ],
-            "start": "2020-04-08",
-            "text": "Acquista ora!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/Quip2Int.png",
-            "href": "https://www.jackboxgames.com/quiplash-two-interlashional-italian/?utm_source=jackboxtv&utm_campaign=jbgtvquipint&utm_content=jbgtvquipint"
-        },
-        {
-            "tags": [
-                "locale-de"
-            ],
-            "start": "2020-04-08",
-            "text": "Kaufe jetzt!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/Quip2Int.png",
-            "href": "https://www.jackboxgames.com/quiplash-two-interlashional-german/?utm_source=jackboxtv&utm_campaign=jbgtvquipint&utm_content=jbgtvquipint"
-        },
-        {
-            "tags": [
-                "locale-es"
-            ],
-            "start": "2020-04-08",
-            "text": "¡Compralo ahora!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/Quip2Int.png",
-            "href": "https://www.jackboxgames.com/quiplash-two-interlashional-spanish/?utm_source=jackboxtv&utm_campaign=jbgtvquipint&utm_content=jbgtvquipint"
-        },
-        {
             "start": "2021-08-13",
             "text": "BUY NOW!",
             "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP9controller.png",

@@ -28752,7 +28752,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const r = await (await fetch("/banners/banners.json")).json(),
+                        const r = await (await fetch("main/@connect/banners.json")).json(),
                             n = (e = r == null ? void 0 : r.bannerAds) != null ? e : [];
                         this.banners = n.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
