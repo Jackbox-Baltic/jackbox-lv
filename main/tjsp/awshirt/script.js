@@ -4650,7 +4650,7 @@ var Jie = pN((Zie, Bw) => {
             return wF(t[0], ...t)
         }
     }
-    ce(Ws, "locale"), ce(Ws, "supported", ["en", "fr", "it", "de", "es", "es-XL"]);
+    ce(Ws, "locale"), ce(Ws, "supported", ["en", "lv", "fr", "it", "de", "es", "es-XL"]);
     const qA = class {
         static get serverUrl() {
             var r;
@@ -10737,6 +10737,138 @@ ${r.message}`,
             UGC: Gj,
             TOAST: jj
         },
+
+        /* LATVIAN */
+        action_lv = {
+            BACK: "Atpakaļ",
+            CANCEL: "Atcelt",
+            CLOSE: "Aizvērt",
+            CONFIRM: "Apstiprināt",
+            CREATE: "Izveidot",
+            DELETE: "Dzēst",
+            DONE: "Gatavs",
+            EDIT: "Rediģēt",
+            OK: "OK",
+            NO: "Nē",
+            PLAY: "Spēlēt",
+            PUBLISH: "Publicēt",
+            REMOVE: "Noņemt",
+            RESET: "Atiestatīt",
+            SUBMIT: "Iesniegt",
+            TRY_AGAIN: "Mēģināt vēlreiz",
+            UNDO: "Atsaukt",
+            YES: "Jā"
+        },
+        alt_lv = {
+            UGC: {
+                VISIBILITY_CONTROLLER_OFF: "uzvedņi ir paslēpti spēlētāju ierīcēs",
+                VISIBILITY_CONTROLLER_ON: "uzvedņi ir rādīti spēlētāju ierīcēs",
+                VISIBILITY_SCREEN_OFF: "uzvedņi ir paslēpti spēles ekrānā",
+                VISIBILITY_SCREEN_ON: "uzvedņi ir rādīti spēles ekrānā"
+            }
+        },
+        error_lv = {
+            DISCONNECTED: "Tu esi atvienots.",
+            DRAWING_NOTHING: "Tev kaut kas ir jāuzzīmē!",
+            PLAYER_KICKED: "Moderators ir izsvītrojis tevi no spēles.",
+            ROOM_DESTROYED: "Paldies par spēlēšanu!",
+            ROOM_DISCONNECTED: "Atvienots",
+            TEXT_NAUGHTY: "Diemžēl tu nevari to uzrakstīt. Lūdzu, cieni citus spēlētājus.",
+            TEXT_NOTHING: "Tu nevari neko ievadīt!",
+            TITLE: "Kļūda"
+        },
+        loading_lv = "IELĀDĒ",
+        lobby_lv = {
+            JOINED_COUNT: "x | {count} no {maxPlayers} spēlētājiem pievienojās | {count} no {maxPlayers} spēlētājiem pievienojās",
+            PLAYERS_NEEDED: "x | Nepieciešams {count} spēlētājs, lai sāktu | Nepieciešami {count} spēlētāji, lai sāktu",
+            WAITING_FOR_VIP: "Gaidām, kad {name} sāks spēli",
+            WAITING_FOR_GAMEPAD: "Gaidām spēles sākumu",
+            GAME_STARTING: "Spēle ir sākusies",
+            BUTTON_START: "Nospied, lai sāktu",
+            BUTTON_CANCEL: "Nospied, lai atceltu"
+        },
+        postgame_lv = {
+            GALLERY_LINK: "Apmeklē galeriju",
+            PLAY_AGAIN: "Spēlēt vēlreiz?",
+            BUTTON_SAME_PLAYERS: "Tie paši spēlētāji",
+            BUTTON_NEW_PLAYERS: "Jauni spēlētāji"
+        },
+        separator_lv = {
+            AND: "UN",
+            OR: "VAI"
+        },
+        tutorial_lv = {
+            BUTTON_SKIP: "Izlaist",
+            BUTTON_NEXT: "Nākamais",
+            BUTTON_DONE: "Uz priekšu!"
+        },
+        audience_lv = {
+            NAME: "AUDITORIJA"
+        },
+        ugc_lv = {
+            EPISODE_REPORT: "Ziņot epizode",
+            EPISODE_UNLOAD: "Izkraut epizode",
+            EPISODE_VIEW_AUTHOR: "Skatīt autoru",
+            EPISODES_LOAD: "Ielādēt epizodi pēc id:",
+            EPISODES_MENU: "Epizodes izvēlne",
+            EPISODES_SELECT: "Vai atlasīt epsiode:",
+            EPISODES_WARNING: "Uzmanību: lietotāja radītais saturs nav novērtēts",
+            INSTRUCTION: {
+                CREATE_TITLE: "vispirms ievadi epizodes nosaukumu, kurā būs iekļautas visas tavas uzvednes, un nospied izveidot.",
+                LOAD: "izveidot vai ielādēt?",
+                PUBLISH: "publicēt savu epizodi",
+                TITLE: "nosauc savu epizodi",
+                TOGGLE_VISIBILITY: "pieskaries, lai parādītu/noslēptu uzvedņus",
+                WRITE: "uzraksti savas uzvednes"
+            },
+            WARNING: {
+                DELETE: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
+                TOS: "Kopīgojot saturu, tu piekrīti mūsu [tos]Pakalpojumu sniegšanas noteikumiem[/tos]",
+                TOS_AGREE: "vienoties un kopīgot"
+            },
+            BACK_TO_EPISODES: "atpakaļ uz epizodēm",
+            BACK_TO_MENU: "atpakaļ uz izvēlni",
+            CREATE_NEW_EPISODE: "izveidot jaunu epizodi",
+            PREVIOUS_EPISODES: "iepriekšējās epizodes",
+            PROMPT_ADD: "pievienot uzvedni",
+            PROMPT_PLACEHOLDER: "ievadi uzvedni",
+            PROMPTS_COUNT_HIDDEN: "({count} slēptās)",
+            TITLE_PLACEHOLDER: "ievadi nosaukumu"
+        },
+        toast_lv = {
+            BROADCASTER: {
+                SUBTEXT: "Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.",
+                WARNING: "ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS."
+            },
+            RECONNECTED: {
+                TEXT: "ATJAUNOT",
+                SUBTEXT: "Izklaidējies!"
+            },
+            RECONNECTING: {
+                CONTROLLER: {
+                    TEXT: "PĀRTRAUKTS SAVIENOJUMS",
+                    SUBTEXT: "Mēģinājums atjaunot savienojumu ({attempt} no 5)"
+                },
+                GAME: {
+                    TEXT: "PĀRTRAUKTS SPĒLES SAVIENOJUMS",
+                    SUBTEXT: "Lūdzu, pagaidi, kamēr mēs mēģināsim atjaunot savienojumu"
+                }
+            }
+        },
+        lvlist = {
+            ACTION: action_lv,
+            ALT: alt_lv,
+            ERROR: error_lv,
+            LOADING: loading_lv,
+            LOBBY: lobby_lv,
+            POST_GAME: postgame_lv,
+            SEPARATOR: separator_lv,
+            TUTORIAL: tutorial_lv,
+            AUDIENCE: audience_lv,
+            UGC: ugc_lv,
+            TOAST: toast_lv
+        },
+
         Vj = {
             BACK: "Retour",
             CANCEL: "Annuler",
@@ -11354,6 +11486,7 @@ ${r.message}`,
         },
         W$ = {
             en: $j,
+            lv: lvlist,
             fr: Xj,
             it: u$,
             de: b$,
@@ -18750,11 +18883,11 @@ function print() { __p += __j.call(arguments, '') }
                 }
             }
         }),
-        F0 = "main/tjsp/awshirt/assets/ad9172fc.png",
-        G0 = "main/tjsp/awshirt/assets/dc131b16.png",
-        Y9 = "main/tjsp/awshirt/assets/38715b18.png",
-        Q9 = "main/tjsp/awshirt/assets/b0d7c822.png",
-        q9 = "main/tjsp/awshirt/assets/06150f24.png",
+        F0 = "main/tjsp/awshirt/assets/quips/star.png",
+        G0 = "main/tjsp/awshirt/assets/quips/kitty.png",
+        Y9 = "main/tjsp/awshirt/assets/happy.png",
+        Q9 = "main/tjsp/awshirt/assets/neutral.png",
+        q9 = "main/tjsp/awshirt/assets/sad.png",
         an = e => (po("data-v-2c53389f"), e = e(), go(), e),
         J9 = {
             class: "jbg"
@@ -21899,9 +22032,9 @@ ${t}`
                 dismissText: String
             }
         }),
-        gX = "main/tjsp/awshirt/assets/928ef0da.png",
-        mX = "main/tjsp/awshirt/assets/0bb76a2d.png",
-        vX = "main/tjsp/awshirt/assets/ed4469b3.png",
+        gX = "main/tjsp/awshirt/assets/quips/tear.png",
+        mX = "main/tjsp/awshirt/assets/quips/moon.png",
+        vX = "main/tjsp/awshirt/assets/quips/poop.png",
         yX = {
             key: 0,
             class: "image",
@@ -25038,7 +25171,7 @@ ${t}`
                 }
             }
         }),
-        Ste = "main/tjsp/awshirt/assets/c8afd972.svg",
+        Ste = "main/tjsp/awshirt/assets/cross.svg",
         wte = {
             class: "constrain"
         },
@@ -25374,6 +25507,108 @@ ${t}`
             WAITING: Vte,
             WRITING: Wte
         },
+
+        /* LATVIAN */
+
+        suggestion_lv = "Ieteikums",
+        alt2_lv = {
+            AVATARS: {
+                BAKU: "baku avatārs",
+                BUN: "bunny avatārs",
+                BLUE_DEMON: "blue demon avatārs",
+                CAT: "cat avatārs",
+                CATFISH: "catfish avatārs",
+                CROW: "crow avatārs",
+                DOG: "dog avatārs",
+                FIRE: "fire avatārs",
+                FOX: "fox avatārs",
+                KAPPA: "kappa avatārs",
+                HAIR: "hair avatārs",
+                MONKEY: "monkey avatārs",
+                RACCOON: "raccoon avatārs",
+                RED_DEMON: "red demon avatārs",
+                SNAKE: "snake avatārs",
+                UMBRELLA: "umbrella avatārs"
+            },
+            LOGO: "Kre K.O. logotips"
+        },
+        intros_lv = {
+            BAKU: "Uzvara turnīrā ir mans mūža sapnis!",
+            BUN: "Nekad agrāk neesmu taisījusi t-kreklus, bet parasti man diezgan labi veicas.",
+            BLUE_DEMON: "Mans krekls liks kaunā mana dvīņa pūles!",
+            CAT: "Mana māte ir ļoti slima. Man ir jāuzvar turnīrā, lai samaksātu par viņas operāciju.",
+            CATFISH: "Es sacenšos, lai veicinātu izpratni par spuras iekaisumu!",
+            CROW: "Es negribēju iekļūt šajā turnīrā! Tā bija pārrakstīšanās kļūda!",
+            DOG: "VAU! VAU VAU!",
+            FIRE: "Es vienkārši priecājos, ka varu tikt ārā no mājas!",
+            FOX: "Pēc uzvaras turnīrā varēšu paņemt gadu atvaļinājumu un pabeigt savu komēdijfilmu!",
+            KAPPA: "Ja es uzvarēšu turnīrā, man būs savs realitātes šovs!",
+            HAIR: "ES ALKSTU PĒC UZVARAS!",
+            MONKEY: "Ja es neuzvarēšu turnīrā, es, šķiet, iešu uzgleznot mājas tēvocim.",
+            RACCOON: "Man ir jāuzvar turnīrā, citādi ļaunais baņķieris atņems bērnu namu!",
+            RED_DEMON: "Man nav svarīgi uzvarēt, tikai uzveikt savu dvīni!",
+            SNAKE: "Man nav rokas, bet mana mīlestība pret t-krekliem ir spēcīga. Es uzvarēšu turnīrā!",
+            UMBRELLA: "Mans sapnis ir atvērt sandāļu veikalu. Es arī gribētu uzvarēt šajā turnīrā!"
+        },
+        taunts_lv = {
+            BAKU: "Visi mani sapņi piepildās!",
+            BUN: "Es nekad nezaudēšu!",
+            BLUE_DEMON: "Piedod, bet manas prasmes ir foršāk!",
+            CAT: "Es zināju, ka varu to izdarīt!",
+            CATFISH: "Es uzvarēju! Lūdzu, ziedojiet, lai šodien izārstētu spuras iekaisumu!",
+            CROW: "Kas notiek? Vai es uzvarēju?",
+            DOG: "GAF! VAU! GAF GAF!",
+            FIRE: "Mums ir tik jautri, puiši!",
+            FOX: "Holivuda, es esmu klāt!",
+            KAPPA: "Tagad es kļūšu slavens!",
+            HAIR: "MANS IZSALKUMS IR APMIERINĀTS... PAGAIDĀM...",
+            MONKEY: "Es to esmu pelnījusi!",
+            RACCOON: "Es ieliku visu savu sirdi, lai uzvarētu!",
+            RED_DEMON: "Es piedzimu, lai būtu labākais!",
+            SNAKE: "Man ir gods pieņemt šo uzvaru.",
+            UMBRELLA: "Negaidīts pārsteigums!"
+        },
+        lobby2_lv = {
+            BUTTON_FIGHT: "Cīņā",
+            QUOTE_CHANGE: "Mainīt",
+            QUOTE_LABEL: "Uzvara citāts",
+            QUOTE_SET: "Ok"
+        },
+        assembling_lv = {
+            INSTRUCTION: {
+                DRAWING: "Izvēlies zīmējumu",
+                SLOGAN: "Izvēlies saukli"
+            }
+        },
+        suggesting_lv = {
+            INSTRUCTION: {
+                DRAWING: "Ko tu vēlētos redzēt uzzīmētu?",
+                WRITING: "Ko spēlētājiem vajadzētu uzrakstīt?"
+            }
+        },
+        voiting_lv = {
+            INSTRUCTION: "Izvēlies savu favorītu!",
+            THANKS: "Paldies par balsojumu! Tava izvēle:"
+        },
+        waiting_lv = {
+            INSTRUCTION: "Gaidām, kad pabeigs citi spēlētāji!"
+        },
+        writing_lv = {
+            INSTRUCTION: "Uzraksti kaut ko smieklīgu, gudru vai jebko citu!"
+        },
+        lvlist2 = {
+            SUGGESTION: suggestion_lv,
+            ALT: alt2_lv,
+            INTROS: intros_lv,
+            TAUNTS: taunts_lv,
+            LOBBY: lobby2_lv,
+            ASSEMBLING: assembling_lv,
+            SUGGESTING: suggesting_lv,
+            VOTING: voiting_lv,
+            WAITING: waiting_lv,
+            WRITING: writing_lv
+        },
+
         Kte = "Suggestion",
         Yte = {
             AVATARS: {
@@ -25866,6 +26101,7 @@ ${t}`
         },
         Yre = {
             en: Hte,
+            lv: lvlist2,
             fr: rre,
             it: hre,
             de: wre,
@@ -26785,98 +27021,98 @@ ${t}`
                     icons: {
                         baku: {
                             alt: this.$t("ALT.AVATARS.BAKU"),
-                            off: new URL("main/tjsp/awshirt/assets/354d4e6d.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/514041c0.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/baku.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/baku.png", self.location).href,
                             taunt: this.$t("TAUNTS.BAKU")
                         },
                         blueDemon: {
                             alt: this.$t("ALT.AVATARS.BLUE_DEMON"),
-                            off: new URL("main/tjsp/awshirt/assets/3c7a6c32.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/a0a4d012.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/blue_demon.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/blue_demon.png", self.location).href,
                             taunt: this.$t("TAUNTS.BLUE_DEMON")
                         },
                         bun: {
                             alt: this.$t("ALT.AVATARS.BUN"),
-                            off: new URL("main/tjsp/awshirt/assets/a7d5bf8b.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/efe686f1.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/bun.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/bun.png", self.location).href,
                             taunt: this.$t("TAUNTS.BUN")
                         },
                         cat: {
                             alt: this.$t("ALT.AVATARS.CAT"),
-                            off: new URL("main/tjsp/awshirt/assets/bce7c174.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/83403e58.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/cat.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/cat.png", self.location).href,
                             taunt: this.$t("TAUNTS.CAT")
                         },
                         catfish: {
                             alt: this.$t("ALT.AVATARS.CATFISH"),
-                            off: new URL("main/tjsp/awshirt/assets/64d52d89.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/ca9b452c.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/catfish.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/catfish.png", self.location).href,
                             taunt: this.$t("TAUNTS.CATFISH")
                         },
                         crow: {
                             alt: this.$t("ALT.AVATARS.CROW"),
-                            off: new URL("main/tjsp/awshirt/assets/49695d1e.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/b0cb3d60.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/crow.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/crow.png", self.location).href,
                             taunt: this.$t("TAUNTS.CROW")
                         },
                         dog: {
                             alt: this.$t("ALT.AVATARS.DOG"),
-                            off: new URL("main/tjsp/awshirt/assets/99503ac8.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/b71356b5.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/dog.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/dog.png", self.location).href,
                             taunt: this.$t("TAUNTS.DOG")
                         },
                         fire: {
                             alt: this.$t("ALT.AVATARS.FIRE"),
-                            off: new URL("main/tjsp/awshirt/assets/b29bf0ca.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/95d775f2.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/fire.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/fire.png", self.location).href,
                             taunt: this.$t("TAUNTS.FIRE")
                         },
                         fox: {
                             alt: this.$t("ALT.AVATARS.FOX"),
-                            off: new URL("main/tjsp/awshirt/assets/91b8548b.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/45b6e996.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/fox.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/fox.png", self.location).href,
                             taunt: this.$t("TAUNTS.FOX")
                         },
                         hair: {
                             alt: this.$t("ALT.AVATARS.HAIR"),
-                            off: new URL("main/tjsp/awshirt/assets/025634f3.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/cd9dc1da.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/hair.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/hair.png", self.location).href,
                             taunt: this.$t("TAUNTS.HAIR")
                         },
                         kappa: {
                             alt: this.$t("ALT.AVATARS.KAPPA"),
-                            off: new URL("main/tjsp/awshirt/assets/de202192.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/88644d0f.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/kappa.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/kappa.png", self.location).href,
                             taunt: this.$t("TAUNTS.KAPPA")
                         },
                         monkey: {
                             alt: this.$t("ALT.AVATARS.MONKEY"),
-                            off: new URL("main/tjsp/awshirt/assets/9b3f6a47.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/0ee8d966.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/monkey.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/monkey.png", self.location).href,
                             taunt: this.$t("TAUNTS.MONKEY")
                         },
                         raccoon: {
                             alt: this.$t("ALT.AVATARS.RACCOON"),
-                            off: new URL("main/tjsp/awshirt/assets/32bd4eef.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/86f703fd.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/raccoon.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/raccoon.png", self.location).href,
                             taunt: this.$t("TAUNTS.RACCOON")
                         },
                         redDemon: {
                             alt: this.$t("ALT.AVATARS.RED_DEMON"),
-                            off: new URL("main/tjsp/awshirt/assets/6a99716a.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/8d08ae62.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/red_demon.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/red_demon.png", self.location).href,
                             taunt: this.$t("TAUNTS.RED_DEMON")
                         },
                         snake: {
                             alt: this.$t("ALT.AVATARS.SNAKE"),
-                            off: new URL("main/tjsp/awshirt/assets/c0edd45e.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/e492b5ce.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/snake.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/snake.png", self.location).href,
                             taunt: this.$t("TAUNTS.SNAKE")
                         },
                         umbrella: {
                             alt: this.$t("ALT.AVATARS.UMBRELLA"),
-                            off: new URL("main/tjsp/awshirt/assets/818bcc6a.png", self.location).href,
-                            on: new URL("main/tjsp/awshirt/assets/55fddead.png", self.location).href,
+                            off: new URL("main/tjsp/awshirt/assets/avatars/b/umbrella.png", self.location).href,
+                            on: new URL("main/tjsp/awshirt/assets/avatars/r/umbrella.png", self.location).href,
                             taunt: this.$t("TAUNTS.UMBRELLA")
                         }
                     },
@@ -27151,7 +27387,7 @@ ${t}`
                 }
             }
         }),
-        Pw = "main/tjsp/awshirt/assets/8619333b.png",
+        Pw = "main/tjsp/awshirt/assets/logo.png",
         pie = e => (po("data-v-9ffbae24"), e = e(), go(), e),
         gie = {
             class: "voting"
@@ -27225,82 +27461,82 @@ ${t}`
                     baku: {
                         alt: this.$t("ALT.AVATARS.BAKU"),
                         intro: this.$t("INTROS.BAKU"),
-                        src: new URL("main/tjsp/awshirt/assets/818805b7.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/baku.png", self.location).href
                     },
                     blueDemon: {
                         alt: this.$t("ALT.AVATARS.BLUE_DEMON"),
                         intro: this.$t("INTROS.BLUE_DEMON"),
-                        src: new URL("main/tjsp/awshirt/assets/4221fbdf.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/blue_demon.png", self.location).href
                     },
                     bun: {
                         alt: this.$t("ALT.AVATARS.BUN"),
                         intro: this.$t("INTROS.BUN"),
-                        src: new URL("main/tjsp/awshirt/assets/8f81b8e9.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/bun.png", self.location).href
                     },
                     cat: {
                         alt: this.$t("ALT.AVATARS.CAT"),
                         intro: this.$t("INTROS.CAT"),
-                        src: new URL("main/tjsp/awshirt/assets/6129dba1.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/cat.png", self.location).href
                     },
                     catfish: {
                         alt: this.$t("ALT.AVATARS.CATFISH"),
                         intro: this.$t("INTROS.CATFISH"),
-                        src: new URL("main/tjsp/awshirt/assets/483f154c.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/catfish.png", self.location).href
                     },
                     crow: {
                         alt: this.$t("ALT.AVATARS.CROW"),
                         intro: this.$t("INTROS.CROW"),
-                        src: new URL("main/tjsp/awshirt/assets/572de775.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/crow.png", self.location).href
                     },
                     dog: {
                         alt: this.$t("ALT.AVATARS.DOG"),
                         intro: this.$t("INTROS.DOG"),
-                        src: new URL("main/tjsp/awshirt/assets/887d7c1c.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/dog.png", self.location).href
                     },
                     fire: {
                         alt: this.$t("ALT.AVATARS.FIRE"),
                         intro: this.$t("INTROS.FIRE"),
-                        src: new URL("main/tjsp/awshirt/assets/296ca7f5.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/fire.png", self.location).href
                     },
                     fox: {
                         alt: this.$t("ALT.AVATARS.FOX"),
                         intro: this.$t("INTROS.FOX"),
-                        src: new URL("main/tjsp/awshirt/assets/4c19f6ce.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/fox.png", self.location).href
                     },
                     hair: {
                         alt: this.$t("ALT.AVATARS.HAIR"),
                         intro: this.$t("INTROS.HAIR"),
-                        src: new URL("main/tjsp/awshirt/assets/d347c190.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/hair.png", self.location).href
                     },
                     kappa: {
                         alt: this.$t("ALT.AVATARS.KAPPA"),
                         intro: this.$t("INTROS.KAPPA"),
-                        src: new URL("main/tjsp/awshirt/assets/b169cbf0.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/kappa.png", self.location).href
                     },
                     monkey: {
                         alt: this.$t("ALT.AVATARS.MONKEY"),
                         intro: this.$t("INTROS.MONKEY"),
-                        src: new URL("main/tjsp/awshirt/assets/d6a2f461.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/monkey.png", self.location).href
                     },
                     raccoon: {
                         alt: this.$t("ALT.AVATARS.RACCOON"),
                         intro: this.$t("INTROS.RACCOON"),
-                        src: new URL("main/tjsp/awshirt/assets/8d449c09.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/raccoon.png", self.location).href
                     },
                     redDemon: {
                         alt: this.$t("ALT.AVATARS.RED_DEMON"),
                         intro: this.$t("INTROS.RED_DEMON"),
-                        src: new URL("main/tjsp/awshirt/assets/f4c2dbe3.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/red_demon.png", self.location).href
                     },
                     snake: {
                         alt: this.$t("ALT.AVATARS.SNAKE"),
                         intro: this.$t("INTROS.SNAKE"),
-                        src: new URL("main/tjsp/awshirt/assets/8eb067eb.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/snake.png", self.location).href
                     },
                     umbrella: {
                         alt: this.$t("ALT.AVATARS.UMBRELLA"),
                         intro: this.$t("INTROS.UMBRELLA"),
-                        src: new URL("main/tjsp/awshirt/assets/0ded72a7.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/umbrella.png", self.location).href
                     }
                 }), {
                     characters: e
@@ -27521,67 +27757,67 @@ ${t}`
                 return this.$ecast.role === "player" && (e = {
                     baku: {
                         alt: this.$t("ALT.AVATARS.BAKU"),
-                        src: new URL("main/tjsp/awshirt/assets/79b2e811.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/baku.png", self.location).href
                     },
                     blueDemon: {
                         alt: this.$t("ALT.AVATARS.BLUE_DEMON"),
-                        src: new URL("main/tjsp/awshirt/assets/c25d405a.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/blue_demon.png", self.location).href
                     },
                     bun: {
                         alt: this.$t("ALT.AVATARS.BUN"),
-                        src: new URL("main/tjsp/awshirt/assets/c9161cc9.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/bun.png", self.location).href
                     },
                     cat: {
                         alt: this.$t("ALT.AVATARS.CAT"),
-                        src: new URL("main/tjsp/awshirt/assets/190e9af5.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/cat.png", self.location).href
                     },
                     catfish: {
                         alt: this.$t("ALT.AVATARS.CATFISH"),
-                        src: new URL("main/tjsp/awshirt/assets/b04542b9.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/catfish.png", self.location).href
                     },
                     crow: {
                         alt: this.$t("ALT.AVATARS.CROW"),
-                        src: new URL("main/tjsp/awshirt/assets/ae749559.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/crow.png", self.location).href
                     },
                     dog: {
                         alt: this.$t("ALT.AVATARS.DOG"),
-                        src: new URL("main/tjsp/awshirt/assets/ae202a5c.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/dog.png", self.location).href
                     },
                     fire: {
                         alt: this.$t("ALT.AVATARS.FIRE"),
-                        src: new URL("main/tjsp/awshirt/assets/5ed682f7.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/fire.png", self.location).href
                     },
                     fox: {
                         alt: this.$t("ALT.AVATARS.FOX"),
-                        src: new URL("main/tjsp/awshirt/assets/eff6fe51.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/fox.png", self.location).href
                     },
                     hair: {
                         alt: this.$t("ALT.AVATARS.HAIR"),
-                        src: new URL("main/tjsp/awshirt/assets/b1267c3a.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/hair.png", self.location).href
                     },
                     kappa: {
                         alt: this.$t("ALT.AVATARS.KAPPA"),
-                        src: new URL("main/tjsp/awshirt/assets/88bb1af3.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/kappa.png", self.location).href
                     },
                     monkey: {
                         alt: this.$t("ALT.AVATARS.MONKEY"),
-                        src: new URL("main/tjsp/awshirt/assets/dd11737c.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/monkey.png", self.location).href
                     },
                     raccoon: {
                         alt: this.$t("ALT.AVATARS.RACCOON"),
-                        src: new URL("main/tjsp/awshirt/assets/c1675c73.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/raccoon.png", self.location).href
                     },
                     redDemon: {
                         alt: this.$t("ALT.AVATARS.RED_DEMON"),
-                        src: new URL("main/tjsp/awshirt/assets/f7773361.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/red_demon.png", self.location).href
                     },
                     snake: {
                         alt: this.$t("ALT.AVATARS.SNAKE"),
-                        src: new URL("main/tjsp/awshirt/assets/2d5b9d18.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/snake.png", self.location).href
                     },
                     umbrella: {
                         alt: this.$t("ALT.AVATARS.UMBRELLA"),
-                        src: new URL("main/tjsp/awshirt/assets/1dcfef83.png", self.location).href
+                        src: new URL("main/tjsp/awshirt/assets/avatars/c/umbrella.png", self.location).href
                     }
                 }), {
                     icons: e

@@ -1335,7 +1335,7 @@
     display: block;
     width: 100%;
     padding-top: 37.7778%;
-    background-image: url(7f09428e.png);
+    background-image: url(jackboxtv.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center
@@ -2539,7 +2539,7 @@ button.twitch[data-v-fdbdeb06] {
     line-height: 50px;
     margin: 30px 0 17px;
     padding-left: 50px;
-    background: url(7d18ac0c.svg) no-repeat center left/40px
+    background: url(broadcaster.svg) no-repeat center left/40px
 }
 
 .toast.broadcaster .subtext[data-v-0a136edf] {
@@ -2550,7 +2550,7 @@ button.twitch[data-v-fdbdeb06] {
     border-top: 1px solid #CDCDCD;
     line-height: normal;
     padding: 20px 0 20px 50px;
-    background: url(92bb55df.png) no-repeat center left/40px
+    background: url(warning.png) no-repeat center left/40px
 }
 
 .spinner[data-v-0a136edf] {
@@ -2861,11 +2861,11 @@ body {
 }
 
 .assembling[data-v-04599f14] .carousel__next:before {
-    background-image: url(0852eb56.png)
+    background-image: url(next.png)
 }
 
 .assembling[data-v-04599f14] .carousel__prev:before {
-    background-image: url(c7d51bdc.png)
+    background-image: url(prev.png)
 }
 
 .drawing #stage {
@@ -3190,29 +3190,33 @@ body {
 }
 
 .artifact-link[data-v-2f88b4e3] {
-    background-image: url(d06803cd.png);
+    background-image: url(gamellery_en.png);
     border: 5px solid #231f20;
     border-radius: 15%/30%
 }
 
+.locale-lv .artifact-link[data-v-2f88b4e3] {
+    background-image: url(gamellery_lv.png)
+}
+
 .locale-de .artifact-link[data-v-2f88b4e3] {
-    background-image: url(70ba8920.png)
+    background-image: url(gamellery_de.png)
 }
 
 .locale-es .artifact-link[data-v-2f88b4e3] {
-    background-image: url(e5b1de40.png)
+    background-image: url(gamellery_es.png)
 }
 
 .locale-es-XL .artifact-link[data-v-2f88b4e3] {
-    background-image: url(034ba444.png)
+    background-image: url(gamellery_esxl.png)
 }
 
 .locale-fr .artifact-link[data-v-2f88b4e3] {
-    background-image: url(310bb058.png)
+    background-image: url(gamellery_fr.png)
 }
 
 .locale-it .artifact-link[data-v-2f88b4e3] {
-    background-image: url(813b4d2b.png)
+    background-image: url(gamellery_it.png)
 }
 
 .suggesting[data-v-549b548f] {
@@ -3303,7 +3307,7 @@ body {
 
 @font-face {
     font-family: Chinese Rocks;
-    src: url(1ad8daf7.eot), url(8285d2bf.woff) format("woff"), url(9975f3e9.ttf) format("truetype"), url(4ced29eb.svg) format("svg")
+    src: url(fonts/ChineseRocks.eot), url(fonts/ChineseRocks.woff) format("woff"), url(fonts/ChineseRocks.ttf) format("truetype"), url(fonts/ChineseRocks.svg) format("svg")
 }
 
 :root {
@@ -3318,7 +3322,7 @@ body {
 
 .tko {
     height: 100%;
-    background-image: url(cdb49bba.png), url(f3a1a5fa.png);
+    background-image: url(pagem.png), url(pagel.png);
     background-repeat: repeat-x, repeat;
     background-position: 0px 0px, 0px 14px;
     background-size: auto, auto;
@@ -3360,7 +3364,7 @@ body {
 
 .tko button.submit {
     background-color: #8dc349;
-    background-image: url(bc644f06.png);
+    background-image: url(submit.png);
     background-position: center;
     background-repeat: no-repeat
 }

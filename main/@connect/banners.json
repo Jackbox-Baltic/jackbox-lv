@@ -1,71 +1,16 @@
 {
     "bannerAds": [
         {
-            "start": "2021-08-13",
-            "text": "BUY NOW!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP9controller.png",
-            "href": "https://www.jackboxgames.com/party-pack-nine//?utm_source=jbgtvpp8&utm_medium=jbgtvpp8&utm_campaign=jbgtvpp8"
+            "start": "2023-05-02",
+            "text": "KĀ SPĒLĒT?",
+            "src": "./main/@connect/assets/helpbanner.png",
+            "href": "https://jackbox.uno/future/manual.html"
         },
         {
-            "start": "2022-06-30",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/JBPS_ControllerBanner.png",
-            "href": "https://www.jackboxgames.com/the-jackbox-party-starter/?utm_source=jbgtvtjps&utm_medium=jbgtvtjps&utm_campaign=jbgtvtjps"
-        },        
-        {
-            "start": "2021-08-13",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP8 banner .png",
-            "href": "https://www.jackboxgames.com/party-pack-eight/?utm_source=jbgtvpp8&utm_medium=jbgtvpp8&utm_campaign=jbgtvpp8"
-        },
-
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
-            "href": "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/JPP6ControllerAd.png",
-            "href": "https://jackboxgames.com/party-pack-six/?utm_source=jackboxtv&utm_campaign=jbgtvpp6&utm_content=jbgtvpp6"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP5.png",
-            "href": "https://jackboxgames.com/party-pack-five/?utm_source=jackboxtv&utm_campaign=jbgtvpp5&utm_content=jbgtvpp5"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP4.png",
-            "href": "https://jackboxgames.com/party-pack-four/?utm_source=jackboxtv&utm_campaign=jbgtvpp4&utm_content=jbgtvpp4"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP3.png",
-            "href": "https://jackboxgames.com/party-pack-three/?utm_source=jackboxtv&utm_campaign=jbgtvpp3&utm_content=jbgtvpp3"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "BON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/D2.png",
-            "href": "https://jackboxgames.com/drawful-two/?utm_source=jackboxtv&utm_campaign=jbgtvdraw&utm_content=jbgtvdraw"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP2.png",
-            "href": "https://jackboxgames.com/party-pack-two/?utm_source=jackboxtv&utm_campaign=jbgtvpp2&utm_content=jbgtvpp2"
-        },
-        {
-            "start": "2021-07-23",
-            "text": "ON SALE! 10% OFF!",
-            "src": "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP1.png",
-            "href": "https://jackboxgames.com/party-pack/?utm_source=jackboxtv&utm_campaign=jbgtvpp1&utm_content=jbgtvpp1"
+            "start": "2023-05-02",
+            "text": "DISCORD SERVERIS",
+            "src": "./main/@connect/assets/discordbanner.png",
+            "href": "https://discord.com/invite/TNK3wsHHUW"
         }
     ],
 
