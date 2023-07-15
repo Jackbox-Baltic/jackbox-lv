@@ -15314,7 +15314,7 @@ var tae = M$((nae, nI) => {
                     TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                     TV_SENTRY_RATE: "0.2",
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                    TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                    TV_TWITCH_CLIENT_ID: "6cnjbtqq1zzv0xnq7hw67tj9w6u881",
                     BASE_URL: "https://bundles.jackbox.tv/main/@connect/",
                     MODE: "production",
                     DEV: !1,
@@ -15447,7 +15447,7 @@ ${r.message}`,
             if (!xe.isSupported) return;
             const t = OA();
             xe.set("twitchState", t);
-            const r = "yn2iepd23vskpmkzgeg2lkfsct7gsc";
+            const r = "6cnjbtqq1zzv0xnq7hw67tj9w6u881";
             let n = `https://${window.location.hostname}`;
             window.location.hostname === "localhost" && (n = "http://localhost:9090/");
             let s = "https://id.twitch.tv/oauth2/authorize";
@@ -15480,7 +15480,7 @@ ${r.message}`,
                 const n = await (await fetch("https://api.twitch.tv/helix/users", {
                     headers: {
                         Authorization: `Bearer ${t}`,
-                        "Client-ID": "yn2iepd23vskpmkzgeg2lkfsct7gsc"
+                        "Client-ID": "6cnjbtqq1zzv0xnq7hw67tj9w6u881"
                     }
                 })).json();
                 if (!n || !n.data) return null;
@@ -29025,17 +29025,17 @@ de tu lista de partidas anteriores.`,
             target: "_blank",
             onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
         }, Ce(e.$t("MENU.HELP")), 1)]), z("li", null, [z("a", {
-            href: "https://jackbox.uno/games/",
+            href: "https://jackboxbalt.icu/",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         }, Ce(e.$t("MENU.MERCH")), 1)]), z("li", null, [z("a", {
             onKeyup: t[6] || (t[6] = Ns((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["enter"])),
             onClick: t[7] || (t[7] = zt((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["prevent"]))
-        }, Ce(e.$t("MENU.MAILING_LIST")), 1)]), z("li", null, [z("a", {
+        }, Ce(e.$t("MENU.PAST_GAMES")), 1)]), z("li", null, [z("a", {
             href: "https://discord.com/invite/TNK3wsHHUW",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
-        }, [Xr(Ce(e.$t("MENU.PAST_GAMES")) + " ", 1), e.hasUnseenGames ? (X(), ee("div", Cse)) : Re("", !0)], 32)]), gt(c), e.shouldShowPreferredBranch ? (X(), Br(u, {
+        }, [Xr(Ce(e.$t("MENU.MAILING_LIST")) + " ", 1), e.hasUnseenGames ? (X(), ee("div", Cse)) : Re("", !0)], 32)]), gt(c), e.shouldShowPreferredBranch ? (X(), Br(u, {
             key: 2
         })) : Re("", !0), z("li", Nse, [z("a", Lse, Ce(e.version), 1)])])])
     }

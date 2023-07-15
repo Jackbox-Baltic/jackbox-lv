@@ -12890,6 +12890,12 @@ Url: ${Wr(t)}`), !0)
         "/moderatore": t => {
             wt("/moderator", t)
         },
+        "/moderacija": t => {
+            wt("/moderator", t)
+        },
+        "/moderesana": t => {
+            wt("/moderator", t)
+        },
         "/([A-Za-z]{4})": t => {
             const e = t;
             e.params || (e.params = {}), e.params.code || (e.params.code = e.url), window.tv.load({

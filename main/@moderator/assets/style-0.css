@@ -4993,3 +4993,7 @@ header .logo[data-v-fd5cfd89] {
 .locale-es header .logo[data-v-fd5cfd89] {
     background-image: url(logoes.svg)
 }
+
+.locale-lv header .logo[data-v-fd5cfd89] {
+    background-image: url(logolv.svg)
+}
