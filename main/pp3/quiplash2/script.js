@@ -8045,7 +8045,7 @@ __p+='`), De
             return this.htmlEscape(n).trim()
         }
         static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return e.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(e) {
             return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -13161,7 +13161,7 @@ __p+='`), De
         <div class="inputGroup">\r
             <textarea id="input-text-textarea" rows="1" class="form-control jbg-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>\r
             <span class="inlineSubmit">\r
-                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Send</span></button>\r
+                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Sūtīt</span></button>\r
             </span>\r
             <span id="helpBlock2" class="help-block errorText"></span>\r
             <div class="charCountDisplay"><span class="charRemaining">70</span></div>\r
@@ -15358,7 +15358,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
             }, e.titleText = e.titleText || "Error", Rn.fire(e)
         }
         static async showError(e) {
-            const n = new URL("main/pp3/quiplash2/assets/8cdd50e7.png", self.location).href,
+            const n = new URL("main/pp3/quiplash2/assets/red.png", self.location).href,
                 i = e.customClass || {};
             return e.customClass = {
                 ...i,
@@ -15661,8 +15661,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
                 </svg>
             `,
-                    cancelButton: "Cancel",
-                    confirmButton: "Confirm"
+                    cancelButton: "Atcelt",
+                    confirmButton: "Apstiprināt"
                 }
             }
         }),
@@ -15790,7 +15790,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         r_ = `<ul class="nav nav-colors">\r
     <li class="pull-left button-pad">\r
         <button id="undoButton" class="undo button">\r
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><image x="12" y="20" width="41" height="39" xlink:href="main/pp3/quiplash2/assets/5f12600b.png"/></svg>\r
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64"><image x="12" y="20" width="41" height="39" xlink:href="main/pp3/quiplash2/assets/barrow.png"/></svg>\r
         </button>\r
     </li>\r
     <li class="pull-left button-pad"> \r
@@ -16283,9 +16283,9 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         <div id="buttons" class="buttons"></div>\r
         <div id="post-sketchpad" class="post-sketchpad">\r
             <div id="submit">\r
-                <button id='submitdrawing' class="button submitDrawing">Submit</button><br/>\r
+                <button id='submitdrawing' class="button submitDrawing">Iesniegt</button><br/>\r
             </div>\r
-            <button id='censorOptions' class='button'>Censor Options</button>\r
+            <button id='censorOptions' class='button'>Cenzūras opcijas</button>\r
             <div class="footer"></div>\r
         </div>\r
         </div>\r
@@ -16540,11 +16540,11 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 autocapitalize: !1,
                 className: "",
                 inlineSubmit: !1,
-                inlineSubmitText: "Submit",
+                inlineSubmitText: "Iesniegt",
                 error: "",
                 strings: {
-                    ERROR_NOTHING_ENTERED: "You need to enter something!",
-                    ERROR_REJECTED_TEXT: "That's not allowed, enter something else! (You can change the level of filtering in the game's settings menu)"
+                    ERROR_NOTHING_ENTERED: "Tev kaut kas jāievada!",
+                    ERROR_REJECTED_TEXT: "Tas nav atļauts, ievadi kaut ko citu! (Tu vari mainīt filtrēšanas līmeni spēles iestatījumu izvēlnē.)"
                 }
             }
         }),
@@ -16770,7 +16770,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         },
         showTwitchBroadcasterDialog(t) {
             let e = `<div class='icon-${this.client.roles.broadcaster.platform}'>${this.client.roles.broadcaster.name}</div>`;
-            e += "<div class='success'>You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.</div>", this.lacksAudience ? e += "<div class='warning'>THIS GAME DOESN'T HAVE AN AUDIENCE FEATURE</div>" : this.client.roomInfo.audienceEnabled || (e += "<div class='warning'>THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED</div>"), kt.show("custom", {
+            e += "<div class='success'>Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.</div>", this.lacksAudience ? e += "<div class='warning'>ŠAJĀ SPĒLĒ NAV AUDITORIJAS FUNKCIJAS</div>" : this.client.roomInfo.audienceEnabled || (e += "<div class='warning'>ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS</div>"), kt.show("custom", {
                 html: e,
                 position: "bottom",
                 timer: t,
@@ -16809,8 +16809,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         },
         onRoomWasDestroyed() {
             en.remove("roomCode"), en.remove("reconnect"), kt.show("error", {
-                titleText: "Disconnected",
-                text: "Thanks for playing!",
+                titleText: "Atvienots",
+                text: "Paldies par spēlēšanu!",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16818,8 +16818,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         },
         onDisconnected() {
             kt.show("error", {
-                titleText: "Disconnected",
-                text: "You have been disconnected.",
+                titleText: "Atvienots",
+                text: "Tu esi atvienots.",
                 willClose: () => {
                     window.location.reload(!0)
                 }
@@ -16915,28 +16915,28 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 formattedActiveContentId: null,
                 isLocal: !1,
                 strings: {
-                    wait: "Sit back and relax!",
-                    vip_waiting: "Waiting for all players to join",
-                    vip_canStart: "Press this button when everybody has joined",
-                    vip_cancel: "Press this button to cancel game start",
-                    vip_postgame: "What would you like to do now?",
-                    vip_episodes_menu: "Episodes Menu",
-                    vip_episodes_unload: "Unload Episode",
-                    vip_episodes_report: "Report Episode",
-                    vip_episodes_warning: "Warning: user generated content is not rated",
-                    vip_episodes_load: "Load an episode by id:",
-                    vip_episodes_select: "Or select an episode:",
-                    vip_episodes_back: "Back",
-                    vip_episodes_submit: "SUBMIT",
-                    vip_episodes_view_author: "View Author",
-                    button_start: "Everybody's In",
-                    button_cancel: "Cancel",
-                    button_changename: "Change Name",
-                    button_sameplayers: "Same Players",
-                    button_newplayers: "New Players",
-                    prompt_entername: "Enter your name",
-                    prompt_choosecharacter: "Select your character",
-                    button_censorOptions: "Censor Options",
+                    wait:"Apsēdies un atslābinies!",
+                    vip_waiting: "Gaidām, kad pievienosies visi spēlētāji",
+                    vip_canStart: "Nospied šo pogu, kad visi ir pievienojušies",
+                    vip_cancel: "Nospied šo pogu, lai atceltu spēles sākšanu",
+                    vip_postgame: "Ko tu gribi darīt tagad?",
+                    vip_episodes_menu: "Epizodes izvēlne",
+                    vip_episodes_unload: "Izkraut epizode",
+                    vip_episodes_report: "Ziņot epizode",
+                    vip_episodes_warning: "Brīdinājums: lietotāja radītais saturs nav novērtēts",
+                    vip_episodes_load: "Ielādēt epizodi pēc id:",
+                    vip_episodes_select: "Vai atlasīt epizodi:",
+                    vip_episodes_back: "Atpakaļ",
+                    vip_episodes_submit: "IESNIEGT",
+                    vip_episodes_view_author: "Skatīt autoru",
+                    button_start: "Visi ir šeit",
+                    button_cancel: "Atcelt",
+                    button_changename: "Mainīt vārdu",
+                    button_sameplayers: "Tie paši spēlētāji",
+                    button_newplayers: "Jauni spēlētāji",
+                    prompt_entername: "Ievadi savu vārdu",
+                    prompt_choosecharacter: "Izvēlies savu tēlu",
+                    button_censorOptions: "Cenzūras opcijas",
                     censor_prompt: ""
                 }
             }
@@ -17161,7 +17161,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                                 inputAttributes: {
                                     maxlength: 12
                                 },
-                                inputValidator: d => d ? d.length > 12 ? "Limit 12 characters" : null : "You need to write something!"
+                                inputValidator: d => d ? d.length > 12 ? "12 rakstzīmju ierobežojums" : null : "Tev kaut kas jāuzraksta!"
                             });
                             if (o.dismiss) return;
                             this.triggerMethod("client:message", {
@@ -17218,27 +17218,27 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                             collection: new at.Collection([])
                         });
                         o.collection.add({
-                            html: this.model.get("strings").vip_episodes_back || "Back",
+                            html: this.model.get("strings").vip_episodes_back || "Atpakaļ",
                             action: "back",
                             className: "backButton"
                         }), o.collection.add({
                             type: "text",
-                            html: this.model.get("strings").vip_episodes_load || "Load an episode by id:",
+                            html: this.model.get("strings").vip_episodes_load || "Ielādēt epizodi pēc id:",
                             className: "header"
                         }), o.collection.add({
                             type: "input",
                             preventAutosize: !0,
                             placeholder: "???-????",
                             inlineSubmit: !0,
-                            inlineSubmitText: this.model.get("strings").vip_episodes_submit || "SUBMIT",
+                            inlineSubmitText: this.model.get("strings").vip_episodes_submit || "IESNIEGT",
                             className: "lobbyUgcInput"
                         }), o.collection.add({
                             type: "text",
-                            html: this.model.get("strings").vip_episodes_warning || "Warning: user generated content is not rated",
+                            html: this.model.get("strings").vip_episodes_warning || "Brīdinājums: lietotāja radītais saturs nav novērtēts",
                             className: "danger"
                         }), e.model.get("history").length && (o.collection.add({
                             type: "text",
-                            html: this.model.get("strings").vip_episodes_select || "Or select an episode:",
+                            html: this.model.get("strings").vip_episodes_select || "Vai atlasīt epizodi:",
                             className: "episodesListHeader"
                         }), o.collection.add(e.model.get("history").map(d => ({
                             action: "activateContentId",
@@ -17371,12 +17371,12 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         Hs = {
             en: {
                 LANGUAGE_NAME: "English",
-                SUPPORTED_LANGUAGES: ["English", "Fran\xE7ais", "Italiano", "Deutsch", "Espa\xF1ol"],
-                SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
+                SUPPORTED_LANGUAGES: ["English", "Fran\xE7ais", "Italiano", "Deutsch", "Espa\xF1ol", "Latviešu"],
+                SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es", "lv"],
                 LANGUAGE: "Language",
                 LOGIN: "Login",
-                STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-                STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+                STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Atvienots",
+                STRING_ERROR_SERVER_ROOM_DESTROYED: "Paldies par spēlēšanu!"
             },
             fr: {
                 LANGUAGE_NAME: "Fran\xE7ais",
@@ -17413,6 +17413,15 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 LOGIN: "Iniciar sesi\xF3n",
                 STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Desconectado",
                 STRING_ERROR_SERVER_ROOM_DESTROYED: "Desconectado"
+            },
+            lv: {
+                LANGUAGE_NAME: "Latviešu",
+                SUPPORTED_LANGUAGES: ["English", "Fran\xE7ais", "Italiano", "Deutsch", "Espa\xF1ol", "Latviešu"],
+                SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es", "lv"],
+                LANGUAGE: "Valoda",
+                LOGIN: "Pieteikšanās",
+                STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Atvienots",
+                STRING_ERROR_SERVER_ROOM_DESTROYED: "Paldies par spēlēšanu!"
             }
         },
         x_ = `<div id="player" class="playerTopBar">
@@ -17496,10 +17505,10 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 announcePrompt: !1,
                 countGroupName: null,
                 strings: {
-                    your_choice: "Thank you. Your choice: ",
-                    censor_prompt: "Censor this?",
-                    censor_confirm: "Yes, Censor!",
-                    censor_cancel: "No!"
+                    your_choice: "Paldies. Tava izvēle: ",
+                    censor_prompt: "Cenzēt to?",
+                    censor_confirm: "Jā, cenzēt!",
+                    censor_cancel: "Nē!"
                 }
             }
         }),
@@ -19107,10 +19116,10 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 doneText: {},
                 announcePrompt: !1,
                 strings: {
-                    your_choice: "Thank you. Your choice: ",
-                    censor_prompt: "Censor this?",
-                    censor_confirm: "Yes, Censor!",
-                    censor_cancel: "No!"
+                    your_choice: "Paldies. Tava izvēle: ",
+                    censor_prompt: "Cenzēt to?",
+                    censor_confirm: "Jā, cenzēt!",
+                    censor_cancel: "Nē!"
                 }
             }
         }),
@@ -19145,7 +19154,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
             className: "SorterView",
             template: Ze.template(`
         <div id="rankedChoicesRegion"></div>
-        <div class="instructions">Choose where this item ranks:</div>
+        <div class="instructions">Izvēlies, kurā vietā ir šis vienums:</div>
         <div id="unrankedChoicesRegion"></div>
         <div id="lockInRegion"></div>
     `),
@@ -19191,7 +19200,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     block: !1,
                     model: new at.Model({
                         action: "lock",
-                        html: "Lock In"
+                        html: "Bloķēt"
                     })
                 }), this.listenTo(this.model, "change:choices", this.update, this)
             },
@@ -19349,29 +19358,29 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 text: "",
                 validActions: [],
                 strings: {
-                    tos_warning: "By sharing content, you agree to our Terms of service",
-                    tos_warning_agree: "agree and share",
-                    tos_warning_back: "back to menu",
-                    create_new_episode: "create a new episode",
-                    create_new_name_prompt: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                    create_new_button: "create",
-                    button_back_to_episodes: "back to episodes",
-                    button_back_to_menu: "back to menu",
-                    previous_episodes: "previous episodes:",
-                    toggle_prompts_prompt: "tap to show/hide prompts",
-                    button_close: "close",
-                    button_done: "done",
-                    button_add: "add prompt",
-                    input_placeholder: "enter a prompt",
-                    label_hidden: "hidden",
-                    button_edit: "edit",
-                    button_save: "save",
-                    button_publish: "publish",
-                    button_play: "play",
-                    button_delete: "delete",
-                    delete_warning: "Are you sure you want to delete this episode?",
-                    delete_warning_confirm: "Yes",
-                    delete_warning_cancel: "No"
+                    tos_warning: "Kopīgojot saturu, tu piekrīti mūsu Pakalpojumu sniegšanas noteikumiem",
+                    tos_warning_agree: "vienoties un kopīgot",
+                    tos_warning_back: "atpakaļ uz izvēlni",
+                    create_new_episode: "izveidot jaunu epizodi",
+                    create_new_name_prompt: "vispirms ievadi epizodes nosaukumu, kurā būs iekļauti visi uzvedņi, un nospied radīt.",
+                    create_new_button: "izveidot",
+                    button_back_to_episodes: "atpakaļ uz epizodēm",
+                    button_back_to_menu: "atpakaļ uz izvēlni",
+                    previous_episodes: "iepriekšējās epizodes:",
+                    toggle_prompts_prompt: "pieskaries, lai parādītu/noslēptu uzvedņus",
+                    button_close: "aizvērt",
+                    button_done: "gatavs",
+                    button_add: "pievienot uzvedni",
+                    input_placeholder: "ievadi uzvedni",
+                    label_hidden: "slēptā",
+                    button_edit: "rediģēt",
+                    button_save: "saglabāt",
+                    button_publish: "publicēt",
+                    button_play: "spēlēt",
+                    button_delete: "dzēst",
+                    delete_warning: "Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?",
+                    delete_warning_confirm: "Jā",
+                    delete_warning_cancel: "Nē"
                 }
             }
         }),
@@ -20447,8 +20456,8 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
             </div>`;
             e += `
             <div class='success'>
-                You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.
-            </div>`, this.lacksAudience ? e += "<div class='warning'>THIS GAME DOESN'T HAVE AN AUDIENCE FEATURE</div>" : this.client.roomInfo.audienceEnabled || (e += "<div class='warning'>THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED</div>"), kt.show("custom", {
+                Tu esi veiksmīgi savienojis kontu ar Jackbox Audience Kit Twitch paplašinājumu.
+            </div>`, this.lacksAudience ? e += "<div class='warning'>ŠAJĀ SPĒLĒ NAV AUDITORIJAS FUNKCIJAS</div>" : this.client.roomInfo.audienceEnabled || (e += "<div class='warning'>ŠAJĀ TELPĀ NAV IESLĒGTS AUDITORIJAS IESTATĪJUMS</div>"), kt.show("custom", {
                 html: e,
                 position: "bottom",
                 timer: t,
@@ -21865,17 +21874,17 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 <div id="lobby-main-menu">
                     <p id="quiplash-lobby-text" class='quiplash-text'></p>
                     <form class="pure-form">
-                        <button type="button" id="quiplash-startgame" class="lobby-button quiplash2-button btn btn-lg btn-block">everybody's in</button>
-                        <button type="button" id="quiplash-stopcountdown" class="lobby-button quiplash2-button btn btn-lg btn-block">cancel</button>
-                        <button type="button" id="quiplash-sameplayers" class="lobby-button quiplash2-button btn btn-lg btn-block quiplash-endbuttons">same players</button>
-                        <button type="button" id="quiplash-newplayers" class="lobby-button quiplash2-button btn btn-lg btn-block quiplash-endbuttons">new players</button>    
+                        <button type="button" id="quiplash-startgame" class="lobby-button quiplash2-button btn btn-lg btn-block">visi ir šeit</button>
+                        <button type="button" id="quiplash-stopcountdown" class="lobby-button quiplash2-button btn btn-lg btn-block">atcelt</button>
+                        <button type="button" id="quiplash-sameplayers" class="lobby-button quiplash2-button btn btn-lg btn-block quiplash-endbuttons">tie paši spēlētāji</button>
+                        <button type="button" id="quiplash-newplayers" class="lobby-button quiplash2-button btn btn-lg btn-block quiplash-endbuttons">jauni spēlētāji</button>    
                     </form>
                     
                     <div class="pure-u-1"></div>
                     
                     <form class="pure-form">
-                        <button type="button" id="quiplash-lobby-menu-ugc" class="menu-button lobby-button quiplash2-button btn btn-lg btn-block">EPISODES MENU</button><br>
-                        <button type="button" id="quiplash-lobby-menu-censor" class="menu-button lobby-button quiplash2-button btn btn-lg btn-block">Censor Menu</button><br>
+                        <button type="button" id="quiplash-lobby-menu-ugc" class="menu-button lobby-button quiplash2-button btn btn-lg btn-block">EPIZODES IZVĒLNE</button><br>
+                        <button type="button" id="quiplash-lobby-menu-censor" class="menu-button lobby-button quiplash2-button btn btn-lg btn-block">Cenzūras izvēlne</button><br>
                     </form>
                     <div id="quiplash2-lobby-postgame" class="quiplash2-quips">
                         <a target="_blank" class="gallery-link" href=""></a>
@@ -21884,26 +21893,26 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 
                 <div id="lobby-ugc">
                     <p id="lobby-ugc-error"></p>
-                    <button type="button" class="quiplash-lobby-menu-back quiplash2-button btn btn-lg btn-block">back</button><br>
+                    <button type="button" class="quiplash-lobby-menu-back quiplash2-button btn btn-lg btn-block">atpakaļ</button><br>
                     <div id="lobby-ugc-enter" class="lobby-ugc-option">
                         <form class="">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <p id="lobby-ugc-help" class='quiplash-text'>to load a custom episode, go to "make your own" or enter a 7-letter episode id</p>
-                                    <p class="quiplash-text-box quiplash-text">Load an episode by id:</p>
+                                    <p id="lobby-ugc-help" class='quiplash-text'>lai ielādētu pielāgotu epizodi, dodies uz "izveido pats" vai ievadi 7 burtu epizodes id</p>
+                                    <p class="quiplash-text-box quiplash-text">Ielādēt epizodi pēc id:</p>
                                 </div>
                                 <div class="col-xs-12">
                                     <div class="quiplash2-button-group">
                                         <input id="lobby-ugc-input" type="text" style="flex-grow:2;" class="capitalized jbg-input " placeholder="???-????" />
-                                        <button type="submit" id="lobby-ugc-submit" style="flex-grow:0;min-width:120px;" class="quiplash2-button btn quiplash-text">submit</button>
+                                        <button type="submit" id="lobby-ugc-submit" style="flex-grow:0;min-width:120px;" class="quiplash2-button btn quiplash-text">iesniegt</button>
                                     </div>
                                 </div>
                             </div>
-                            <small class="help quiplash-text quiplash-text-danger">warning : user generated content is not rated.</small>
+                            <small class="help quiplash-text quiplash-text-danger">brīdinājums: lietotāja radītais saturs nav novērtēts.</small>
                         </form>
                         
                         <div class="quiplash-ugc-previous">
-                            <p class="quiplash-text">Or select an episode:</p>
+                            <p class="quiplash-text">Vai atlasīt epizodi:</p>
     						<!-- <div id="lobby-ugc-history"></div> -->
                             <table id="lobby-ugc-history" class="quiplash-list"></table>
                         </div>
@@ -21911,9 +21920,9 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     
                     <div id="lobby-ugc-choices" class="lobby-ugc-option">
                         <div class="quiplash-text-box" id="lobby-ugc-choices-content-id quiplash-text"></div>
-                        <button type="button" id="lobby-ugc-clear" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">unload</button><br>
-						<button type="button" id="lobby-ugc-report" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">report</button>
-						<button type="button" id="lobby-ugc-view-author" class="quiplash2-button button-xlarge pure-button">view author</button>
+                        <button type="button" id="lobby-ugc-clear" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">izkraut</button><br>
+						<button type="button" id="lobby-ugc-report" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">ziņot</button>
+						<button type="button" id="lobby-ugc-view-author" class="quiplash2-button button-xlarge pure-button">skatīt autoru</button>
                     </div>
                     
                 </div>
@@ -21924,13 +21933,13 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     
                     <form class="pure-form">
                         <div class="pure-u-1">
-                            <button type="button" class="quiplash-lobby-menu-back quiplash2-button btn btn-lg btn-block" style="margin-left: 0px; margin-right: 0px;">back</button>
+                            <button type="button" class="quiplash-lobby-menu-back quiplash2-button btn btn-lg btn-block" style="margin-left: 0px; margin-right: 0px;">atpakaļ</button>
                         </div>
                         
                         <div class="pure-u-1"></div>
                         
                         <div id="lobby-censor-players" class="pure-u-1"></div>
-                        <div class="quiplash-text quiplash-text-alt">Hit X to CENSOR player for rest of the game, removing their answers and name. (It's kind of intense.)</div>
+                        <div class="quiplash-text quiplash-text-alt">Spied X, lai IECENZĒTU spēlētāju uz visu spēli, noņemot viņa vai viņas atbildes un vārdu. (Tas ir diezgan intensīvi.)</div>
                     </form>
                 </div>
                 
@@ -21954,21 +21963,21 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 <span id="quiplash-submit-alert" class="alert alert-info">Alert message goes here</span>
                 <form class="pure-form" id="quiplash-answer-field">
                     <div class="pure-u-1 gridmargin">
-                        <input id="quiplash-answer-input" name="quiplash-answer" class="pure-input-1 capitalize jbg-input quiplash2-answer-input" type="text" maxlength="45" placeholder="ANSWER HERE" autocapitalize="off" autocorrect="off" autocomplete="off">
+                        <input id="quiplash-answer-input" name="quiplash-answer" class="pure-input-1 capitalize jbg-input quiplash2-answer-input" type="text" maxlength="45" placeholder="ATBILDI ŠEIT" autocapitalize="off" autocorrect="off" autocomplete="off">
                     </div>
                     
                     <div class="pure-u-1 gridmargin">
-                    <button type="submit" id="quiplash-submit-answer" class="quiplash2-button button-large pure-button capitalize" style="width:100%;"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;SEND</button>
+                    <button type="submit" id="quiplash-submit-answer" class="quiplash2-button button-large pure-button capitalize" style="width:100%;"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;SŪTĪT</button>
                     </div>
                     
                     <div class="pure-u-1 gridmargin"></div>
                         
                     <div class="pure-u-1 gridmargin">
-                    <button type="button" id="quiplash-submit-safetyquip" class="quiplash2-button button-large pure-button capitalize" style="width:100%;">SAFETY QUIP<br />(HALF POINTS)</button>
+                    <button type="button" id="quiplash-submit-safetyquip" class="quiplash2-button button-large pure-button capitalize" style="width:100%;">DROŠĪBAS JOKS<br />(PUSES PUNKTI)</button>
                     </div>
                     
                     <div class="pure-u-1 gridmargin">
-                    <button type="button" id="quiplash-audience-censor" class="quiplash2-button button-large pure-button capitalize" style="width:100%; display:none;">CENSOR AUDIENCE</button>
+                    <button type="button" id="quiplash-audience-censor" class="quiplash2-button button-large pure-button capitalize" style="width:100%; display:none;">AUDITORIJAS CENZŪRA</button>
                     </div>
                     
                     <div id="quiplash-submit-answer-loading" style="display:none;" class="quiplash2-button-loading"></div>
@@ -21986,7 +21995,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
             </div>
             
             <div class="pure-u-1 gridmargin">
-            <button type="button" id="quiplash-audience-censor-done" class="quiplash2-button button-large pure-button capitalize" style="width:100%;">CENSOR AUDIENCE</button>
+            <button type="button" id="quiplash-audience-censor-done" class="quiplash2-button button-large pure-button capitalize" style="width:100%;">AUDITORIJAS CENZŪRA</button>
             </div>
         </div>
         
@@ -22003,13 +22012,13 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
         
         <div class="pt-page-off quiplash2-page background-yellow" id="state-ugc">
             <div id="ugc-submit-dialog" style="display:none;" class="container">
-                <div class="quiplash-text-box">By sharing content, you agree to our <a href="http://www.jackboxgames.com/terms-of-service/" target="_blank">Terms of service</a></div>
-                <button id="ugc-submit-confirm" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">agree and share</button><br />
-                <button id="ugc-submit-cancel" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">back to menu</button>
+                <div class="quiplash-text-box">Kopīgojot saturu, tu piekrīti mūsu <a href="http://www.jackboxgames.com/terms-of-service/" target="_blank">Pakalpojumu sniegšanas noteikumiem</a></div>
+                <button id="ugc-submit-confirm" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">vienoties un kopīgot</button><br />
+                <button id="ugc-submit-cancel" class="quiplash2-button quiplash2-button-black button-xlarge pure-button">atpakaļ uz izvēlni</button>
             </div>
             <div id="ugc-container" class="container">
                     <div id="ugc-toggle-visibility" class="ugc-option">
-                        <span class="quiplash-text">Tap to show/hide prompts</span><br/>
+                        <span class="quiplash-text">Pieskaries, lai parādītu/noslēptu uzvedņus</span><br/>
                         <div class="quiplash-text-box">
                             <div id="ugc-toggle-visibility-button-controller" class="ugc-toggle-visibility-button quiplash-image-controller ugc-toggle-visibility-button pure-u-1-2" data-target="controller"></div>
                             <div id="ugc-toggle-visibility-button-screen" class="ugc-toggle-visibility-button quiplash-image-screen ugc-toggle-visibility-button-screen pure-u-1-2" data-target="screen"></div>
@@ -22017,10 +22026,10 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     </div>
                 <div id="ugc-episode-name"></div>
                 <div id="ugc-new" class="ugc-option">
-                    <button type="button" id="ugc-new-button" class="quiplash2-button quiplash2-button-black btn btn-lg">create a new episode</button>
+                    <button type="button" id="ugc-new-button" class="quiplash2-button quiplash2-button-black btn btn-lg">izveidot jaunu epizodi</button>
                 </div>
 
-                <h3 class="ugc-option quiplash-text-box quiplash-text ugc-load">Previous episodes:</h3>
+                <h3 class="ugc-option quiplash-text-box quiplash-text ugc-load">Iepriekšējās epizodes:</h3>
                 <table id="ugc-load" class="ugc-option quiplash-list">
                 </table>
                 
@@ -22034,12 +22043,12 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                         </p>
                         <form class="">
                             <div class="form-group">
-                                <p class='quiplash-text'>First things first, enter a name for the episode that will contain all your prompts and hit create.</p>
+                                <p class='quiplash-text'>Vispirms ievadi epizodes nosaukumu, kurā būs iekļauti visi uzvedņi, un nospied izveidot.</p>
                                 <input id="ugc-title-input" class="lowercase form-control quiplash2-answer-input input-lg" type="text" placeholder="" autocapitalize="off" autocorrect="off" autocomplete="off"/>
                             </div>
                             <div class="form-group">
-                                <button type="submit" id="ugc-title-button" name="ugc-title-button" class="ugc-form-button quiplash2-button quiplash2-button-black btn btn-lg pull-right">create</button>
-                                <button type="button" id="ugc-exit-button" class="ugc-form-button quiplash2-button quiplash2-button-black btn btn-lg pull-left">back to episodes</button>
+                                <button type="submit" id="ugc-title-button" name="ugc-title-button" class="ugc-form-button quiplash2-button quiplash2-button-black btn btn-lg pull-right">izveidot</button>
+                                <button type="button" id="ugc-exit-button" class="ugc-form-button quiplash2-button quiplash2-button-black btn btn-lg pull-left">atpakaļ uz epizodēm</button>
                             </div>
                                 
                             
@@ -22049,16 +22058,16 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     
                         <form class="pure-form">
                             <div class="pure-u-1">
-                                <input id="ugc-add-input" class="lowercase ugc-input pure-input-1 quiplash2-answer-input ugc-option ugc-add" type="text" placeholder="enter a prompt" autocapitalize="off" autocorrect="off" autocomplete="off"/>
+                                <input id="ugc-add-input" class="lowercase ugc-input pure-input-1 quiplash2-answer-input ugc-option ugc-add" type="text" placeholder="ievadi uzvedni" autocapitalize="off" autocorrect="off" autocomplete="off"/>
                             </div>
                             <div class="ugc-option ugc-add">
-                                <button type="submit" id="ugc-add-button" name="ugc-add-button" class="ugc-form-button quiplash2-button quiplash2-button-black button-xlarge pure-button gridmargin right">add prompt</button>
+                                <button type="submit" id="ugc-add-button" name="ugc-add-button" class="ugc-form-button quiplash2-button quiplash2-button-black button-xlarge pure-button gridmargin right">pievienot uzvedni</button>
                             </div>
                             <div id="ugc-close" class="ugc-option">
-                                <button type="button" id="ugc-close-button" class="ugc-form-button quiplash2-button quiplash2-button-black button-xlarge pure-button gridmargin left">close</button>
+                                <button type="button" id="ugc-close-button" class="ugc-form-button quiplash2-button quiplash2-button-black button-xlarge pure-button gridmargin left">aizvērt</button>
                             </div>
                             <div id="ugc-save" class="ugc-option">
-                                <button type="save" id="ugc-save-button" class="ugc-form-button quiplash2-button quiplash2-button-black button-xlarge pure-button gridmargin left">done</button>
+                                <button type="save" id="ugc-save-button" class="ugc-form-button quiplash2-button quiplash2-button-black button-xlarge pure-button gridmargin left">gatavs</button>
                             </div>
                         </form>
                     
@@ -22071,33 +22080,33 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 
                 <!--<div id="ugc-screen-confirm" class="ugc-screen">-->
                     <div id="ugc-unlock" class="ugc-option">
-                        <button type="button" id="ugc-unlock-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">edit</button>
+                        <button type="button" id="ugc-unlock-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">rediģēt</button>
                     </div>
                     
                     <div id="ugc-save" class="ugc-option">
-                        <button type="save" id="ugc-save-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">save</button>
+                        <button type="save" id="ugc-save-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">saglabāt</button>
                     </div>
                 <!--</div>-->
                 
                 <!--<div id="ugc-screen-post-save" class="ugc-screen">-->
     			    <div id="ugc-submit" class="ugc-option">
-                        <button type="button" id="ugc-submit-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">publish</button>
+                        <button type="button" id="ugc-submit-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">publicēt</button>
                     </div>
                     <div id="ugc-play" class="ugc-option">
-                        <button type="button" id="ugc-play-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">play</button>
+                        <button type="button" id="ugc-play-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">spēlēt</button>
                     </div>
                     <div id="ugc-remove-content" class="ugc-option">
-                        <button type="button" id="ugc-delete-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block ugc-remove-content-button">delete</button>
+                        <button type="button" id="ugc-delete-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block ugc-remove-content-button">dzēst</button>
                         <div id="ugc-remove-content-dialog" style="display:none;" class="well well-sm quiplash-confirm-dialog">
-                            <p class="quiplash-text quiplash-text-box quiplash-text-danger">Are you sure you want to delete this episode?</p>
-                            <button id="ugc-remove-content-confirm" class="quiplash2-button quiplash2-button-black">Yes</button>
-                            <button id="ugc-remove-content-cancel" class="quiplash2-button">No</button>
+                            <p class="quiplash-text quiplash-text-box quiplash-text-danger">Vai esi pārliecināts, ka vēlies izdzēst šo epizodi?</p>
+                            <button id="ugc-remove-content-confirm" class="quiplash2-button quiplash2-button-black">Jā</button>
+                            <button id="ugc-remove-content-cancel" class="quiplash2-button">Nē</button>
                         </div>
 
                     </div>
 
                     <div id="ugc-exit" class="ugc-option">
-                        <button type="button" id="ugc-exit-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">back to episodes</button>
+                        <button type="button" id="ugc-exit-button" class="quiplash2-button quiplash2-button-black btn btn-lg btn-block">atpakaļ uz epizodēm</button>
                     </div>
                 <!--</div>-->
             </div>
@@ -22198,7 +22207,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     return
                 }
                 if (be(".ugc-option").hide(), n === "RoomFull") {
-                    kt.show(Error("The room is full"), {
+                    kt.show(Error("Telpa ir pilna"), {
                         willClose: () => {
                             window.location.reload(!0)
                         }
@@ -22206,7 +22215,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     return
                 }
                 if (n === "GameLocked") {
-                    kt.show(Error("Game is in progress. Please wait for a new game to start."), {
+                    kt.show(Error("Notiek spēle. Lūdzu, uzgaid, kad sāksies jauna spēle."), {
                         willClose: () => {
                             window.location.reload(!0)
                         }
@@ -22256,7 +22265,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                         m.categoryId = T;
                         const D = `https://${S}/artifact/${T}/${m.artifactId}/`;
                         try {
-                            const V = new URL("main/pp3/quiplash2/assets/ff97dfcc.png", self.location).href;
+                            const V = new URL("main/pp3/quiplash2/assets/quiplash_gallery.png", self.location).href;
                             this.$el.find(".gallery-link").attr("href", D);
                             const Y = `<img src="${V}" />`;
                             this.$el.find(".gallery-link").html(Y), vi.add(m, this.getOption("appTag"))
@@ -22265,11 +22274,11 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                         }
                     } else this.$el.find("#quiplash2-lobby-postgame").html("");
                     if (!e.isAllowedToStartGame) {
-                        this.$el.find("#quiplash-lobby-text").html("Sit back and relax!"), this.showScreen("#state-lobby");
+                        this.$el.find("#quiplash-lobby-text").html("Apsēdies un atslābinies!"), this.showScreen("#state-lobby");
                         return
                     }
                     const C = t.lobbyState;
-                    C === "WaitingForMore" ? this.$el.find("#quiplash-lobby-text").html("Waiting for all players to join") : C === "CanStart" ? (this.$el.find("#quiplash-lobby-text").html("Press this button when everybody has joined"), this.$el.find("#quiplash-startgame").show()) : C === "Countdown" ? (this.$el.find("#quiplash-lobby-text").html("Press this button to cancel game start"), this.$el.find("#quiplash-stopcountdown").show()) : C === "PostGame" && (this.$el.find("#quiplash-lobby-text").html("What do you want to do?"), be(".quiplash-endbuttons").show()), this.showScreen("#state-lobby")
+                    C === "WaitingForMore" ? this.$el.find("#quiplash-lobby-text").html("Gaidām, kad pievienosies visi spēlētāji") : C === "CanStart" ? (this.$el.find("#quiplash-lobby-text").html("Nospied šo pogu, kad visi ir pievienojušies"), this.$el.find("#quiplash-startgame").show()) : C === "Countdown" ? (this.$el.find("#quiplash-lobby-text").html("Nospied šo pogu, lai atceltu spēles sākšanu"), this.$el.find("#quiplash-stopcountdown").show()) : C === "PostGame" && (this.$el.find("#quiplash-lobby-text").html("Ko tu gribi darīt tagad?"), be(".quiplash-endbuttons").show()), this.showScreen("#state-lobby")
                 } else if (i === "Gameplay_Logo" || i === "Logo") {
                     if (this.showScreen("#state-logo"), this.prevPlayerState === "Gameplay_AnswerQuestion" && this.doneAnswering === !1) {
                         const m = this.$el.find("#quiplash-answer-input").val();
@@ -22287,17 +22296,17 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                         }
                         if (this.doneAnswering = !1, this.$el.find("#quiplash-answer-input").val(""), this.$el.find("#quiplash-submit-answer").removeAttr("disabled"), this.$el.find("#quiplash-answer-field").show(), this.$el.find("#quiplash-submit-alert").hide(), this.$el.find("#quiplash-submit-answer").show(), this.$el.find("#quiplash-audience-censor").hide(), t.safetyQuip === !0 ? this.$el.find("#quiplash-submit-safetyquip").show() : this.$el.find("#quiplash-submit-safetyquip").hide(), e.canCensor && this.$el.find("#quiplash-audience-censor").show(), this.$el.find("#state-answer-question #question-text").html(e.question.prompt.replace(/<BLANK>/gi, "________")), this.$el.find("#state-answer-question #question-text-alt").html(""), e.question.quip !== void 0 ? (this.$el.find("#state-answer-question #question-text-alt").html(e.question.quip.replace(/<BLANK>/gi, "________")), this.$el.find("#state-answer-question #question-text").removeClass("quiplash-text"), this.$el.find("#state-answer-question #question-text").addClass("quiplash-text-big")) : (this.$el.find("#state-answer-question #question-text").addClass("quiplash-text"), this.$el.find("#state-answer-question #question-text").removeClass("quiplash-text-big")), e.showError) {
                             const m = this.$el.find("#quiplash-submit-alert");
-                            this.$el.find("#quiplash-submit-alert").html("You entered the same thing as someone else! Try again."), m.addClass("alert-info"), m.removeClass("alert-danger"), m.show()
+                            this.$el.find("#quiplash-submit-alert").html("Tu ievadīji to pašu, ko kāds cits! Mēģiniet vēlreiz."), m.addClass("alert-info"), m.removeClass("alert-danger"), m.show()
                         }
                         this.prevAnswerQuestionId = e.question.id, this.currentAnswerQuestionId = e.question.id, this.showScreen("#state-answer-question")
-                    } else this.$el.find("#quiplash-answer-input").val(""), this.$el.find("#quiplash-submit-answer").removeAttr("disabled"), this.$el.find("#quiplash-answer-field").hide(), this.$el.find("#quiplash-submit-alert").hide(), this.$el.find("#quiplash-submit-safetyquip").hide(), this.$el.find("#quiplash-submit-answer").hide(), this.$el.find("#quiplash-audience-censor").hide(), t.audienceQuip && t.canDoAudiencePlay ? (this.$el.find("#state-answer-question #question-text").html(t.audienceQuip.replace(/<BLANK>/gi, "________")), this.$el.find("#quiplash-answer-field").show(), this.$el.find("#quiplash-submit-answer").show()) : this.$el.find("#state-answer-question #question-text").html("You\u2019re in the audience! Wait for the time to vote."), this.showScreen("#state-answer-question");
+                    } else this.$el.find("#quiplash-answer-input").val(""), this.$el.find("#quiplash-submit-answer").removeAttr("disabled"), this.$el.find("#quiplash-answer-field").hide(), this.$el.find("#quiplash-submit-alert").hide(), this.$el.find("#quiplash-submit-safetyquip").hide(), this.$el.find("#quiplash-submit-answer").hide(), this.$el.find("#quiplash-audience-censor").hide(), t.audienceQuip && t.canDoAudiencePlay ? (this.$el.find("#state-answer-question #question-text").html(t.audienceQuip.replace(/<BLANK>/gi, "________")), this.$el.find("#quiplash-answer-field").show(), this.$el.find("#quiplash-submit-answer").show()) : this.$el.find("#state-answer-question #question-text").html("Tu esi auditorijā! Gaidi, kad pienāks laiks balsot."), this.showScreen("#state-answer-question");
                 else if (i === "Gameplay_Vote") {
                     if (this.$el.find("#state-vote #question-text-alt").html(""), !e.canCensor && e.doneVoting) {
-                        this.$el.find("#state-vote #vote-text").html("Wait for the other players!"), this.$el.find("#quiplash-vote").html(""), this.showScreen("#state-vote");
+                        this.$el.find("#state-vote #vote-text").html("Gaidiet citus spēlētājus!"), this.$el.find("#quiplash-vote").html(""), this.showScreen("#state-vote");
                         return
                     }
                     t.question ? this.$el.find("#state-vote #question-text").html(t.question.prompt.replace(/<BLANK>/gi, "________")) : this.$el.find("#state-vote #question-text").html("");
-                    const m = e.censorOnly || e.doneVoting ? "" : "Which one do you like more?";
+                    const m = e.censorOnly || e.doneVoting ? "" : "Kurš no tiem tev patīk vairāk?";
                     this.$el.find("#state-vote #vote-text").html(m);
                     let C = "";
                     if (t.choices && t.order)
@@ -22322,20 +22331,20 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                     this.notify(), this.$el.find("#quiplash-vote").html(C), be(".quiplash2-disabled").attr("disabled", "disabled"), this.showScreen("#state-vote")
                 } else if (i === "Gameplay_R3Vote") {
                     if (this.$el.find("#state-vote #question-text-alt").html(""), !e.canCensor && e.doneVoting) {
-                        this.$el.find("#state-vote #vote-text").html("Wait for the other players!"), this.$el.find("#quiplash-vote").html(""), this.showScreen("#state-vote");
+                        this.$el.find("#state-vote #vote-text").html("Gaidiet citus spēlētājus!"), this.$el.find("#quiplash-vote").html(""), this.showScreen("#state-vote");
                         return
                     }
                     this.$el.find("#state-vote #question-text").html(t.question.prompt.replace(/<BLANK>/gi, "________")), t.question.quip !== void 0 ? (this.$el.find("#state-vote #question-text-alt").html(t.question.quip.replace(/<BLANK>/gi, "________")), this.$el.find("#state-vote #question-text").removeClass("quiplash-text"), this.$el.find("#state-vote #question-text").addClass("quiplash-text-big")) : (this.$el.find("#state-vote #question-text").addClass("quiplash-text"), this.$el.find("#state-vote #question-text").removeClass("quiplash-text-big"));
-                    let m = "Which one do you like more?";
+                    let m = "Kurš no tiem tev patīk vairāk?";
                     if (e.currentVote) switch (e.currentVote) {
                         case 0:
-                            m = "Award your gold medal to your favorite answer!";
+                            m = "Piešķir zelta medaļu savai mīļākajai atbildei!";
                             break;
                         case 1:
-                            m = "Now award your silver medal!";
+                            m = "Tagad piešķir sudraba medaļu!";
                             break;
                         case 2:
-                            m = "And hand out a bronze medal to your third favorite.";
+                            m = "Un pasniedz bronzas medaļu savam trešajam favorītam.";
                             break
                     }
                     this.$el.find("#state-vote #vote-text").html(m);
@@ -22421,7 +22430,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 const t = this.sanitize(this.$el.find("#quiplash-answer-input").val()).toUpperCase();
                 if (t.length === 0) {
                     const e = this.$el.find("#quiplash-submit-alert");
-                    return e.html("You can't enter nothing!"), e.removeClass("alert-info"), e.addClass("alert-danger"), e.show(), this.alertTimeout && clearTimeout(this.alertTimeout), this.alertTimeout = setTimeout(() => {
+                    return e.html("Tu nevari ievadīt neko!"), e.removeClass("alert-info"), e.addClass("alert-danger"), e.show(), this.alertTimeout && clearTimeout(this.alertTimeout), this.alertTimeout = setTimeout(() => {
                         this.$el.find("#quiplash-submit-alert").hide()
                     }, 5e3), !1
                 }
@@ -22452,7 +22461,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 }) : this.client.isRole("audience") && (this.client.sessionSend("vote", "Quiplash2 Vote", {
                     type: "vote",
                     vote: e
-                }), this.$el.find("#vote-text").html("Thanks, audience member!"), this.$el.find("#quiplash-vote").html(""), this.showScreen("#state-vote")), be(".quiplash2-button").removeClass("selected"), be(t.target).addClass("selected"), !1
+                }), this.$el.find("#vote-text").html("Paldies, auditorijas loceklis!"), this.$el.find("#quiplash-vote").html(""), this.showScreen("#state-vote")), be(".quiplash2-button").removeClass("selected"), be(t.target).addClass("selected"), !1
             },
             newGameSamePlayers() {
                 return this.client.send("SendMessageToRoomOwner", {
@@ -22630,7 +22639,7 @@ https://sweetalert2.github.io/#ajax-request`), Uo(c), typeof c.title == "string"
                 return Mt.htmlEscape(e).trim()
             },
             sanitizeInput(t) {
-                return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,=<>:;]/gi, "")
+                return t.replace(/[^A-Z0-9\u0100-\u017F\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,=<>:;]/gi, "")
             },
             validateInput(t) {
                 const e = be(t.target);

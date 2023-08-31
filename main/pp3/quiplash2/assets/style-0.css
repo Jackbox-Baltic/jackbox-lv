@@ -2018,8 +2018,8 @@ th {
 
 @font-face {
     font-family: Glyphicons Halflings;
-    src: url(13634da8.eot);
-    src: url(13634da8.eot) format("embedded-opentype"), url(fe185d11.woff2) format("woff2"), url(a26394f7.woff) format("woff"), url(e3950440.ttf) format("truetype"), url(42f60659.svg) format("svg")
+    src: url(fonts/GlyphiconsHalflings.eot);
+    src: url(fonts/GlyphiconsHalflings.eot) format("embedded-opentype"), url(fonts/GlyphiconsHalflings.woff2) format("woff2"), url(fonts/GlyphiconsHalflings.woff) format("woff"), url(fonts/GlyphiconsHalflings.ttf) format("truetype"), url(fonts/GlyphiconsHalflings.svg) format("svg")
 }
 
 .glyphicon {
@@ -18403,8 +18403,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(e4299464.eot);
-    src: url(e4299464.eot) format("embedded-opentype"), url(8ea87917.woff2) format("woff2"), url(f9217f66.woff) format("woff"), url(cda59d6e.ttf) format("truetype"), url(a3b98177.svg) format("svg")
+    src: url(fonts/FA5Brands.eot);
+    src: url(fonts/FA5Brands.eot) format("embedded-opentype"), url(fonts/FA5Brands.woff2) format("woff2"), url(fonts/FA5Brands.woff) format("woff"), url(fonts/FA5Brands.ttf) format("truetype"), url(fonts/FA5Brands.svg) format("svg")
 }
 
 .fab {
@@ -18417,8 +18417,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(79d08806.eot);
-    src: url(79d08806.eot) format("embedded-opentype"), url(e42a8844.woff2) format("woff2"), url(cb9e9e69.woff) format("woff"), url(e8711bbb.ttf) format("truetype"), url(be0a0849.svg) format("svg")
+    src: url(fonts/FA5Free400.eot);
+    src: url(fonts/FA5Free400.eot) format("embedded-opentype"), url(fonts/FA5Free400.woff2) format("woff2"), url(fonts/FA5Free400.woff) format("woff"), url(fonts/FA5Free400.ttf) format("truetype"), url(fonts/FA5Free400.svg) format("svg")
 }
 
 .far {
@@ -18431,8 +18431,8 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(373c04fd.eot);
-    src: url(373c04fd.eot) format("embedded-opentype"), url(9834b82a.woff2) format("woff2"), url(3f6d3488.woff) format("woff"), url(af639750.ttf) format("truetype"), url(9674eb1b.svg) format("svg")
+    src: url(fonts/FA5Free900.eot);
+    src: url(fonts/FA5Free900.eot) format("embedded-opentype"), url(fonts/FA5Free900.woff2) format("woff2"), url(fonts/FA5Free900.woff) format("woff"), url(fonts/FA5Free900.ttf) format("truetype"), url(fonts/FA5Free900.svg) format("svg")
 }
 
 .fa,
@@ -22147,14 +22147,14 @@ https://github.com/pure-css/pure/blob/master/LICENSE.md
 
 @font-face {
     font-family: Rubik;
-    src: url(b83ed688.ttf);
+    src: url(fonts/Rubik400.ttf);
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Rubik;
-    src: url(f599e755.ttf);
+    src: url(fonts/Rubik500.ttf);
     font-weight: 500;
     font-style: normal
 }
@@ -22283,7 +22283,7 @@ th {
 }
 
 .image-hand {
-    background: url(ebdad51c.png);
+    background: url(hand.png);
     cursor: pointer;
     border: none;
     width: 126px;
@@ -23204,7 +23204,7 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 #page-quiplash .background-yellow {
-    background-image: url(49500fc9.png);
+    background-image: url(bg-yellow.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
@@ -23212,7 +23212,7 @@ li>a.button-color.active[data-color="#000000"] {
 
 #page-quiplash .quiplash2-logo-image {
     background-color: #4c4267;
-    background-image: url(e0233c5e.png), url(598cc659.png);
+    background-image: url(qi-logo.png), url(bg-purple.png);
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     background-size: contain, cover;
@@ -23233,15 +23233,15 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 #page-quiplash .quiplash2-round-image.quiplash2-round-0 {
-    background-image: url(53561c67.png)
+    background-image: url(round1.png)
 }
 
 #page-quiplash .quiplash2-round-image.quiplash2-round-1 {
-    background-image: url(5c7f3e46.png)
+    background-image: url(round2.png)
 }
 
 #page-quiplash .quiplash2-round-image.quiplash2-round-2 {
-    background-image: url(28b10ada.png)
+    background-image: url(round3.png)
 }
 
 #page-quiplash #quiplash-lobby-text {
@@ -23371,7 +23371,7 @@ li>a.button-color.active[data-color="#000000"] {
 }
 
 #page-quiplash .quiplash2-button-loading {
-    background: #FFFFFF url(dad68c7c.gif) no-repeat center;
+    background: #FFFFFF url(qibl.gif) no-repeat center;
     background-size: contain;
     color: #0000;
     width: 32px;
@@ -23475,7 +23475,7 @@ li>a.button-color.active[data-color="#000000"] {
 #page-quiplash .quiplash-image-screen {
     width: 64px;
     height: 64px;
-    background: url(1fcc017f.png);
+    background: url(qi-screen.png);
     background-repeat: no-repeat;
     background-position: top;
     background-origin: border-box;
@@ -23493,7 +23493,7 @@ li>a.button-color.active[data-color="#000000"] {
 #page-quiplash .quiplash-image-controller {
     width: 64px;
     height: 64px;
-    background: url(e5db6af2.png);
+    background: url(qi-conntroller.png);
     background-repeat: no-repeat;
     background-position: top;
     background-origin: border-box;
@@ -23522,7 +23522,7 @@ li>a.button-color.active[data-color="#000000"] {
 #page-quiplash .ugc-remove-x {
     width: 30px;
     height: 30px;
-    background: black url(012cdb02.png) 0px 0px/100% 200% no-repeat;
+    background: black url(ugc-remove-x.png) 0px 0px/100% 200% no-repeat;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
