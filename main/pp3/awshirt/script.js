@@ -22947,7 +22947,7 @@ const ux = `url("data:image/svg+xml;utf8,<svg id='Layer_1' data-name='Layer 1' x
             },
             dog: {
                 intro: "VAU! VAU VAU!",
-                taunt: "GAF! VAU! GAF GAF!"
+                taunt: "VAU! AU! VAU VAU!"
             },
             umbrella: {
                 intro: "Mans sapnis ir atvērt sandāļu veikalu. Es arī gribētu uzvarēt šajā turnīrā!",
